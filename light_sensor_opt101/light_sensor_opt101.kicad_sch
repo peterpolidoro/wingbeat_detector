@@ -1,0 +1,21 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid cc457ebc-4af6-4663-b19f-8cb38f061cb4)
+
+  (paper "A4")
+
+  (title_block
+    (title "light_sensor_opt101")
+    (date "2022-11-18")
+    (rev "3.0.0")
+    (company "Howard Hughes Medical Institute")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
