@@ -1,8 +1,0 @@
-#+TITLE: light_sensor_opt101
-#+AUTHOR: Peter Polidoro
-#+EMAIL: peter@polidoro.io
-
-* Repository Information
-  - Author :: Peter Polidoro
-  - License :: Open-Source Hardware
-

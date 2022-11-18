@@ -1,11 +1,17 @@
-# For PCBs designed using KiCad: http://www.kicad-pcb.org/
-# Format documentation: http://kicad-pcb.org/help/file-formats/
+# For PCBs designed using KiCad: https://www.kicad.org/
+# Format documentation: https://kicad.org/help/file-formats/
+
+# Ignore all files that include # character
+*/#*
 
 # Temporary files
 *.000
 *.bak
 *.bck
 *.kicad_pcb-bak
+*.kicad_sch-bak
+*-backups
+*.kicad_prl
 *.sch-bak
 *~
 _autosave-*
@@ -13,7 +19,6 @@ _autosave-*
 *-save.pro
 *-save.kicad_pcb
 fp-info-cache
-.kicad_prl
 
 # Netlist files (exported from Eeschema)
 *.net

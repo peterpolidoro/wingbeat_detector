@@ -1,0 +1,26 @@
+{
+    "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+    "@type": "SoftwareSourceCode",
+    "license": "https://spdx.org/licenses/Janelia Research Campus Open-Source Hardware",
+    "codeRepository": "git+https://github.com/janelia-kicad/light_sensor_opt101.git",
+    "dateCreated": "2022-10-28",
+    "dateModified": "2022-11-18",
+    "name": "light_sensor_opt101",
+    "version": "3.0.0",
+    "description": "PCB files for light sensor opt101 board.",
+    "programmingLanguage": [
+        "KiCad"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Peter",
+            "familyName": "Polidoro",
+            "email": "peter@polidoro.io",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Howard Hughes Medical Institute"
+            }
+        }
+    ]
+}
