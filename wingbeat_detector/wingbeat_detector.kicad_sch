@@ -5,7 +5,7 @@
   (paper "A4")
 
   (title_block
-    (title "light_sensor_opt101")
+    (title "wingbeat_detector")
     (date "2022-11-18")
     (rev "3.0.0")
     (company "Howard Hughes Medical Institute")

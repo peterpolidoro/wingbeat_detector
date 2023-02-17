@@ -2,14 +2,14 @@
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
     "@type": "SoftwareSourceCode",
     "license": "https://spdx.org/licenses/BSD-3-Clause",
-    "codeRepository": "https://github.com/janelia-kicad/wingbeat_detector",
+    "codeRepository": "",
     "dateCreated": "2023-02-17",
     "dateModified": "2023-02-17",
-    "name": "wingbeat_detector",
+    "name": "",
     "version": "3.0.0",
     "description": "Measures fly wingbeats using IR light reflected from flapping fly wings.",
     "programmingLanguage": [
-        "KiCad"
+        ""
     ],
     "author": [
         {
