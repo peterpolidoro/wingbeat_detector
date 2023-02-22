@@ -5,7 +5,7 @@ MAKEFILE_PATH := $(abspath $(lastword $(MAKEFILE_LIST)))
 MAKEFILE_DIR := $(notdir $(patsubst %/,%,$(dir $(MAKEFILE_PATH))))
 GUIX-TIME-MACHINE = guix time-machine -C $(MAKEFILE_DIR)/guix/channels.scm
 GUIX-SHELL = $(GUIX-TIME-MACHINE) -- shell -m $(MAKEFILE_DIR)/guix/manifest.scm
-CONTAINER = --container -E "^DISPLAY$$" -E "^XAUTHORITY$$" --expose="$$XAUTHORITY" --expose=/tmp/.X11-unix/ --expose=$$HOME/.Xauthority --expose=/etc/machine-id
+CONTAINER = --container -F -E "^DISPLAY$$" -E "^XAUTHORITY$$" --expose="$$XAUTHORITY" --expose=/tmp/.X11-unix/ --expose=$$HOME/.Xauthority --expose=/etc/machine-id
 GUIX-CONTAINER = $(GUIX-SHELL) $(CONTAINER)
 
 .PHONY: metadata-edits
@@ -16,5 +16,11 @@ metadata-edits:
 metadata:
 	$(GUIX-CONTAINER) -- sh -c "emacs --batch -Q  -l $(MAKEFILE_DIR)/emacs/init.el --eval '(process-org \"$(MAKEFILE_DIR)/metadata.org\")'"
 
+.PHONY: guix-container
+guix-container:
+	$(GUIX-CONTAINER)
+
+.PHONY: project-edits
 project-edits:
+	# $(GUIX-CONTAINER) -S /home/$(USER)/.config/kicad/7.0=$(MAKEFILE_DIR)/.config/kicad/7.0 -- kicad
 	$(GUIX-SHELL) -- kicad
