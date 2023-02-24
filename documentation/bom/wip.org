@@ -4,3 +4,7 @@
 | 296-23090-5-ND       | Optical Sensor Ambient 650nm Voltage 8-DIP |
 | A117-ND              | CONN IC DIP SOCKET 8POS GOLD               |
 | 609-6109-1-ND        | CONN RCP USB3.1 TYPEC 24P SMD RA           |
+| WM5525-ND            | CONN SMA RCPT R/A 50 OHM PCB               |
+| MAX865EUA+-ND        | IC REG CHARGE PUMP INV DL 8UMAX            |
+| J10283-ND            | CBL ASSY SMA-BNC PLUG RG316 6.6'           |
+|                      |                                            |
