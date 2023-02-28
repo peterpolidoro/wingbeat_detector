@@ -4,7 +4,7 @@
 | UAF42AU-ND           | IC FILTER 100KHZ UNIV 16SOIC               |
 | A117-ND              | CONN IC DIP SOCKET 8POS GOLD               |
 | 609-6109-1-ND        | CONN RCP USB3.1 TYPEC 24P SMD RA           |
-| CONSMA002-G-ND       | CONSMA002-G-ND                             |
 | MAX865EUA+-ND        | IC REG CHARGE PUMP INV DL 8UMAX            |
-| J10283-ND            | CBL ASSY SMA-BNC PLUG RG316 6.6'           |
+| ARF3429-ND           | BNC STRAIGHT BULKHEAD JACK TO AM           |
+| A-1JB                | CONN UMC JACK STR 50 OHM SMD               |
 |                      |                                            |
