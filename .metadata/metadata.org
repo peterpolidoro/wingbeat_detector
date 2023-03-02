@@ -291,7 +291,7 @@ exit
         (url "https://git.savannah.gnu.org/git/guix.git")
         (branch "master")
         (commit
-          "2cf07434d8ae1751c1dc940ebeb33a586604566e")
+          "a7763e067d86908210758aab80d33e4f8b815b1c")
         (introduction
           (make-channel-introduction
             "9edb3f66fd807b096b48283debdcddccfea34bad"
