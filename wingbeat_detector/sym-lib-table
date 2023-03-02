@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "Janelia")(type "KiCad")(uri "${KICAD_USER_DIR}/symbols/Janelia.kicad_sym")(options "")(descr ""))
   (lib (name "OldWingbeat")(type "Legacy")(uri "/home/polidorop/Repositories/kicad/light_sensor_boards/light_sensor_boards/kicad/light_sensor_boards.lib")(options "")(descr ""))
+  (lib (name "max")(type "Legacy")(uri "/home/polidorop/Downloads/MAX865EUA_/MAX865EUA_.lib")(options "")(descr ""))
 )
