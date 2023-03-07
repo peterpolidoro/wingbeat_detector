@@ -314,7 +314,8 @@ exit
    "git"
    "emacs"
    "emacs-org"
-   "emacs-ox-gfm"))
+   "emacs-ox-gfm"
+   "dosbox"))
 #+END_SRC
 
 #+BEGIN_SRC text :tangle Makefile :exports none :noweb yes
