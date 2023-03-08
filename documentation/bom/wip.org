@@ -7,4 +7,6 @@
 | MAX865EUA+-ND         | IC REG CHARGE PUMP INV DL 8UMAX  |
 | ARF3429-ND            | BNC STRAIGHT BULKHEAD JACK TO AM |
 | A-1JB                 | CONN UMC JACK STR 50 OHM SMD     |
+| 501-1360-ND           | TEST LEAD BNC TO SOCKET 5.6"     |
+| 296-OPA818IDRGTCT-ND  | IC OPAMP JFET 1 CIRCUIT 8SON     |
 |                       |                                  |

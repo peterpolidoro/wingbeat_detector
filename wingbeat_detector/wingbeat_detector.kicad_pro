@@ -484,6 +484,26 @@
     [
       "cc457ebc-4af6-4663-b19f-8cb38f061cb4",
       ""
+    ],
+    [
+      "6d9b1002-85b6-4eae-b3fb-51bf0c35118b",
+      "power"
+    ],
+    [
+      "6cde90e6-6156-42e3-aaac-c45ad2bfab8b",
+      "filter"
+    ],
+    [
+      "6f9841bf-b0ef-48ff-bf2c-2bd611c72bf3",
+      "photodiode"
+    ],
+    [
+      "669b71f5-24db-4526-af56-a5891b9eda40",
+      "led"
+    ],
+    [
+      "f56db15f-9297-4fc0-bdbb-85a25a2944ba",
+      "connectors"
     ]
   ],
   "text_variables": {}
