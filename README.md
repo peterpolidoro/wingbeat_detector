@@ -1,15 +1,15 @@
-- [About](#orgaeb1e2e)
-- [Images](#orgb94ea1d)
-- [Schematic](#orga78cc3a)
-- [PCB](#orga4647cb)
-- [Bill of Materials](#org50f1365)
-- [Development](#org47b2dcf)
+- [About](#org8de3305)
+- [Images](#org32f1c69)
+- [Schematic](#org69db6c6)
+- [PCB](#orgc1b2855)
+- [Bill of Materials](#orgc4a76bd)
+- [Development](#org9c6669a)
 
     <!-- This file is generated automatically from metadata -->
     <!-- File edits may be overwritten! -->
 
 
-<a id="orgaeb1e2e"></a>
+<a id="org8de3305"></a>
 
 # About
 
@@ -18,7 +18,7 @@
 - Description: Measures fly wingbeats using IR light reflected from flapping fly wings.
 - Version: 3.0.0
 - Kicad Version: 7.0.0
-- Release Date: 2023-03-07
+- Release Date: 2023-03-09
 - Creation Date: 2023-02-17
 - License: BSD-3-Clause
 - URL: https://github.com/janelia-kicad/wingbeat_detector
@@ -31,27 +31,27 @@
 ```
 
 
-<a id="orgb94ea1d"></a>
+<a id="org32f1c69"></a>
 
 # Images
 
 
-<a id="orga78cc3a"></a>
+<a id="org69db6c6"></a>
 
 # Schematic
 
 
-<a id="orga4647cb"></a>
+<a id="orgc1b2855"></a>
 
 # PCB
 
 
-<a id="org50f1365"></a>
+<a id="orgc4a76bd"></a>
 
 # Bill of Materials
 
 
-<a id="org47b2dcf"></a>
+<a id="org9c6669a"></a>
 
 # Development
 
