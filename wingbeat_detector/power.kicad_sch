@@ -4,6 +4,12 @@
 
   (paper "A4")
 
+  (title_block
+    (title "wingbeat_detector")
+    (rev "3.0")
+    (company "Howard Hughes Medical Institute")
+  )
+
   (lib_symbols
     (symbol "Janelia:C_1uF_0402" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0 2.54 0)
