@@ -6,6 +6,7 @@
 
   (title_block
     (title "wingbeat_detector")
+    (date "2023-03-16")
     (rev "3.0")
     (company "Howard Hughes Medical Institute")
   )
@@ -582,11 +583,15 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid e46e71ee-084f-40a0-9a3c-b8f781898745)
   )
-
-  (hierarchical_label "V5+" (shape passive) (at 60.96 66.04 90) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 20dfa2e3-03a6-4d84-8e85-843db6ef394f)
+  (label "V5+" (at 60.96 66.04 90) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid eeec5d8f-0e03-4d77-93f5-1dd44bae27c5)
   )
+  (label "GND" (at 60.96 137.16 270) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid f2357ed1-0f61-4783-a529-54d4ff2acba3)
+  )
+
   (hierarchical_label "V5+" (shape passive) (at 243.84 99.06 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 4031f963-89e1-452a-8cd8-b829bf92b2d8)
@@ -598,10 +603,6 @@
   (hierarchical_label "V10-" (shape passive) (at 243.84 106.68 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 5910ba84-6050-462f-9bdf-6c3c28e36bd0)
-  )
-  (hierarchical_label "GND" (shape passive) (at 60.96 137.16 270) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 6ac5242d-fbb6-4f15-9f3c-65369c404df9)
   )
   (hierarchical_label "V10+" (shape passive) (at 243.84 95.25 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))

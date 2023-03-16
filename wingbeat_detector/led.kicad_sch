@@ -294,11 +294,11 @@
           (name "N1" (effects (font (size 1.016 1.016))))
           (number "3" (effects (font (size 1.016 1.016))))
         )
-        (pin power_in line (at 2.54 -10.16 90) (length 2.54)
+        (pin passive line (at 2.54 -10.16 90) (length 2.54)
           (name "VB" (effects (font (size 1.016 1.016))))
           (number "4" (effects (font (size 1.016 1.016))))
         )
-        (pin power_in line (at 0 10.16 270) (length 2.54)
+        (pin passive line (at 0 10.16 270) (length 2.54)
           (name "VA" (effects (font (size 1.016 1.016))))
           (number "6" (effects (font (size 1.016 1.016))))
         )
@@ -575,7 +575,6 @@
     )
   )
 
-
   (junction (at 156.21 88.9) (diameter 0) (color 0 0 0 0)
     (uuid 9375751c-0d8b-4363-a75a-c00c2f756ebd)
   )
@@ -707,6 +706,10 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid a36e92b3-ce98-4c14-914c-ce933f7e3725)
   )
+  (label "GND" (at 104.14 119.38 270) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid a40f5133-0f75-4f6b-8379-652d3985edec)
+  )
   (label "VB" (at 201.93 101.6 270) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid adf24057-ffce-4705-93fb-75182ca691d6)
@@ -732,15 +735,11 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid e684c0e7-e04c-4056-966b-66ee29456aed)
   )
-  (hierarchical_label "GND" (shape passive) (at 104.14 119.38 270) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid eaa4c4df-e855-41b6-afd0-eb0255054794)
-  )
 
   (symbol (lib_id "Janelia:R_23.2k_0402") (at 156.21 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7386b6da-daec-4132-858a-8b1293e23c4a)
-    (property "Reference" "R12" (at 157.48 80.01 0)
+    (property "Reference" "R15" (at 157.48 80.01 0)
       (effects (font (size 1.016 1.016)) (justify left))
     )
     (property "Value" "23.2k" (at 156.21 80.01 90)
@@ -775,7 +774,7 @@
     (instances
       (project "wingbeat_detector"
         (path "/cc457ebc-4af6-4663-b19f-8cb38f061cb4/669b71f5-24db-4526-af56-a5891b9eda40"
-          (reference "R12") (unit 1)
+          (reference "R15") (unit 1)
         )
       )
     )
@@ -870,7 +869,7 @@
   (symbol (lib_id "Janelia:R_49.9k_0402") (at 156.21 97.79 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid be827fdc-b0e5-4d40-b585-323d8eea0169)
-    (property "Reference" "R13" (at 157.48 97.79 0)
+    (property "Reference" "R16" (at 157.48 97.79 0)
       (effects (font (size 1.016 1.016)) (justify left))
     )
     (property "Value" "49.9k" (at 156.21 97.79 90)
@@ -905,7 +904,7 @@
     (instances
       (project "wingbeat_detector"
         (path "/cc457ebc-4af6-4663-b19f-8cb38f061cb4/669b71f5-24db-4526-af56-a5891b9eda40"
-          (reference "R13") (unit 1)
+          (reference "R16") (unit 1)
         )
       )
     )
