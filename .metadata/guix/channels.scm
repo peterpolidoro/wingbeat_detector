@@ -5,7 +5,7 @@
         (url "https://git.savannah.gnu.org/git/guix.git")
         (branch "master")
         (commit
-          "4f4e4abd3ac3552cbf8596a50b5dade8d111571f")
+          "2714c9ef2d6cb42f15c2f284449f602467f0d1c0")
         (introduction
           (make-channel-introduction
             "9edb3f66fd807b096b48283debdcddccfea34bad"
