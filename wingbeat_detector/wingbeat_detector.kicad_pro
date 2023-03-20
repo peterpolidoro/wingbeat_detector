@@ -186,11 +186,59 @@
       {
         "activeLayer": -2,
         "layers": [
+          0,
+          31,
+          44,
+          46,
+          47
+        ],
+        "name": "All Edge Courtyard",
+        "renderLayers": [
+          125,
+          126,
+          127,
+          128,
+          129,
+          130,
+          133,
+          134,
+          135,
+          136,
+          137,
+          138,
+          140,
+          141,
+          142,
+          143,
+          144,
+          145,
+          146,
+          147,
+          148,
+          149,
+          150,
+          151,
+          152,
+          153,
+          154,
+          155,
+          157,
+          158,
+          159,
+          160,
+          161,
+          164,
+          165
+        ]
+      },
+      {
+        "activeLayer": -2,
+        "layers": [
           31,
           44,
           46
         ],
-        "name": "Back Pads Courtyards",
+        "name": "Back Edge Courtyard",
         "renderLayers": [
           125,
           126,
@@ -236,7 +284,7 @@
           44,
           47
         ],
-        "name": "Front Pads Courtyards",
+        "name": "Front Edge Courtyard",
         "renderLayers": [
           125,
           126,
