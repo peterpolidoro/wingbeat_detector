@@ -6,7 +6,7 @@
 
   (title_block
     (title "wingbeat_detector")
-    (date "2023-03-21")
+    (date "2023-03-22")
     (rev "3.0")
     (company "Howard Hughes Medical Institute")
   )
@@ -809,6 +809,11 @@
     (at 148.59 66.04 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 450e2290-c63b-4c8c-b71e-a55ba6931313)
+  )
+  (text "LED ENABLED BY DEFAULT\n\nWHEN JUMP SHORTED:\nLED DISABLED BY DEFAULT"
+    (at 148.59 121.92 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid d9e164e0-df7f-4870-9e20-85fcae5471fc)
   )
 
   (label "V5+" (at 156.21 71.12 90) (fields_autoplaced)
