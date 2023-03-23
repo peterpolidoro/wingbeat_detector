@@ -6,9 +6,9 @@
 
   (title_block
     (title "wingbeat_detector")
-    (date "2023-03-22")
+    (date "2023-03-23")
     (rev "3.0")
-    (company "Howard Hughes Medical Institute")
+    (company "Peter Polidoro")
   )
 
   (lib_symbols

@@ -6,9 +6,9 @@
 
   (title_block
     (title "wingbeat_detector")
-    (date "2023-03-22")
+    (date "2023-03-23")
     (rev "3.0")
-    (company "Howard Hughes Medical Institute")
+    (company "Peter Polidoro")
   )
 
   (lib_symbols
@@ -16,7 +16,7 @@
       (property "Reference" "J" (at 0.254 3.048 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Value" "CONN_UMC_JACK_SMD" (at 2.921 0 90)
+      (property "Value" "UMC_JACK_SMD" (at 2.921 0 90)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "Footprint" "Janelia:UMC_AMPHENOL_A-1JB" (at 0 12.7 0)
@@ -1924,7 +1924,7 @@
     (property "Reference" "J2" (at 234.95 105.0682 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "CONN_UMC_JACK_SMD" (at 234.061 104.14 90)
+    (property "Value" "UMC_JACK_SMD" (at 234.061 104.14 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Footprint" "Janelia:UMC_AMPHENOL_A-1JB" (at 231.14 91.44 0)
