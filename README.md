@@ -1,57 +1,57 @@
-- [About](#org3eb689e)
-- [Images](#org308d0a5)
-- [Schematic](#org621daf6)
-- [PCB](#org7617a64)
-- [Bill of Materials](#org0575bf0)
-- [Development](#orgc842210)
+- [About](#orge72f788)
+- [Images](#org0d1212f)
+- [Schematic](#org7a0836d)
+- [PCB](#org4859499)
+- [Bill of Materials](#org6ceabb3)
+- [Development](#orgb4cc99c)
 
     <!-- This file is generated automatically from metadata -->
     <!-- File edits may be overwritten! -->
 
 
-<a id="org3eb689e"></a>
+<a id="orge72f788"></a>
 
 # About
 
 ```markdown
 - Project Name: wingbeat_detector
 - Description: Measures fly wingbeats using IR light reflected from flapping fly wings.
-- Version: 3.0.0
-- Kicad Version: 7.0.0
-- Release Date: 2023-03-21
+- Version: 3.0
+- Kicad Version: 7.0.1
+- Release Date: 2023-03-23
 - Creation Date: 2023-02-17
-- License: BSD-3-Clause
-- URL: https://github.com/janelia-kicad/wingbeat_detector
+- License: GPL-3.0
+- URL: https://github.com/peterpolidoro/wingbeat_detector
 - Author: Peter Polidoro
 - Email: peter@polidoro.io
-- Copyright: 2023 Howard Hughes Medical Institute
+- Copyright: 2023 Peter Polidoro
 - References:
   - https://www.kicad.org/
   - https://github.com/janelia-kicad/light_sensor_boards
 ```
 
 
-<a id="org308d0a5"></a>
+<a id="org0d1212f"></a>
 
 # Images
 
 
-<a id="org621daf6"></a>
+<a id="org7a0836d"></a>
 
 # Schematic
 
 
-<a id="org7617a64"></a>
+<a id="org4859499"></a>
 
 # PCB
 
 
-<a id="org0575bf0"></a>
+<a id="org6ceabb3"></a>
 
 # Bill of Materials
 
 
-<a id="orgc842210"></a>
+<a id="orgb4cc99c"></a>
 
 # Development
 
@@ -64,7 +64,7 @@
 ## Clone Repository
 
 ```sh
-git clone git@github.com:janelia-kicad/wingbeat_detector.git
+git clone git@github.com:peterpolidoro/wingbeat_detector.git
 cd wingbeat_detector
 ```
 
