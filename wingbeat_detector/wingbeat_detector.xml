@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/home/polidorop/Repositories/kicad/wingbeat_detector/wingbeat_detector/wingbeat_detector.kicad_sch</source>
-    <date>Fri 24 Mar 2023 08:33:05 AM EDT</date>
+    <date>Fri 24 Mar 2023 10:50:56 AM EDT</date>
     <tool>Eeschema 7.0.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -1139,42 +1139,6 @@
       <sheetpath names="/led/" tstamps="/669b71f5-24db-4526-af56-a5891b9eda40/"/>
       <tstamps>d22a0d4d-8d2b-4298-890f-a73e031f650a</tstamps>
     </comp>
-    <comp ref="H1">
-      <value>MOUNTING_HOLE_2</value>
-      <footprint>Janelia:MOUNTING_HOLE_2</footprint>
-      <libsource lib="Janelia" part="MOUNTING_HOLE_2" description=""/>
-      <property name="Sheetname" value="assembly"/>
-      <property name="Sheetfile" value="assembly.kicad_sch"/>
-      <sheetpath names="/assembly/" tstamps="/474094a0-f756-4a3b-83ef-1611abca3ce8/"/>
-      <tstamps>3b5abfaa-9266-4078-bdbb-8975bd1cc807</tstamps>
-    </comp>
-    <comp ref="H2">
-      <value>MOUNTING_HOLE_2</value>
-      <footprint>Janelia:MOUNTING_HOLE_2</footprint>
-      <libsource lib="Janelia" part="MOUNTING_HOLE_2" description=""/>
-      <property name="Sheetname" value="assembly"/>
-      <property name="Sheetfile" value="assembly.kicad_sch"/>
-      <sheetpath names="/assembly/" tstamps="/474094a0-f756-4a3b-83ef-1611abca3ce8/"/>
-      <tstamps>db38d23a-55c6-4ec0-af3a-b5869dd98dff</tstamps>
-    </comp>
-    <comp ref="H3">
-      <value>MOUNTING_HOLE_2</value>
-      <footprint>Janelia:MOUNTING_HOLE_2</footprint>
-      <libsource lib="Janelia" part="MOUNTING_HOLE_2" description=""/>
-      <property name="Sheetname" value="assembly"/>
-      <property name="Sheetfile" value="assembly.kicad_sch"/>
-      <sheetpath names="/assembly/" tstamps="/474094a0-f756-4a3b-83ef-1611abca3ce8/"/>
-      <tstamps>f4695783-ed64-4521-9bf1-740338bed902</tstamps>
-    </comp>
-    <comp ref="H4">
-      <value>MOUNTING_HOLE_2</value>
-      <footprint>Janelia:MOUNTING_HOLE_2</footprint>
-      <libsource lib="Janelia" part="MOUNTING_HOLE_2" description=""/>
-      <property name="Sheetname" value="assembly"/>
-      <property name="Sheetfile" value="assembly.kicad_sch"/>
-      <sheetpath names="/assembly/" tstamps="/474094a0-f756-4a3b-83ef-1611abca3ce8/"/>
-      <tstamps>11079f12-c427-4876-a794-319da2a52bf2</tstamps>
-    </comp>
   </components>
   <libparts>
     <libpart lib="Janelia" part="CONN_UMC_JACK_SMD">
@@ -1367,6 +1331,7 @@
         <field name="Reference">H</field>
         <field name="Value">MOUNTING_HOLE_2</field>
         <field name="Footprint">Janelia:MOUNTING_HOLE_2</field>
+        <field name="Sim.Enable">0</field>
       </fields>
       <pins>
         <pin num="1" name="1" type="passive"/>
@@ -1719,10 +1684,6 @@
       <node ref="C8" pin="1" pintype="passive"/>
       <node ref="C9" pin="1" pintype="passive"/>
       <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="H1" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="H2" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="H3" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="H4" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="J1" pin="A1" pinfunction="GND" pintype="power_out"/>
       <node ref="J1" pin="A12" pinfunction="GND" pintype="passive"/>
       <node ref="J1" pin="B1" pinfunction="GND" pintype="passive"/>
