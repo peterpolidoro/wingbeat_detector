@@ -1,0 +1,435 @@
+Cmp-Mod V01 Created by PcbNew   date = Fri 24 Mar 2023 10:34:06 AM EDT
+
+BeginCmp
+TimeStamp = 0ac3de48-c3e8-4978-9fb5-a4cbb8304c76
+Path = /474094a0-f756-4a3b-83ef-1611abca3ce8/db38d23a-55c6-4ec0-af3a-b5869dd98dff
+Reference = H2;
+ValeurCmp = MOUNTING_HOLE_2;
+IdModule  = Janelia:MOUNTING_HOLE_2;
+EndCmp
+
+BeginCmp
+TimeStamp = 0d71906d-5d10-42de-afcc-2b6a9c7c9aab
+Path = /6d9b1002-85b6-4eae-b3fb-51bf0c35118b/9125fb49-85e3-40aa-a285-afc7250beb84
+Reference = J1;
+ValeurCmp = USB_C_10137062-00021LF;
+IdModule  = Janelia:USB_C_Receptacle_Amphenol_10137062-00021LF;
+EndCmp
+
+BeginCmp
+TimeStamp = 162913e2-280b-4a81-8c04-402d1a7217a8
+Path = /6f9841bf-b0ef-48ff-bf2c-2bd611c72bf3/921fec00-3efd-4a94-9f87-60f08d1454a2
+Reference = R14;
+ValeurCmp = 49.9k;
+IdModule  = Janelia:R_0402_1005Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 1d585b60-87aa-48b2-95a3-8a590c9cbb38
+Path = /6f9841bf-b0ef-48ff-bf2c-2bd611c72bf3/a807b3c5-9c9c-4322-843f-ae4f915109df
+Reference = U4;
+ValeurCmp = OPA381;
+IdModule  = Janelia:VSON-8-1EP_3x3mm_P0.65mm_EP1.65x2.4mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 2d1f6b68-dadc-48a1-8a90-72697a6ef927
+Path = /6cde90e6-6156-42e3-aaac-c45ad2bfab8b/4bb96439-3268-4bc0-806e-3fc6708787ab
+Reference = R9;
+ValeurCmp = 249;
+IdModule  = Janelia:R_0402_1005Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 3a2050a1-8b0f-411f-a360-6f163c003ee6
+Path = /474094a0-f756-4a3b-83ef-1611abca3ce8/04a729dd-8051-4d77-94de-8cdac7aac813
+Reference = FID1;
+ValeurCmp = FIDUCIAL_0.5mm_MASK1mm;
+IdModule  = Janelia:FIDUCIAL_0.5mm_Mask1mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 466cb38d-3262-4661-900a-a980fe2c5248
+Path = /6cde90e6-6156-42e3-aaac-c45ad2bfab8b/47933046-50ac-4706-86c4-d95a63c84d47
+Reference = U2;
+ValeurCmp = UAF42_SMA;
+IdModule  = Janelia:SOIC-16W_7.5x10.3mm_P1.27mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 4c52b25b-ad53-4ced-b62a-05460e3cfe0c
+Path = /6f9841bf-b0ef-48ff-bf2c-2bd611c72bf3/d423a530-14ca-4efe-861e-65f3e0b2d569
+Reference = R12;
+ValeurCmp = 49.9k;
+IdModule  = Janelia:R_0402_1005Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 4ea63d53-f6fb-4751-a065-aba959de3fd9
+Path = /474094a0-f756-4a3b-83ef-1611abca3ce8/11079f12-c427-4876-a794-319da2a52bf2
+Reference = H4;
+ValeurCmp = MOUNTING_HOLE_2;
+IdModule  = Janelia:MOUNTING_HOLE_2;
+EndCmp
+
+BeginCmp
+TimeStamp = 579133d3-ba78-4d36-8eb8-4ba3b9ce0b6d
+Path = /6f9841bf-b0ef-48ff-bf2c-2bd611c72bf3/0a162d54-8f2a-4f88-ac9a-f3434c845b07
+Reference = R10;
+ValeurCmp = 49.9k;
+IdModule  = Janelia:R_0402_1005Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 5b812875-a6f5-4339-8ee3-c38db84ad731
+Path = /6cde90e6-6156-42e3-aaac-c45ad2bfab8b/cf7e8bd6-5ea3-4490-bab1-f117b044c7d7
+Reference = R1;
+ValeurCmp = 49.9k;
+IdModule  = Janelia:R_0402_1005Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 63a1fea3-e7d4-439c-bd31-e3526af22212
+Path = /6f9841bf-b0ef-48ff-bf2c-2bd611c72bf3/15de9722-3823-46fc-b0b5-f2f6080b73af
+Reference = R11;
+ValeurCmp = 49.9k;
+IdModule  = Janelia:R_0402_1005Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 753f04d3-6a66-4358-8315-0d48e07f22d1
+Path = /6cde90e6-6156-42e3-aaac-c45ad2bfab8b/701f4efb-8116-4806-b5e4-9477347ce3e3
+Reference = R5;
+ValeurCmp = 3.65M;
+IdModule  = Janelia:R_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 78e23f1f-f200-41ac-afb5-8cba542325e0
+Path = /6cde90e6-6156-42e3-aaac-c45ad2bfab8b/86ba942f-726a-42ba-adb4-2aa844cda681
+Reference = R7;
+ValeurCmp = 3.65M;
+IdModule  = Janelia:R_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 7d568a48-13a8-415f-93fb-7b560cf7c711
+Path = /474094a0-f756-4a3b-83ef-1611abca3ce8/f4695783-ed64-4521-9bf1-740338bed902
+Reference = H3;
+ValeurCmp = MOUNTING_HOLE_2;
+IdModule  = Janelia:MOUNTING_HOLE_2;
+EndCmp
+
+BeginCmp
+TimeStamp = 84369938-4f09-439e-a104-ee0a4346a579
+Path = /6cde90e6-6156-42e3-aaac-c45ad2bfab8b/aa864592-df35-45e6-ab47-8fd2025c5798
+Reference = C8;
+ValeurCmp = 0.1uF;
+IdModule  = Janelia:C_0402_1005Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 862b9317-2aaf-4eae-a91c-bb5d95a78b10
+Path = /6f9841bf-b0ef-48ff-bf2c-2bd611c72bf3/e9c41a60-6e1e-43f0-9601-a004230b3809
+Reference = D1;
+ValeurCmp = PHOTODIODE;
+IdModule  = Janelia:PHOTODIODE_RADIAL_RA_SMD_BRIGHT;
+EndCmp
+
+BeginCmp
+TimeStamp = 89d7cda2-af9d-4955-adcc-d90c4770c208
+Path = /6f9841bf-b0ef-48ff-bf2c-2bd611c72bf3/7e6f00c4-d5c1-4a76-9b7d-817fa61b75d9
+Reference = RV2;
+ValeurCmp = 500k;
+IdModule  = Janelia:Potentiometer_Bourns_3223W_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = a284fd8d-8708-4743-a681-13fb1b023883
+Path = /6cde90e6-6156-42e3-aaac-c45ad2bfab8b/ebfe8b1a-f3b6-4095-b3ed-df484ffd4158
+Reference = C6;
+ValeurCmp = 0.1uF;
+IdModule  = Janelia:C_0402_1005Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = adfda512-3779-47f3-a185-99035353c046
+Path = /6f9841bf-b0ef-48ff-bf2c-2bd611c72bf3/3a184419-a573-4c72-aba5-dbcce0de1362
+Reference = C10;
+ValeurCmp = 0.1uF;
+IdModule  = Janelia:C_0402_1005Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = b676dc73-9944-4b8e-875d-2197fa6bf7bf
+Path = /474094a0-f756-4a3b-83ef-1611abca3ce8/ac56c753-1756-487c-b343-ce723de1cb61
+Reference = FID3;
+ValeurCmp = FIDUCIAL_0.5mm_MASK1mm;
+IdModule  = Janelia:FIDUCIAL_0.5mm_Mask1mm;
+EndCmp
+
+BeginCmp
+TimeStamp = b8ea67b8-4b65-4e76-b15c-1abe9f8734ea
+Path = /6cde90e6-6156-42e3-aaac-c45ad2bfab8b/d7fddea6-0815-43ab-b26c-e792a0f88da0
+Reference = R2;
+ValeurCmp = 68.1k;
+IdModule  = Janelia:R_0402_1005Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = baabc3a1-c980-4ba9-be81-22a5d3ec396b
+Path = /6f9841bf-b0ef-48ff-bf2c-2bd611c72bf3/c7fa857f-9911-4eb4-88f4-5de7b7cae734
+Reference = C12;
+ValeurCmp = 0.1uF;
+IdModule  = Janelia:C_0402_1005Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = c4f3e5e5-270a-4a2f-afd0-22bc6002ad73
+Path = /6f9841bf-b0ef-48ff-bf2c-2bd611c72bf3/83663cd0-fcc9-4625-b4c4-061db8628fbd
+Reference = U5;
+ValeurCmp = TSV630IQ1T;
+IdModule  = Janelia:PSON40P120X130X50-6N;
+EndCmp
+
+BeginCmp
+TimeStamp = ca65c5e7-e1e9-4bbb-81e7-d358815a0931
+Path = /474094a0-f756-4a3b-83ef-1611abca3ce8/3b5abfaa-9266-4078-bdbb-8975bd1cc807
+Reference = H1;
+ValeurCmp = MOUNTING_HOLE_2;
+IdModule  = Janelia:MOUNTING_HOLE_2;
+EndCmp
+
+BeginCmp
+TimeStamp = e6f1d383-ae9f-4258-a606-1e1432050cf9
+Path = /6f9841bf-b0ef-48ff-bf2c-2bd611c72bf3/630a8d17-b501-4833-9433-1f1987568112
+Reference = R13;
+ValeurCmp = 23.2k;
+IdModule  = Janelia:R_0402_1005Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = f4bd0902-ef0d-4e98-a161-e1bd507ec6a2
+Path = /6f9841bf-b0ef-48ff-bf2c-2bd611c72bf3/a7c67a23-793a-4d8c-ad1c-8d81a5f33ccb
+Reference = C11;
+ValeurCmp = 2pF;
+IdModule  = Janelia:C_0402_1005Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = f77139ab-dbfa-466a-a28e-58fc4e8df61b
+Path = /6cde90e6-6156-42e3-aaac-c45ad2bfab8b/eb4fccc8-2b88-4af4-b8da-8546d5827108
+Reference = RV1;
+ValeurCmp = 500k;
+IdModule  = Janelia:Potentiometer_Bourns_3223W_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 02b3159c-4950-4f07-a45c-70be0a3bdab4
+Path = /6cde90e6-6156-42e3-aaac-c45ad2bfab8b/d619436e-7211-441d-8e38-3f5ad23a5111
+Reference = C7;
+ValeurCmp = 0.1uF;
+IdModule  = Janelia:C_0402_1005Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 03ba1454-4444-4ec5-aeb0-325d283eee46
+Path = /669b71f5-24db-4526-af56-a5891b9eda40/78e2eff6-27cf-4a8f-8506-3701a6a9ed7e
+Reference = C13;
+ValeurCmp = 4.7uF;
+IdModule  = Janelia:C_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 0869a1b2-9e10-46d8-bdfd-c21015c7eb50
+Path = /6cde90e6-6156-42e3-aaac-c45ad2bfab8b/51073538-4752-4ea5-8194-f5b7e7b87791
+Reference = R3;
+ValeurCmp = 49.9k;
+IdModule  = Janelia:R_0402_1005Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 12a17687-7d2b-459f-a8b1-246d43f6c69e
+Path = /6d9b1002-85b6-4eae-b3fb-51bf0c35118b/636e3920-8a4d-4db7-9829-1b8200d4f249
+Reference = C4;
+ValeurCmp = 4.7uF;
+IdModule  = Janelia:C_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 199cc51e-81df-4553-b91b-9d0c0f7cdd8f
+Path = /6d9b1002-85b6-4eae-b3fb-51bf0c35118b/80d08e92-a70a-4c96-a2d5-30312e852ac9
+Reference = C5;
+ValeurCmp = 4.7uF;
+IdModule  = Janelia:C_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 1c244e84-9066-400a-9a11-a4dff039b35c
+Path = /6d9b1002-85b6-4eae-b3fb-51bf0c35118b/3b047e0c-9e80-4303-b29e-7a07e7fe5c80
+Reference = C1;
+ValeurCmp = 4.7uF;
+IdModule  = Janelia:C_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 1cfc416d-c276-4f54-a53a-9309eba84afb
+Path = /6cde90e6-6156-42e3-aaac-c45ad2bfab8b/f60d8e5f-7fbe-4bfb-bb8e-b4700c760305
+Reference = R6;
+ValeurCmp = 49.9k;
+IdModule  = Janelia:R_0402_1005Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 22a88260-2763-4cb7-b3bf-d858b60a5f2a
+Path = /6cde90e6-6156-42e3-aaac-c45ad2bfab8b/a6421c87-656d-43bb-acdf-d957ed692187
+Reference = R4;
+ValeurCmp = 68.1k;
+IdModule  = Janelia:R_0402_1005Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 23154217-74dc-48a7-90c3-66bca4511ad4
+Path = /474094a0-f756-4a3b-83ef-1611abca3ce8/dcf9cc0e-56e7-4842-9b9d-7333cb2ad92a
+Reference = FID2;
+ValeurCmp = FIDUCIAL_0.5mm_MASK1mm;
+IdModule  = Janelia:FIDUCIAL_0.5mm_Mask1mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 31000ca9-45ab-4cce-b0d5-78ce381694fd
+Path = /669b71f5-24db-4526-af56-a5891b9eda40/d22a0d4d-8d2b-4298-890f-a73e031f650a
+Reference = U6;
+ValeurCmp = LED_DRV_50mA;
+IdModule  = Janelia:DFN-6-1EP_2x2mm_P0.65mm_EP1x1.6mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 35cb8f5d-e357-4686-9c20-928d2a14f85d
+Path = /6f9841bf-b0ef-48ff-bf2c-2bd611c72bf3/68b8dae1-73e1-4690-9a19-5e1792929ec8
+Reference = J3;
+ValeurCmp = UMC_JACK_SMD;
+IdModule  = Janelia:UMC_AMPHENOL_A-1JB;
+EndCmp
+
+BeginCmp
+TimeStamp = 5cccfe9e-f4e3-48a7-be9d-2e8c1d476485
+Path = /669b71f5-24db-4526-af56-a5891b9eda40/146ec29f-895a-4650-b5b7-a9eb7f4beba6
+Reference = R17;
+ValeurCmp = 2k;
+IdModule  = Janelia:R_0402_1005Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 692292a7-f1ca-45a3-a81d-3ae7ca1a08b4
+Path = /669b71f5-24db-4526-af56-a5891b9eda40/daad0546-3d9d-4b33-9a0a-77b72593bc13
+Reference = D2;
+ValeurCmp = LED;
+IdModule  = Janelia:LED_RADIAL_RA_SMD_BRIGHT;
+EndCmp
+
+BeginCmp
+TimeStamp = 692c2f61-c3e1-4c6d-bf6c-fbabe7248aa8
+Path = /669b71f5-24db-4526-af56-a5891b9eda40/3f5d0f5e-4a5f-42d3-bc47-99086509e92d
+Reference = JP1;
+ValeurCmp = SolderJumper_2_Open;
+IdModule  = Janelia:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 79268fac-ec74-4a49-9042-55697ef64c33
+Path = /6d9b1002-85b6-4eae-b3fb-51bf0c35118b/8c0a7ed0-fcc4-4464-b0d6-5c3611ddb0bb
+Reference = U1;
+ValeurCmp = MAX865EUA+;
+IdModule  = Janelia:SOP65P490X110-8N;
+EndCmp
+
+BeginCmp
+TimeStamp = 85856217-9f40-4664-9065-f361fc252bc0
+Path = /6cde90e6-6156-42e3-aaac-c45ad2bfab8b/0e722fb5-8dd1-4f2f-b9f8-31e4ec7ae2c1
+Reference = U3;
+ValeurCmp = UAF42_SMA;
+IdModule  = Janelia:SOIC-16W_7.5x10.3mm_P1.27mm;
+EndCmp
+
+BeginCmp
+TimeStamp = a7306a8a-7beb-4171-9de3-6e408f12458b
+Path = /669b71f5-24db-4526-af56-a5891b9eda40/beaa1dda-9347-489f-9469-07c7aa658b14
+Reference = J4;
+ValeurCmp = UMC_JACK_SMD;
+IdModule  = Janelia:UMC_AMPHENOL_A-1JB;
+EndCmp
+
+BeginCmp
+TimeStamp = ac9aa116-440a-4691-9beb-46892d9a7a48
+Path = /6cde90e6-6156-42e3-aaac-c45ad2bfab8b/55bc9ba7-06a9-47ab-b686-496bfa4b9994
+Reference = J2;
+ValeurCmp = UMC_JACK_SMD;
+IdModule  = Janelia:UMC_AMPHENOL_A-1JB;
+EndCmp
+
+BeginCmp
+TimeStamp = c6a0a512-eb8b-4e9c-9793-674e529834ae
+Path = /669b71f5-24db-4526-af56-a5891b9eda40/be827fdc-b0e5-4d40-b585-323d8eea0169
+Reference = R16;
+ValeurCmp = 49.9k;
+IdModule  = Janelia:R_0402_1005Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = d48bb795-a67d-4bda-b587-d2d6b020c770
+Path = /669b71f5-24db-4526-af56-a5891b9eda40/7386b6da-daec-4132-858a-8b1293e23c4a
+Reference = R15;
+ValeurCmp = 23.2k;
+IdModule  = Janelia:R_0402_1005Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = dbc33891-6f45-40d2-9548-3d1aa6f1e780
+Path = /6cde90e6-6156-42e3-aaac-c45ad2bfab8b/8d1a42f6-cbf6-41ab-9df2-8c411666cc52
+Reference = C9;
+ValeurCmp = 0.1uF;
+IdModule  = Janelia:C_0402_1005Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = e0877c7b-9b5c-4bdd-9521-58e95666f2ab
+Path = /6cde90e6-6156-42e3-aaac-c45ad2bfab8b/e76be2c0-e00d-423e-a7b8-fc47c3016c4e
+Reference = R8;
+ValeurCmp = 49.9k;
+IdModule  = Janelia:R_0402_1005Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = e85e2555-7d3b-4b3b-9c3a-aa0565894bc9
+Path = /474094a0-f756-4a3b-83ef-1611abca3ce8/b13c3c99-5849-4502-bc75-b719fbb3ddcd
+Reference = FID4;
+ValeurCmp = FIDUCIAL_0.5mm_MASK1mm;
+IdModule  = Janelia:FIDUCIAL_0.5mm_Mask1mm;
+EndCmp
+
+BeginCmp
+TimeStamp = eb54f132-1b6d-41ae-aee3-b7e72e9fd19b
+Path = /6d9b1002-85b6-4eae-b3fb-51bf0c35118b/4202b53c-a959-48dc-ab79-0b54ed5df090
+Reference = C2;
+ValeurCmp = 4.7uF;
+IdModule  = Janelia:C_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = ef4191a0-124a-4856-ac08-b35f2a9b97f6
+Path = /669b71f5-24db-4526-af56-a5891b9eda40/a28c652d-ca91-48cb-a436-86bafb0bdc8a
+Reference = Q1;
+ValeurCmp = MOSFET-N-CH;
+IdModule  = Janelia:XFDFN-3;
+EndCmp
+
+BeginCmp
+TimeStamp = f47731b7-13e5-4115-9138-f670e5c47036
+Path = /6d9b1002-85b6-4eae-b3fb-51bf0c35118b/c5e99867-6ce3-45d6-b579-213d66a6dbf4
+Reference = C3;
+ValeurCmp = 4.7uF;
+IdModule  = Janelia:C_0603_1608Metric;
+EndCmp
+
+EndListe
