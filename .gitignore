@@ -2,6 +2,7 @@
 # Format documentation: https://kicad.org/help/file-formats/
 
 # Ignore all files that include # character
+*#*
 */#*
 
 # Temporary files

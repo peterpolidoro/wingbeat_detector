@@ -13,4 +13,9 @@
    "emacs"
    "emacs-org"
    "emacs-ox-gfm"
+   "imagemagick"
+   "inkscape"
+   "python"
+   "python-ipython"
+   "python-kicad-bom"
    "dosbox"))

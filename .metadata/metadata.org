@@ -134,7 +134,7 @@ KiCad
 
 #+NAME: documentation-dir
 #+BEGIN_SRC text :exports none :noweb yes
-./documentation
+documentation
 #+END_SRC
 
 #+NAME: bom-dir
@@ -184,28 +184,34 @@ KiCad
 
 #+BEGIN_SRC python :noweb yes :exports results :results output raw
 from pathlib import Path
-path_strings = ['<<pcb-dir>>/top-assembled.png', '<<pcb-dir>>/bottom-assembled.png']
-for path_string in path_strings:
-    path = Path(path_string)
+file_path_strings = ['raytrace.png',
+                     'top.png',
+                     'bottom.png',
+                     'front.png',
+                     'back.png',
+                     'left.png',
+                     'right.png']
+for file_path_string in file_path_strings:
+    path = Path('..') / Path('<<pcb-dir>>') / Path(file_path_string)
     if path.is_file():
-        print(f'[[file:./{path}]]\n')
+        print(f'[[file:./<<pcb-dir>>/{path.name}]]\n')
 #+END_SRC
 
 * Schematic
 
 #+BEGIN_SRC python :noweb yes :exports results :results output raw
 from pathlib import Path
-path = Path('<<schematic-dir>>')
+path = Path('..') / Path('<<schematic-dir>>')
 for child in path.iterdir():
     if '.pdf' in str(child):
-        print(f'[[file:./{child}][./{child}]]\n')
+        print(f'[[file:./<<schematic-dir>>/{child.name}][./<<schematic-dir>>/{child.name}]]\n')
 #+END_SRC
 
 #+BEGIN_SRC python :noweb yes :exports results :results output raw
 from pathlib import Path
 from re import search
 from collections import OrderedDict
-path = Path('<<schematic-dir>>')
+path = Path('..') / Path('<<schematic-dir>>')
 svg_dict = {}
 for child in path.iterdir():
     if '.svg' in str(child):
@@ -213,7 +219,7 @@ for child in path.iterdir():
         # sort by Id inside svg text
         match_object = search('Id:\s*(\d*)', text)
         number = int(match_object.groups()[0])
-        svg_dict[number] = f'[[file:./{child}]]'
+        svg_dict[number] = f'[[file:./<<schematic-dir>>/{child.name}]]'
 sorted_svg_dict = OrderedDict(sorted(svg_dict.items()))
 for svg_string in sorted_svg_dict.values():
     print(f'{svg_string}\n')
@@ -229,13 +235,15 @@ inkscape --export-area-drawing --export-type=png --export-dpi=300 <<pcb-dir>>/*.
 
 #+BEGIN_SRC python :noweb yes :exports results :results output raw
 from pathlib import Path
-path_strings = ['<<pcb-dir>>/top-bare.png',
-                '<<pcb-dir>>/bottom-bare.png',
-                '<<pcb-dir>>/<<name>>-User_Drawings.png']
-for path_string in path_strings:
-    path = Path(path_string)
+file_path_strings = ['<<project-name>>-User_Drawings.png',
+                     '<<project-name>>-F_Silkscreen.png',
+                     '<<project-name>>-B_Silkscreen.png',
+                     '<<project-name>>-F_Fab.png',
+                     '<<project-name>>-B_Fab.png']
+for file_path_string in file_path_strings:
+    path = Path('..') / Path('<<pcb-dir>>') / Path(file_path_string)
     if path.is_file():
-        print(f'[[file:./{path}]]\n')
+        print(f'[[file:./<<pcb-dir>>/{path.name}]]\n')
 #+END_SRC
 
 * Bill of Materials
@@ -243,7 +251,7 @@ for path_string in path_strings:
 #+NAME: pcb-parts
 #+BEGIN_SRC python :noweb yes :exports results :results value table
 from kicad_bom import KicadBom
-kb = KicadBom('./<<name>>/')
+kb = KicadBom('../<<project-name>>/')
 bom = kb.get_bom()
 bom.insert(1,None)
 return bom
@@ -255,31 +263,24 @@ return bom
 
 [[https://guix.gnu.org/manual/en/html_node/Binary-Installation.html][Install Guix]]
 
-** Clone Repository
-
-#+BEGIN_SRC sh :noweb yes
-git clone <<git-clone-url-ssh>>
-cd <<repository-name>>
-#+END_SRC
-
 ** Edit metadata.org
 
-#+BEGIN_SRC sh :noweb yes
+#+BEGIN_EXAMPLE
 make -f .metadata/Makefile metadata-edits
-#+END_SRC
+#+END_EXAMPLE
 
 ** Tangle metadata.org
 
-#+BEGIN_SRC sh :noweb yes
+#+BEGIN_EXAMPLE
 make -f .metadata/Makefile metadata
-#+END_SRC
+#+END_EXAMPLE
 
 ** Edit project
 
-#+BEGIN_SRC sh :noweb yes
+#+BEGIN_EXAMPLE
 make -f .metadata/Makefile project-edits
 exit
-#+END_SRC
+#+END_EXAMPLE
 
 * Tangled Files                                                    :noexport:
 
@@ -291,12 +292,18 @@ exit
         (url "https://git.savannah.gnu.org/git/guix.git")
         (branch "master")
         (commit
-          "cfccc9acdb2c9892d4c41ff56ed95347f1750e3f")
+          "79e31f7a7ac402fdff2d519ccd176dd173e0e625")
         (introduction
           (make-channel-introduction
             "9edb3f66fd807b096b48283debdcddccfea34bad"
             (openpgp-fingerprint
-              "BBB0 2DDF 2CEA F6A8 0D1D  E643 A2A0 6DF2 A33A 54FA")))))
+              "BBB0 2DDF 2CEA F6A8 0D1D  E643 A2A0 6DF2 A33A 54FA"))))
+      (channel
+        (name 'guix-janelia)
+        (url "https://github.com/guix-janelia/guix-janelia.git")
+        (branch "main")
+        (commit
+          "d6dbb84511be2be05236e689538c5f58db81a222")))
 #+END_SRC
 
 #+BEGIN_SRC scheme :tangle guix/manifest.scm :exports none :noweb yes
@@ -315,6 +322,11 @@ exit
    "emacs"
    "emacs-org"
    "emacs-ox-gfm"
+   "imagemagick"
+   "inkscape"
+   "python"
+   "python-ipython"
+   "python-kicad-bom"
    "dosbox"))
 #+END_SRC
 
@@ -341,6 +353,10 @@ metadata:
 guix-container:
 	$(GUIX-CONTAINER)
 
+.PHONY: ipython-shell
+ipython-shell:
+	$(GUIX-CONTAINER) -- ipython
+
 .PHONY: project-edits
 project-edits:
 	# $(GUIX-CONTAINER) -S /home/$(USER)/.config/kicad/7.0=$(MAKEFILE_DIR)/.config/kicad/7.0 -- kicad
@@ -359,8 +375,22 @@ project-edits:
 (setq make-backup-files nil)
 (setq org-confirm-babel-evaluate nil)
 
+(org-babel-do-load-languages
+ 'org-babel-load-languages
+ '((emacs-lisp . t)
+   (lisp . t)
+   (shell . t)
+   (python . t)
+   (scheme . t)))
+
+(setq org-babel-python-command "python3")
+
 (setq python-indent-guess-indent-offset t)
 (setq python-indent-guess-indent-offset-verbose nil)
+
+(setq org-edit-src-content-indentation 0
+      org-src-tab-acts-natively t
+      org-src-preserve-indentation t)
 
 (defun tangle-org (org-file)
   "Tangle org file"
@@ -381,6 +411,19 @@ project-edits:
   (progn (tangle-org org-file)
          (export-org-to-markdown org-file)))
 
+(make-variable-buffer-local 'org-export-filter-final-output-functions)
+(defun my-double-blank-line-filter (output backend info)
+  (replace-regexp-in-string "^\n+" "\n" output))
+(add-to-list 'org-export-filter-final-output-functions
+             'my-double-blank-line-filter)
+(defun my-result-keyword-filter (output backend info)
+  (replace-regexp-in-string "^#[+]RESULTS:.*\n" "" output))
+(add-to-list 'org-export-filter-final-output-functions
+             'my-result-keyword-filter)
+(defun my-export-filename-filter (output backend info)
+  (replace-regexp-in-string "^#[+]EXPORT_FILE_NAME:.*\n" "" output))
+(add-to-list 'org-export-filter-final-output-functions
+             'my-export-filename-filter)
 
 (setq enable-local-variables nil)
 (setq tangle-external-files t)

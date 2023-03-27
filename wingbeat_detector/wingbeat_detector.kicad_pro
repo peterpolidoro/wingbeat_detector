@@ -599,7 +599,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "wingbeat_detector.dsn",
-      "step": "wingbeat_detector.step",
+      "step": "../documentation/pcb/wingbeat_detector.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
