@@ -1,15 +1,15 @@
-- [About](#org9a92533)
-- [Images](#org43ac4cc)
-- [Schematic](#orgce1e773)
-- [PCB](#org3c5ac81)
-- [Bill of Materials](#orge7ea701)
-- [Development](#orgcd69404)
+- [About](#org5427237)
+- [Images](#orgb1cd322)
+- [Schematic](#org11d3ea2)
+- [PCB](#orga6eb5ea)
+- [Bill of Materials](#orgdaf178b)
+- [Development](#orgd45229f)
 
     <!-- This file is generated automatically from metadata -->
     <!-- File edits may be overwritten! -->
 
 
-<a id="org9a92533"></a>
+<a id="org5427237"></a>
 
 # About
 
@@ -18,7 +18,7 @@
 - Description: Measures fly wingbeats using IR light reflected from flapping fly wings.
 - Version: 3.0
 - Kicad Version: 7.0.1
-- Release Date: 2023-03-27
+- Release Date: 2023-03-28
 - Creation Date: 2023-02-17
 - License: GPL-3.0
 - URL: https://github.com/peterpolidoro/wingbeat_detector
@@ -31,7 +31,7 @@
 ```
 
 
-<a id="org43ac4cc"></a>
+<a id="orgb1cd322"></a>
 
 # Images
 
@@ -50,7 +50,7 @@
 ![img](./documentation/pcb/right.png)
 
 
-<a id="orgce1e773"></a>
+<a id="org11d3ea2"></a>
 
 # Schematic
 
@@ -69,7 +69,7 @@
 ![img](./documentation/schematic/wingbeat_detector-assembly.svg)
 
 
-<a id="org3c5ac81"></a>
+<a id="orga6eb5ea"></a>
 
 # PCB
 
@@ -84,9 +84,12 @@
 ![img](./documentation/pcb/wingbeat_detector-B_Fab.png)
 
 
-<a id="orge7ea701"></a>
+<a id="orgdaf178b"></a>
 
 # Bill of Materials
+
+
+## Board
 
 | Item | Reference(s)                    | Quantity | Manufacturer                                | Manufacturer Part Number | Vendor   | Vendor Part Number    | Description                      | Package          |
 |---- |------------------------------- |-------- |------------------------------------------- |------------------------ |-------- |--------------------- |-------------------------------- |---------------- |
@@ -112,7 +115,20 @@
 | 20   | U6                              | 1        | American Bright Optoelectronics Corporation | AB-EZPC-10               | Digi-Key | AB-EZPC-10CT-ND       | IC LED DRIVER LINEAR 50MA        | 6DFN             |
 
 
-<a id="orgcd69404"></a>
+## Supplemental
+
+| Item | Quantity | Manufacturer       | Manufacturer Part Number        | Description                      |
+|---- |-------- |------------------ |------------------------------- |-------------------------------- |
+| 1    | 1        | Amphenol RF        | 095-850-210-150                 | BNC STRAIGHT BULKHEAD JACK TO AM |
+| 2    | 1        | Raspberry Pi       | RPI USB-C POWER SUPPLY BLACK US | AC/DC WALL MNT ADAPTER 5.1V 15W  |
+| 3    | 1        | Pomona Electronics | 5697-6                          | CBL ASSY BNC PLUG-PLUG RG58 6"   |
+| 4    | 1        | Pomona Electronics | 5697-60                         | CBL ASSY BNC PLUG-PLUG RG58 5'   |
+| 5    | 1        | Pomona Electronics | 5697-120                        | CBL ASSY BNC PLUG-PLUG RG58 10'  |
+| 6    | 1        | Pomona Electronics | 5069                            | TEST LEAD BNC TO SOCKET 5.6"     |
+| 7    | 1        | Pomona Electronics | 5305                            | TEST LEAD BNC TO GRAB HOOK 5.5"  |
+
+
+<a id="orgd45229f"></a>
 
 # Development
 

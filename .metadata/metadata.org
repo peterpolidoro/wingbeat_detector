@@ -248,6 +248,8 @@ for file_path_string in file_path_strings:
 
 * Bill of Materials
 
+** Board
+
 #+NAME: pcb-parts
 #+BEGIN_SRC python :noweb yes :exports results :results value table
 from kicad_bom import KicadBom
@@ -256,6 +258,18 @@ bom = kb.get_bom()
 bom.insert(1,None)
 return bom
 #+END_SRC
+
+** Supplemental
+
+| Item | Quantity | Manufacturer       |        Manufacturer Part Number | Description                      |
+|------+----------+--------------------+---------------------------------+----------------------------------|
+|    1 |        1 | Amphenol RF        |                 095-850-210-150 | BNC STRAIGHT BULKHEAD JACK TO AM |
+|    2 |        1 | Raspberry Pi       | RPI USB-C POWER SUPPLY BLACK US | AC/DC WALL MNT ADAPTER 5.1V 15W  |
+|    3 |        1 | Pomona Electronics |                          5697-6 | CBL ASSY BNC PLUG-PLUG RG58 6"   |
+|    4 |        1 | Pomona Electronics |                         5697-60 | CBL ASSY BNC PLUG-PLUG RG58 5'   |
+|    5 |        1 | Pomona Electronics |                        5697-120 | CBL ASSY BNC PLUG-PLUG RG58 10'  |
+|    6 |        1 | Pomona Electronics |                            5069 | TEST LEAD BNC TO SOCKET 5.6"     |
+|    7 |        1 | Pomona Electronics |                            5305 | TEST LEAD BNC TO GRAB HOOK 5.5"  |
 
 * Development
 
