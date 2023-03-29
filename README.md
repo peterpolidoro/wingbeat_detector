@@ -1,15 +1,15 @@
-- [About](#org0f468f3)
-- [Images](#org1b411de)
-- [Schematic](#org71b0431)
-- [PCB](#org451bc30)
-- [Bill of Materials](#org8595f59)
-- [Development](#org3fad642)
+- [About](#orga2d576d)
+- [Images](#orge641527)
+- [Schematic](#orgc77d834)
+- [PCB](#org0bb1739)
+- [Bill of Materials](#org53ab543)
+- [Development](#org646571e)
 
     <!-- This file is generated automatically from metadata -->
     <!-- File edits may be overwritten! -->
 
 
-<a id="org0f468f3"></a>
+<a id="orga2d576d"></a>
 
 # About
 
@@ -31,7 +31,7 @@
 ```
 
 
-<a id="org1b411de"></a>
+<a id="orge641527"></a>
 
 # Images
 
@@ -50,7 +50,7 @@
 ![img](./documentation/pcb/right.png)
 
 
-<a id="org71b0431"></a>
+<a id="orgc77d834"></a>
 
 # Schematic
 
@@ -69,22 +69,22 @@
 ![img](./documentation/schematic/wingbeat_detector-assembly.svg)
 
 
-<a id="org451bc30"></a>
+<a id="org0bb1739"></a>
 
 # PCB
 
-![img](./documentation/pcb/wingbeat_detector-User_Drawings.svg)
+<img src="./documentation/pcb/wingbeat_detector-User_Drawings.svg" width="600px">
 
-![img](./documentation/pcb/wingbeat_detector-F_Silkscreen.svg)
+<img src="./documentation/pcb/wingbeat_detector-F_Silkscreen.svg" width="600px">
 
-![img](./documentation/pcb/wingbeat_detector-B_Silkscreen.svg)
+<img src="./documentation/pcb/wingbeat_detector-B_Silkscreen.svg" width="600px">
 
-![img](./documentation/pcb/wingbeat_detector-F_Fab.svg)
+<img src="./documentation/pcb/wingbeat_detector-F_Fab.svg" width="600px">
 
-![img](./documentation/pcb/wingbeat_detector-B_Fab.svg)
+<img src="./documentation/pcb/wingbeat_detector-B_Fab.svg" width="600px">
 
 
-<a id="org8595f59"></a>
+<a id="org53ab543"></a>
 
 # Bill of Materials
 
@@ -128,7 +128,7 @@
 | 7    | 1        | Pomona Electronics | 5305                            | TEST LEAD BNC TO GRAB HOOK 5.5"  |
 
 
-<a id="org3fad642"></a>
+<a id="org646571e"></a>
 
 # Development
 

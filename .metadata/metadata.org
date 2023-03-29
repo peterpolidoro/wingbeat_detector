@@ -241,7 +241,7 @@ file_path_strings = ['<<project-name>>-User_Drawings.svg',
 for file_path_string in file_path_strings:
     path = Path('..') / Path('<<pcb-dir>>') / Path(file_path_string)
     if path.is_file():
-        print(f'[[file:./<<pcb-dir>>/{path.name}]]\n')
+        print(f'#+html: <img src="./<<pcb-dir>>/{path.name}" width="600px">\n')
 #+END_SRC
 
 * Bill of Materials
