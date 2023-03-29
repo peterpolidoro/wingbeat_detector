@@ -1,15 +1,15 @@
-- [About](#org5427237)
-- [Images](#orgb1cd322)
-- [Schematic](#org11d3ea2)
-- [PCB](#orga6eb5ea)
-- [Bill of Materials](#orgdaf178b)
-- [Development](#orgd45229f)
+- [About](#org0f468f3)
+- [Images](#org1b411de)
+- [Schematic](#org71b0431)
+- [PCB](#org451bc30)
+- [Bill of Materials](#org8595f59)
+- [Development](#org3fad642)
 
     <!-- This file is generated automatically from metadata -->
     <!-- File edits may be overwritten! -->
 
 
-<a id="org5427237"></a>
+<a id="org0f468f3"></a>
 
 # About
 
@@ -18,7 +18,7 @@
 - Description: Measures fly wingbeats using IR light reflected from flapping fly wings.
 - Version: 3.0
 - Kicad Version: 7.0.1
-- Release Date: 2023-03-28
+- Release Date: 2023-03-29
 - Creation Date: 2023-02-17
 - License: GPL-3.0
 - URL: https://github.com/peterpolidoro/wingbeat_detector
@@ -31,7 +31,7 @@
 ```
 
 
-<a id="orgb1cd322"></a>
+<a id="org1b411de"></a>
 
 # Images
 
@@ -50,7 +50,7 @@
 ![img](./documentation/pcb/right.png)
 
 
-<a id="org11d3ea2"></a>
+<a id="org71b0431"></a>
 
 # Schematic
 
@@ -69,22 +69,22 @@
 ![img](./documentation/schematic/wingbeat_detector-assembly.svg)
 
 
-<a id="orga6eb5ea"></a>
+<a id="org451bc30"></a>
 
 # PCB
 
-![img](./documentation/pcb/wingbeat_detector-User_Drawings.png)
+![img](./documentation/pcb/wingbeat_detector-User_Drawings.svg)
 
-![img](./documentation/pcb/wingbeat_detector-F_Silkscreen.png)
+![img](./documentation/pcb/wingbeat_detector-F_Silkscreen.svg)
 
-![img](./documentation/pcb/wingbeat_detector-B_Silkscreen.png)
+![img](./documentation/pcb/wingbeat_detector-B_Silkscreen.svg)
 
-![img](./documentation/pcb/wingbeat_detector-F_Fab.png)
+![img](./documentation/pcb/wingbeat_detector-F_Fab.svg)
 
-![img](./documentation/pcb/wingbeat_detector-B_Fab.png)
+![img](./documentation/pcb/wingbeat_detector-B_Fab.svg)
 
 
-<a id="orgdaf178b"></a>
+<a id="org8595f59"></a>
 
 # Bill of Materials
 
@@ -128,7 +128,7 @@
 | 7    | 1        | Pomona Electronics | 5305                            | TEST LEAD BNC TO GRAB HOOK 5.5"  |
 
 
-<a id="orgd45229f"></a>
+<a id="org3fad642"></a>
 
 # Development
 

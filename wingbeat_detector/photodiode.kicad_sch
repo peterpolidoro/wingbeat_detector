@@ -6,8 +6,8 @@
 
   (title_block
     (title "wingbeat_detector")
-    (date "2023-03-23")
-    (rev "3.0")
+    (date "2023-03-29")
+    (rev "3.1")
     (company "Peter Polidoro")
   )
 

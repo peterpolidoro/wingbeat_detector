@@ -227,19 +227,17 @@ for svg_string in sorted_svg_dict.values():
 
 * PCB
 
-#+BEGIN_SRC sh :noweb yes :exports results
+#+BEGIN_SRC sh :noweb yes :exports none
 inkscape --export-area-drawing --export-type=png --export-dpi=300 <<pcb-dir>>/*.svg
 #+END_SRC
 
-#+RESULTS:
-
 #+BEGIN_SRC python :noweb yes :exports results :results output raw
 from pathlib import Path
-file_path_strings = ['<<project-name>>-User_Drawings.png',
-                     '<<project-name>>-F_Silkscreen.png',
-                     '<<project-name>>-B_Silkscreen.png',
-                     '<<project-name>>-F_Fab.png',
-                     '<<project-name>>-B_Fab.png']
+file_path_strings = ['<<project-name>>-User_Drawings.svg',
+                     '<<project-name>>-F_Silkscreen.svg',
+                     '<<project-name>>-B_Silkscreen.svg',
+                     '<<project-name>>-F_Fab.svg',
+                     '<<project-name>>-B_Fab.svg']
 for file_path_string in file_path_strings:
     path = Path('..') / Path('<<pcb-dir>>') / Path(file_path_string)
     if path.is_file():
