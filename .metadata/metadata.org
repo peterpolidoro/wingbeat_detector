@@ -132,6 +132,11 @@ Peter Polidoro
 KiCad
 #+END_SRC
 
+#+NAME: image-width
+#+BEGIN_SRC text :exports none :noweb yes
+1280px
+#+END_SRC
+
 #+NAME: documentation-dir
 #+BEGIN_SRC text :exports none :noweb yes
 documentation
@@ -194,7 +199,7 @@ file_path_strings = ['raytrace.png',
 for file_path_string in file_path_strings:
     path = Path('..') / Path('<<pcb-dir>>') / Path(file_path_string)
     if path.is_file():
-        print(f'[[file:./<<pcb-dir>>/{path.name}]]\n')
+        print(f'#+html: <img src="./<<pcb-dir>>/{path.name}" width="<<image-width>>">\n')
 #+END_SRC
 
 * Schematic
@@ -219,17 +224,13 @@ for child in path.iterdir():
         # sort by Id inside svg text
         match_object = search('Id:\s*(\d*)', text)
         number = int(match_object.groups()[0])
-        svg_dict[number] = f'[[file:./<<schematic-dir>>/{child.name}]]'
+        svg_dict[number] = f'#+html: <img src="./<<schematic-dir>>/{child.name}" width="<<image-width>>">'
 sorted_svg_dict = OrderedDict(sorted(svg_dict.items()))
 for svg_string in sorted_svg_dict.values():
     print(f'{svg_string}\n')
 #+END_SRC
 
 * PCB
-
-#+BEGIN_SRC sh :noweb yes :exports none
-inkscape --export-area-drawing --export-type=png --export-dpi=300 <<pcb-dir>>/*.svg
-#+END_SRC
 
 #+BEGIN_SRC python :noweb yes :exports results :results output raw
 from pathlib import Path
@@ -241,7 +242,7 @@ file_path_strings = ['<<project-name>>-User_Drawings.svg',
 for file_path_string in file_path_strings:
     path = Path('..') / Path('<<pcb-dir>>') / Path(file_path_string)
     if path.is_file():
-        print(f'#+html: <img src="./<<pcb-dir>>/{path.name}" width="600px">\n')
+        print(f'#+html: <img src="./<<pcb-dir>>/{path.name}" width="<<image-width>>">\n')
 #+END_SRC
 
 * Bill of Materials

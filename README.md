@@ -1,15 +1,15 @@
-- [About](#orga2d576d)
-- [Images](#orge641527)
-- [Schematic](#orgc77d834)
-- [PCB](#org0bb1739)
-- [Bill of Materials](#org53ab543)
-- [Development](#org646571e)
+- [About](#org269ef66)
+- [Images](#org75559e5)
+- [Schematic](#orgf491974)
+- [PCB](#org81ad6ba)
+- [Bill of Materials](#org57821d6)
+- [Development](#orgd241264)
 
     <!-- This file is generated automatically from metadata -->
     <!-- File edits may be overwritten! -->
 
 
-<a id="orga2d576d"></a>
+<a id="org269ef66"></a>
 
 # About
 
@@ -31,60 +31,60 @@
 ```
 
 
-<a id="orge641527"></a>
+<a id="org75559e5"></a>
 
 # Images
 
-![img](./documentation/pcb/raytrace.png)
+<img src="./documentation/pcb/raytrace.png" width="1280px">
 
-![img](./documentation/pcb/top.png)
+<img src="./documentation/pcb/top.png" width="1280px">
 
-![img](./documentation/pcb/bottom.png)
+<img src="./documentation/pcb/bottom.png" width="1280px">
 
-![img](./documentation/pcb/front.png)
+<img src="./documentation/pcb/front.png" width="1280px">
 
-![img](./documentation/pcb/back.png)
+<img src="./documentation/pcb/back.png" width="1280px">
 
-![img](./documentation/pcb/left.png)
+<img src="./documentation/pcb/left.png" width="1280px">
 
-![img](./documentation/pcb/right.png)
+<img src="./documentation/pcb/right.png" width="1280px">
 
 
-<a id="orgc77d834"></a>
+<a id="orgf491974"></a>
 
 # Schematic
 
 [./documentation/schematic/wingbeat\_detector.pdf](./documentation/schematic/wingbeat_detector.pdf)
 
-![img](./documentation/schematic/wingbeat_detector.svg)
+<img src="./documentation/schematic/wingbeat_detector.svg" width="1280px">
 
-![img](./documentation/schematic/wingbeat_detector-power.svg)
+<img src="./documentation/schematic/wingbeat_detector-power.svg" width="1280px">
 
-![img](./documentation/schematic/wingbeat_detector-filter.svg)
+<img src="./documentation/schematic/wingbeat_detector-filter.svg" width="1280px">
 
-![img](./documentation/schematic/wingbeat_detector-photodiode.svg)
+<img src="./documentation/schematic/wingbeat_detector-photodiode.svg" width="1280px">
 
-![img](./documentation/schematic/wingbeat_detector-led.svg)
+<img src="./documentation/schematic/wingbeat_detector-led.svg" width="1280px">
 
-![img](./documentation/schematic/wingbeat_detector-assembly.svg)
+<img src="./documentation/schematic/wingbeat_detector-assembly.svg" width="1280px">
 
 
-<a id="org0bb1739"></a>
+<a id="org81ad6ba"></a>
 
 # PCB
 
-<img src="./documentation/pcb/wingbeat_detector-User_Drawings.svg" width="600px">
+<img src="./documentation/pcb/wingbeat_detector-User_Drawings.svg" width="1280px">
 
-<img src="./documentation/pcb/wingbeat_detector-F_Silkscreen.svg" width="600px">
+<img src="./documentation/pcb/wingbeat_detector-F_Silkscreen.svg" width="1280px">
 
-<img src="./documentation/pcb/wingbeat_detector-B_Silkscreen.svg" width="600px">
+<img src="./documentation/pcb/wingbeat_detector-B_Silkscreen.svg" width="1280px">
 
-<img src="./documentation/pcb/wingbeat_detector-F_Fab.svg" width="600px">
+<img src="./documentation/pcb/wingbeat_detector-F_Fab.svg" width="1280px">
 
-<img src="./documentation/pcb/wingbeat_detector-B_Fab.svg" width="600px">
+<img src="./documentation/pcb/wingbeat_detector-B_Fab.svg" width="1280px">
 
 
-<a id="org53ab543"></a>
+<a id="org57821d6"></a>
 
 # Bill of Materials
 
@@ -128,7 +128,7 @@
 | 7    | 1        | Pomona Electronics | 5305                            | TEST LEAD BNC TO GRAB HOOK 5.5"  |
 
 
-<a id="org646571e"></a>
+<a id="orgd241264"></a>
 
 # Development
 
