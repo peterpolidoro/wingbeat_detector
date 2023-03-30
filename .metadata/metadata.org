@@ -253,6 +253,7 @@ for file_path_string in file_path_strings:
 #+BEGIN_SRC python :noweb yes :exports results :results value table
 from kicad_bom import KicadBom
 kb = KicadBom('../<<project-name>>/', '../<<bom-dir>>')
+kb.save_all_csv_files()
 column_names = ['Item',
                 'Reference(s)',
                 'Description',
