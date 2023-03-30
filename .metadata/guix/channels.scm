@@ -5,7 +5,7 @@
         (url "https://git.savannah.gnu.org/git/guix.git")
         (branch "master")
         (commit
-          "79e31f7a7ac402fdff2d519ccd176dd173e0e625")
+          "113146d31c91e1951f469aa974fef9c0413080a8")
         (introduction
           (make-channel-introduction
             "9edb3f66fd807b096b48283debdcddccfea34bad"
@@ -16,4 +16,4 @@
         (url "https://github.com/guix-janelia/guix-janelia.git")
         (branch "main")
         (commit
-          "d6dbb84511be2be05236e689538c5f58db81a222")))
+          "1a8b60fd204bac602a200c8ea97ec89ec624be7a")))
