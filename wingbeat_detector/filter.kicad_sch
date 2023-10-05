@@ -6,8 +6,8 @@
 
   (title_block
     (title "wingbeat_detector")
-    (date "2023-03-31")
-    (rev "3.2")
+    (date "2023-10-05")
+    (rev "4.0")
     (company "Peter Polidoro")
   )
 
@@ -2087,9 +2087,6 @@
     (pin "2" (uuid f9c5e050-29d2-4cc6-a161-96d7e42f6ad8))
     (instances
       (project "wingbeat_detector"
-        (path "/cc457ebc-4af6-4663-b19f-8cb38f061cb4/669b71f5-24db-4526-af56-a5891b9eda40"
-          (reference "C9") (unit 1)
-        )
         (path "/cc457ebc-4af6-4663-b19f-8cb38f061cb4/6cde90e6-6156-42e3-aaac-c45ad2bfab8b"
           (reference "C9") (unit 1)
         )
@@ -2178,9 +2175,6 @@
     (pin "2" (uuid ab4c1ed1-5af6-494a-bc6d-c167745698c1))
     (instances
       (project "wingbeat_detector"
-        (path "/cc457ebc-4af6-4663-b19f-8cb38f061cb4/669b71f5-24db-4526-af56-a5891b9eda40"
-          (reference "C9") (unit 1)
-        )
         (path "/cc457ebc-4af6-4663-b19f-8cb38f061cb4/6cde90e6-6156-42e3-aaac-c45ad2bfab8b"
           (reference "C8") (unit 1)
         )
@@ -2269,9 +2263,6 @@
     (pin "2" (uuid c800c401-3c8f-448c-ae42-9c75cfcb5a41))
     (instances
       (project "wingbeat_detector"
-        (path "/cc457ebc-4af6-4663-b19f-8cb38f061cb4/669b71f5-24db-4526-af56-a5891b9eda40"
-          (reference "C9") (unit 1)
-        )
         (path "/cc457ebc-4af6-4663-b19f-8cb38f061cb4/6cde90e6-6156-42e3-aaac-c45ad2bfab8b"
           (reference "C7") (unit 1)
         )
@@ -2449,9 +2440,6 @@
     (pin "2" (uuid 17a3b051-4eb6-4147-81af-657ad7f86483))
     (instances
       (project "wingbeat_detector"
-        (path "/cc457ebc-4af6-4663-b19f-8cb38f061cb4/669b71f5-24db-4526-af56-a5891b9eda40"
-          (reference "C9") (unit 1)
-        )
         (path "/cc457ebc-4af6-4663-b19f-8cb38f061cb4/6cde90e6-6156-42e3-aaac-c45ad2bfab8b"
           (reference "C6") (unit 1)
         )

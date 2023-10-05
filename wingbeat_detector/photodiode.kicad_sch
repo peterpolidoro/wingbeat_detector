@@ -6,8 +6,8 @@
 
   (title_block
     (title "wingbeat_detector")
-    (date "2023-03-31")
-    (rev "3.2")
+    (date "2023-10-05")
+    (rev "4.0")
     (company "Peter Polidoro")
   )
 
@@ -1054,9 +1054,6 @@
     (pin "2" (uuid bdd9884b-5f31-4211-b73c-0fcb5705552e))
     (instances
       (project "wingbeat_detector"
-        (path "/cc457ebc-4af6-4663-b19f-8cb38f061cb4/669b71f5-24db-4526-af56-a5891b9eda40"
-          (reference "R3") (unit 1)
-        )
         (path "/cc457ebc-4af6-4663-b19f-8cb38f061cb4/6f9841bf-b0ef-48ff-bf2c-2bd611c72bf3"
           (reference "R10") (unit 1)
         )
@@ -1101,9 +1098,6 @@
     (pin "2" (uuid 7a63b75c-dfce-4078-93aa-caf13a29f07b))
     (instances
       (project "wingbeat_detector"
-        (path "/cc457ebc-4af6-4663-b19f-8cb38f061cb4/669b71f5-24db-4526-af56-a5891b9eda40"
-          (reference "R3") (unit 1)
-        )
         (path "/cc457ebc-4af6-4663-b19f-8cb38f061cb4/6f9841bf-b0ef-48ff-bf2c-2bd611c72bf3"
           (reference "R11") (unit 1)
         )
@@ -1148,9 +1142,6 @@
     (pin "2" (uuid f571d70f-1542-4294-bfb2-e9c8e395385d))
     (instances
       (project "wingbeat_detector"
-        (path "/cc457ebc-4af6-4663-b19f-8cb38f061cb4/669b71f5-24db-4526-af56-a5891b9eda40"
-          (reference "C9") (unit 1)
-        )
         (path "/cc457ebc-4af6-4663-b19f-8cb38f061cb4/6f9841bf-b0ef-48ff-bf2c-2bd611c72bf3"
           (reference "C10") (unit 1)
         )
@@ -1195,9 +1186,6 @@
     (pin "2" (uuid 02ca7e33-0062-4dad-903d-81b607b6e64e))
     (instances
       (project "wingbeat_detector"
-        (path "/cc457ebc-4af6-4663-b19f-8cb38f061cb4/669b71f5-24db-4526-af56-a5891b9eda40"
-          (reference "R2") (unit 1)
-        )
         (path "/cc457ebc-4af6-4663-b19f-8cb38f061cb4/6f9841bf-b0ef-48ff-bf2c-2bd611c72bf3"
           (reference "R13") (unit 1)
         )
@@ -1373,9 +1361,6 @@
     (pin "2" (uuid 75dcd125-537f-4032-809e-3f3c0445dafd))
     (instances
       (project "wingbeat_detector"
-        (path "/cc457ebc-4af6-4663-b19f-8cb38f061cb4/669b71f5-24db-4526-af56-a5891b9eda40"
-          (reference "R3") (unit 1)
-        )
         (path "/cc457ebc-4af6-4663-b19f-8cb38f061cb4/6f9841bf-b0ef-48ff-bf2c-2bd611c72bf3"
           (reference "R14") (unit 1)
         )
@@ -1509,9 +1494,6 @@
     (pin "2" (uuid 30a24b98-2eea-46d3-b7bb-3c9f6bee1d07))
     (instances
       (project "wingbeat_detector"
-        (path "/cc457ebc-4af6-4663-b19f-8cb38f061cb4/669b71f5-24db-4526-af56-a5891b9eda40"
-          (reference "C9") (unit 1)
-        )
         (path "/cc457ebc-4af6-4663-b19f-8cb38f061cb4/6f9841bf-b0ef-48ff-bf2c-2bd611c72bf3"
           (reference "C12") (unit 1)
         )
@@ -1556,9 +1538,6 @@
     (pin "2" (uuid 38f1d320-bc6f-4c7a-bd85-c8ea4a723b64))
     (instances
       (project "wingbeat_detector"
-        (path "/cc457ebc-4af6-4663-b19f-8cb38f061cb4/669b71f5-24db-4526-af56-a5891b9eda40"
-          (reference "R3") (unit 1)
-        )
         (path "/cc457ebc-4af6-4663-b19f-8cb38f061cb4/6f9841bf-b0ef-48ff-bf2c-2bd611c72bf3"
           (reference "R12") (unit 1)
         )
