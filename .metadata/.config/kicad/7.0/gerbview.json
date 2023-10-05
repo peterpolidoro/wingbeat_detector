@@ -1,7 +1,10 @@
 {
   "appearance": {
     "color_theme": "_builtin_default",
-    "left_frame_width": 250
+    "page_type": "GERBER",
+    "show_border_and_titleblock": false,
+    "show_dcodes": false,
+    "show_negative_objects": false
   },
   "color_picker": {
     "default_tab": 0
@@ -12,6 +15,14 @@
     "on_selection": true,
     "zoom_to_fit": true
   },
+  "excellon_defaults": {
+    "inch_integer_len": 2,
+    "inch_mantissa_len": 4,
+    "lz_format": true,
+    "mm_integer_len": 3,
+    "mm_mantissa_len": 3,
+    "unit_mm": false
+  },
   "find_replace": {
     "find_history": [],
     "find_string": "",
@@ -21,6 +32,8 @@
     "replace_string": "",
     "search_and_replace": false
   },
+  "gerber_to_pcb_copperlayers_count": 2,
+  "gerber_to_pcb_layers": [],
   "graphics": {
     "canvas_type": 1,
     "highlight_factor": 0.5,
@@ -33,19 +46,6 @@
   "meta": {
     "version": 0
   },
-  "pcm": {
-    "check_for_updates": false,
-    "last_download_dir": "",
-    "lib_auto_add": true,
-    "lib_auto_remove": true,
-    "lib_prefix": "PCM_",
-    "repositories": [
-      {
-        "name": "KiCad official repository",
-        "url": "https://repository.kicad.org/repository.json"
-      }
-    ]
-  },
   "printing": {
     "background": false,
     "color_theme": "",
@@ -56,18 +56,15 @@
     "use_theme": false
   },
   "system": {
-    "check_for_updates": 1,
-    "file_history": [
-      ""
-    ],
+    "drill_file_history": [],
+    "file_history": [],
     "first_run_shown": false,
+    "job_file_history": [],
     "last_imperial_units": 0,
     "last_metric_units": 1,
     "max_undo_items": 0,
-    "open_projects": [
-      ""
-    ],
-    "units": 1
+    "units": 1,
+    "zip_file_history": []
   },
   "window": {
     "cursor": {
@@ -112,12 +109,13 @@
       "user_grid_x": "10 mil",
       "user_grid_y": "10 mil"
     },
-    "maximized": true,
-    "mru_path": "": "layout2|name=MainToolbar;caption=;state=139644;dir=4;layer=2;row=0;pos=0;prop=100000;bestw=34;besth=227;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=ProjectTree;caption=Project Files;state=1532;dir=4;layer=1;row=0;pos=0;prop=100000;bestw=250;besth=-1;minw=250;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=Launcher;caption=Editors;state=508;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=583;besth=560;minw=583;minh=560;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(4,2,0)=34|dock_size(4,1,0)=250|dock_size(5,0,0)=583|",
+    "maximized": false,
+    "mru_path": "",
+    "perspective": "",
     "pos_x": 0,
-    "pos_y": 25,
-    "size_x": 1920,
-    "size_y": 1120,
+    "pos_y": 0,
+    "size_x": 0,
+    "size_y": 0,
     "zoom_factors": []
   }
 }

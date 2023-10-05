@@ -1,24 +1,24 @@
-- [About](#org20bebd7)
-- [Images](#orga6e399d)
-- [Schematic](#org462d22a)
-- [PCB](#org8905f93)
-- [Bill of Materials](#orgd6b3113)
-- [Development](#org958791c)
+- [About](#org20c5b09)
+- [Images](#orgdee1c26)
+- [Schematic](#org45109c5)
+- [PCB](#org4f0ecfe)
+- [Bill of Materials](#orgfabf82b)
+- [Development](#orgbf0cb38)
 
     <!-- This file is generated automatically from metadata -->
     <!-- File edits may be overwritten! -->
 
 
-<a id="org20bebd7"></a>
+<a id="org20c5b09"></a>
 
 # About
 
 ```markdown
 - Project Name: wingbeat_detector
 - Description: Measures fly wingbeats using IR light reflected from flapping fly wings.
-- Version: 3.2
-- Kicad Version: 7.0.1
-- Release Date: 2023-03-31
+- Version: 4.0
+- Kicad Version: 7.0.8
+- Release Date: 2023-10-05
 - Creation Date: 2023-02-17
 - License: GPL-3.0
 - URL: https://github.com/peterpolidoro/wingbeat_detector
@@ -31,7 +31,7 @@
 ```
 
 
-<a id="orga6e399d"></a>
+<a id="orgdee1c26"></a>
 
 # Images
 
@@ -50,7 +50,7 @@
 <img src="./documentation/pcb/right.png" width="1280px">
 
 
-<a id="org462d22a"></a>
+<a id="org45109c5"></a>
 
 # Schematic
 
@@ -69,7 +69,7 @@
 <img src="./documentation/schematic/wingbeat_detector-assembly.svg" width="1280px">
 
 
-<a id="org8905f93"></a>
+<a id="org4f0ecfe"></a>
 
 # PCB
 
@@ -84,7 +84,7 @@
 <img src="./documentation/pcb/wingbeat_detector-B_Fab.svg" width="1280px">
 
 
-<a id="orgd6b3113"></a>
+<a id="orgfabf82b"></a>
 
 # Bill of Materials
 
@@ -128,7 +128,7 @@
 | 7    | TEST LEAD BNC TO GRAB HOOK 5.5"  | 5305                            | Pomona Electronics | 1        |
 
 
-<a id="org958791c"></a>
+<a id="orgbf0cb38"></a>
 
 # Development
 
@@ -150,5 +150,5 @@
 
 ## Edit project
 
-    make -f .metadata/Makefile project-edits
+    make -f .metadata/Makefile kicad-edits
     exit
