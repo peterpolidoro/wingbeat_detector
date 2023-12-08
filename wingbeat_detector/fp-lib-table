@@ -1,4 +1,5 @@
 (fp_lib_table
   (version 7)
   (lib (name "Janelia")(type "KiCad")(uri "${KICAD_USER_DIR}/footprints/Janelia.pretty")(options "")(descr ""))
+  (lib (name "temp")(type "KiCad")(uri "/home/polidorop/Downloads/SMA002SMD")(options "")(descr ""))
 )
