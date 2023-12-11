@@ -6,7 +6,7 @@
 
   (title_block
     (title "wingbeat_detector")
-    (date "2023-12-08")
+    (date "2023-12-11")
     (rev "4.0")
     (company "Peter Polidoro")
   )
@@ -15,10 +15,6 @@
   )
 
 
-  (wire (pts (xy 166.37 101.6) (xy 168.91 101.6))
-    (stroke (width 0) (type default))
-    (uuid 15f91cf0-46aa-40fa-ba12-2221572fdba6)
-  )
   (wire (pts (xy 113.03 111.76) (xy 110.49 111.76))
     (stroke (width 0) (type default))
     (uuid 2b4a3680-fab7-40b3-b668-697acb6c3109)
@@ -83,10 +79,6 @@
   (label "GND" (at 91.44 90.17 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 1577ab84-c0fb-474e-a671-d41cfa3edc43)
-  )
-  (label "V10-" (at 166.37 101.6 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid 2b5f4956-fdbd-4a13-8ef0-0e07884a91bb)
   )
   (label "GND" (at 166.37 99.06 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
@@ -229,10 +221,6 @@
     (pin "PHOTODIODE_RAW" output (at 195.58 99.06 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 10472543-e76e-4298-957e-2eb38ace26e4)
-    )
-    (pin "V10-" passive (at 168.91 101.6 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid c5d25587-3038-41f5-988e-0a5dd9c8f57c)
     )
     (instances
       (project "wingbeat_detector"
