@@ -6,7 +6,7 @@
 
   (title_block
     (title "wingbeat_detector")
-    (date "2023-12-11")
+    (date "2023-12-12")
     (rev "4.0")
     (company "Peter Polidoro")
   )
@@ -23,6 +23,9 @@
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "Datasheet" "" (at 5.08 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Sim.Enable" "0" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "FIDUCIAL_0.5mm_MASK1mm_0_1"
@@ -144,6 +147,9 @@
     (property "Datasheet" "" (at 146.05 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Sim.Enable" "0" (at 140.97 67.31 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (instances
       (project "wingbeat_detector"
         (path "/cc457ebc-4af6-4663-b19f-8cb38f061cb4"
@@ -233,6 +239,9 @@
     (property "Datasheet" "" (at 156.21 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Sim.Enable" "0" (at 151.13 67.31 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (instances
       (project "wingbeat_detector"
         (path "/cc457ebc-4af6-4663-b19f-8cb38f061cb4"
@@ -258,6 +267,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 161.29 67.31 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Sim.Enable" "0" (at 156.21 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
@@ -316,6 +328,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 151.13 67.31 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Sim.Enable" "0" (at 146.05 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances

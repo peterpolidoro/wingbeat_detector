@@ -6,17 +6,17 @@
 
   (title_block
     (title "wingbeat_detector")
-    (date "2023-12-11")
+    (date "2023-12-12")
     (rev "4.0")
     (company "Peter Polidoro")
   )
 
   (lib_symbols
-    (symbol "Janelia:C_4.7uF_0603" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+    (symbol "Janelia:C_4.7uF_16V_0603" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0 2.54 0)
         (effects (font (size 1.016 1.016)) (justify left))
       )
-      (property "Value" "4.7uF" (at 0 0 0)
+      (property "Value" "4.7uF_16V" (at 0 0 0)
         (effects (font (size 0.762 0.762)))
       )
       (property "Footprint" "Janelia:C_0603_1608Metric" (at 0.9652 -3.81 0)
@@ -46,7 +46,7 @@
       (property "ki_fp_filters" "SM* C? C1-1" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "C_4.7uF_0603_0_1"
+      (symbol "C_4.7uF_16V_0603_0_1"
         (polyline
           (pts
             (xy -2.032 -0.762)
@@ -64,7 +64,7 @@
           (fill (type none))
         )
       )
-      (symbol "C_4.7uF_0603_1_1"
+      (symbol "C_4.7uF_16V_0603_1_1"
         (pin passive line (at 0 5.08 270) (length 4.318)
           (name "~" (effects (font (size 1.016 1.016))))
           (number "1" (effects (font (size 1.016 1.016))))
@@ -104,6 +104,9 @@
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "Description" "IC REG CHARGE PUMP INV DL 8UMAX" (at 0 40.64 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Sim.Enable" "0" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "MAX865EUA+_0_0"
@@ -171,6 +174,9 @@
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "Description" "CONN RCP USB3.1 TYPEC 24P SMD RA" (at 0 81.28 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Sim.Enable" "0" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "USB_C_10137062-00021LF_0_0"
@@ -609,7 +615,7 @@
     (uuid 99447f94-a17e-42b1-a5aa-38289e84b166)
   )
 
-  (symbol (lib_id "Janelia:C_4.7uF_0603") (at 111.76 99.06 0) (unit 1)
+  (symbol (lib_id "Janelia:C_4.7uF_16V_0603") (at 111.76 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3b047e0c-9e80-4303-b29e-7a07e7fe5c80)
     (property "Reference" "C1" (at 111.76 96.52 0)
@@ -653,7 +659,7 @@
     )
   )
 
-  (symbol (lib_id "Janelia:C_4.7uF_0603") (at 119.38 99.06 0) (unit 1)
+  (symbol (lib_id "Janelia:C_4.7uF_16V_0603") (at 119.38 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4202b53c-a959-48dc-ab79-0b54ed5df090)
     (property "Reference" "C2" (at 119.38 96.52 0)
@@ -697,7 +703,7 @@
     )
   )
 
-  (symbol (lib_id "Janelia:C_4.7uF_0603") (at 196.85 99.06 0) (unit 1)
+  (symbol (lib_id "Janelia:C_4.7uF_16V_0603") (at 196.85 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 636e3920-8a4d-4db7-9829-1b8200d4f249)
     (property "Reference" "C4" (at 196.85 96.52 0)
@@ -741,7 +747,7 @@
     )
   )
 
-  (symbol (lib_id "Janelia:C_4.7uF_0603") (at 205.74 99.06 0) (unit 1)
+  (symbol (lib_id "Janelia:C_4.7uF_16V_0603") (at 205.74 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 80d08e92-a70a-4c96-a2d5-30312e852ac9)
     (property "Reference" "C5" (at 205.74 96.52 0)
@@ -818,6 +824,9 @@
     (property "Description" "IC REG CHARGE PUMP INV DL 8UMAX" (at 166.37 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Sim.Enable" "0" (at 166.37 99.06 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid ec343cbb-5c45-4aa8-8cbd-c51a11a71a19))
     (pin "2" (uuid 2d977a39-d7f4-4dfb-8aa2-3400752debe7))
     (pin "3" (uuid e8a6270a-0268-442a-a8da-cc4a87da296b))
@@ -868,6 +877,9 @@
     (property "Description" "CONN RCP USB3.1 TYPEC 24P SMD RA" (at 60.96 20.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Sim.Enable" "0" (at 60.96 101.6 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "A1" (uuid 5eb58ab0-b176-4c07-804f-5f1ddee65199))
     (pin "A10" (uuid 14baf924-3dd7-40ce-9bd4-539dbd2fa41b))
     (pin "A11" (uuid d061b1d7-3148-466a-b001-d233df91c086))
@@ -908,7 +920,7 @@
     )
   )
 
-  (symbol (lib_id "Janelia:C_4.7uF_0603") (at 127 99.06 0) (unit 1)
+  (symbol (lib_id "Janelia:C_4.7uF_16V_0603") (at 127 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c5e99867-6ce3-45d6-b579-213d66a6dbf4)
     (property "Reference" "C3" (at 127 96.52 0)
