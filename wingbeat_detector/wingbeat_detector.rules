@@ -11,7 +11,7 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 1402)
+    (start_pass_no 4274)
     (layer_rule F.Cu
       (active on)
       (preferred_direction horizontal)
@@ -45,7 +45,6 @@
     (clearance 150.0 (type "kicad_default"))
     (clearance 150.0 (type Smallest))
     (clearance 150.0 (type kicad))
-    (clearance 150.0 (type ))
   )
   (padstack "Via[0-3]_800:400_um"
     (shape
@@ -96,7 +95,7 @@
     "unconnected-(J1-SSRXN1-PadB10)" "unconnected-(J1-SSRXP1-PadB11)" "/power/C1-" /power/C2+ "/power/C2-" "unconnected-(J1-SHIELD-PadS1)" "unconnected-(J1-SHIELD-PadS2)" "unconnected-(J1-SHIELD-PadS3)"
     "unconnected-(J1-SHIELD-PadS4)" "/filter/BANDPASS_BUFFERED" "Net-(U2-Vin1)" "unconnected-(U3-Vin3-Pad3)" "Net-(U2-Vin2)" "/filter/HIGHPASS_AMPLIFIED" "Net-(U3-Vin1)" "Net-(U3-Vin2)"
     /filter/HIGHPASS "Net-(U2-Fadj1)" "Net-(U3-HPVo)" "Net-(U3-Fadj1)" "Net-(U2-BPVo)" "Net-(U2-Fadj2)" "Net-(U3-BPVo)" "Net-(U3-Fadj2)"
-    "Net-(U2-AAin-)" /V5+ /V10+ "/V10-" "Net-(D1-K)" "/PHOTODIODE_RAW" /filter/LOWPASS "unconnected-(U2-LPVo-Pad1)"
+    "Net-(U2-AAin-)" /V5+ /V10+ "/V10-" "Net-(D1-K)" "/PHOTODIODE_SIG" /filter/LOWPASS "unconnected-(U2-LPVo-Pad1)"
     "unconnected-(U2-Vin3-Pad3)" "unconnected-(U4-NC-Pad1)" "unconnected-(U4-NC-Pad5)" "unconnected-(U4-NC-Pad8)"
     (clearance_class "kicad_default")
     (via_rule "kicad_default")
