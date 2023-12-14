@@ -6,7 +6,7 @@
 
   (title_block
     (title "wingbeat_detector")
-    (date "2023-12-13")
+    (date "2023-12-14")
     (rev "4.0")
     (company "Peter Polidoro")
   )
@@ -583,8 +583,8 @@
     (uuid fce6a680-881f-4b5c-b039-b1756c188a9b)
   )
 
-  (text "GAIN0 MIN: R = (5V - 0.6V)/90uA = 48.8k\nGAIN0 MAX: R = (5V - 0.6V)/0.8uA = 5.5M"
-    (at 149.86 66.04 0)
+  (text "DIODE GAIN\nMIN: R = (5V - 0.6V)/90uA = 48.8k\nMAX: R = (5V - 0.6V)/0.8uA = 5.5M"
+    (at 149.86 67.31 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 2f8eeab9-2be1-4c55-836c-b0417eef483f)
   )

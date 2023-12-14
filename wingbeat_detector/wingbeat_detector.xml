@@ -2,14 +2,14 @@
 <export version="E">
   <design>
     <source>/home/polidorop/Repositories/kicad/wingbeat_detector/wingbeat_detector/wingbeat_detector.kicad_sch</source>
-    <date>Fri 24 Mar 2023 10:50:56 AM EDT</date>
-    <tool>Eeschema 7.0.1</tool>
+    <date>Thu 14 Dec 2023 10:20:08 AM EST</date>
+    <tool>Eeschema 7.0.9</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>wingbeat_detector</title>
         <company>Peter Polidoro</company>
-        <rev>3.0</rev>
-        <date>2023-03-23</date>
+        <rev>4.0</rev>
+        <date>2023-12-14</date>
         <source>wingbeat_detector.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -26,8 +26,8 @@
       <title_block>
         <title>wingbeat_detector</title>
         <company>Peter Polidoro</company>
-        <rev>3.0</rev>
-        <date>2023-03-23</date>
+        <rev>4.0</rev>
+        <date>2023-12-14</date>
         <source>power.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -44,8 +44,8 @@
       <title_block>
         <title>wingbeat_detector</title>
         <company>Peter Polidoro</company>
-        <rev>3.0</rev>
-        <date>2023-03-23</date>
+        <rev>4.0</rev>
+        <date>2023-12-14</date>
         <source>filter.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -62,8 +62,8 @@
       <title_block>
         <title>wingbeat_detector</title>
         <company>Peter Polidoro</company>
-        <rev>3.0</rev>
-        <date>2023-03-23</date>
+        <rev>4.0</rev>
+        <date>2023-12-14</date>
         <source>photodiode.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -76,30 +76,12 @@
         <comment number="9" value=""/>
       </title_block>
     </sheet>
-    <sheet number="5" name="/led/" tstamps="/669b71f5-24db-4526-af56-a5891b9eda40/">
+    <sheet number="5" name="/assembly/" tstamps="/474094a0-f756-4a3b-83ef-1611abca3ce8/">
       <title_block>
         <title>wingbeat_detector</title>
         <company>Peter Polidoro</company>
-        <rev>3.0</rev>
-        <date>2023-03-23</date>
-        <source>led.kicad_sch</source>
-        <comment number="1" value=""/>
-        <comment number="2" value=""/>
-        <comment number="3" value=""/>
-        <comment number="4" value=""/>
-        <comment number="5" value=""/>
-        <comment number="6" value=""/>
-        <comment number="7" value=""/>
-        <comment number="8" value=""/>
-        <comment number="9" value=""/>
-      </title_block>
-    </sheet>
-    <sheet number="6" name="/assembly/" tstamps="/474094a0-f756-4a3b-83ef-1611abca3ce8/">
-      <title_block>
-        <title>wingbeat_detector</title>
-        <company>Peter Polidoro</company>
-        <rev>3.0</rev>
-        <date>2023-03-23</date>
+        <rev>4.0</rev>
+        <date>2023-12-14</date>
         <source>assembly.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -124,7 +106,7 @@
         <field name="Vendor">Digi-Key</field>
         <field name="Vendor Part Number">445-7478-1-ND</field>
       </fields>
-      <libsource lib="Janelia" part="C_4.7uF_0603" description=""/>
+      <libsource lib="Janelia" part="C_4.7uF_16V_0603" description=""/>
       <property name="Vendor" value="Digi-Key"/>
       <property name="Vendor Part Number" value="445-7478-1-ND"/>
       <property name="Description" value="CAP CER 4.7UF 16V X5R 0603"/>
@@ -146,7 +128,7 @@
         <field name="Vendor">Digi-Key</field>
         <field name="Vendor Part Number">445-7478-1-ND</field>
       </fields>
-      <libsource lib="Janelia" part="C_4.7uF_0603" description=""/>
+      <libsource lib="Janelia" part="C_4.7uF_16V_0603" description=""/>
       <property name="Vendor" value="Digi-Key"/>
       <property name="Vendor Part Number" value="445-7478-1-ND"/>
       <property name="Description" value="CAP CER 4.7UF 16V X5R 0603"/>
@@ -168,7 +150,7 @@
         <field name="Vendor">Digi-Key</field>
         <field name="Vendor Part Number">445-7478-1-ND</field>
       </fields>
-      <libsource lib="Janelia" part="C_4.7uF_0603" description=""/>
+      <libsource lib="Janelia" part="C_4.7uF_16V_0603" description=""/>
       <property name="Vendor" value="Digi-Key"/>
       <property name="Vendor Part Number" value="445-7478-1-ND"/>
       <property name="Description" value="CAP CER 4.7UF 16V X5R 0603"/>
@@ -190,7 +172,7 @@
         <field name="Vendor">Digi-Key</field>
         <field name="Vendor Part Number">445-7478-1-ND</field>
       </fields>
-      <libsource lib="Janelia" part="C_4.7uF_0603" description=""/>
+      <libsource lib="Janelia" part="C_4.7uF_16V_0603" description=""/>
       <property name="Vendor" value="Digi-Key"/>
       <property name="Vendor Part Number" value="445-7478-1-ND"/>
       <property name="Description" value="CAP CER 4.7UF 16V X5R 0603"/>
@@ -212,7 +194,7 @@
         <field name="Vendor">Digi-Key</field>
         <field name="Vendor Part Number">445-7478-1-ND</field>
       </fields>
-      <libsource lib="Janelia" part="C_4.7uF_0603" description=""/>
+      <libsource lib="Janelia" part="C_4.7uF_16V_0603" description=""/>
       <property name="Vendor" value="Digi-Key"/>
       <property name="Vendor Part Number" value="445-7478-1-ND"/>
       <property name="Description" value="CAP CER 4.7UF 16V X5R 0603"/>
@@ -231,6 +213,7 @@
         <field name="Description">CONN RCP USB3.1 TYPEC 24P SMD RA</field>
         <field name="Manufacturer">Amphenol</field>
         <field name="Manufacturer Part Number">10137062-00021LF</field>
+        <field name="Sim.Enable">0</field>
         <field name="Vendor">Digi-Key</field>
         <field name="Vendor Part Number">609-6109-1-ND</field>
       </fields>
@@ -240,6 +223,7 @@
       <property name="Vendor" value="Digi-Key"/>
       <property name="Vendor Part Number" value="609-6109-1-ND"/>
       <property name="Description" value="CONN RCP USB3.1 TYPEC 24P SMD RA"/>
+      <property name="Sim.Enable" value="0"/>
       <property name="Sheetname" value="power"/>
       <property name="Sheetfile" value="power.kicad_sch"/>
       <sheetpath names="/power/" tstamps="/6d9b1002-85b6-4eae-b3fb-51bf0c35118b/"/>
@@ -253,6 +237,7 @@
         <field name="Manufacturer">Maxim Integrated</field>
         <field name="Manufacturer Part Number">MAX865EUA+</field>
         <field name="Package">SOP65P490X110-8N</field>
+        <field name="Sim.Enable">0</field>
         <field name="Vendor">Digi-Key</field>
         <field name="Vendor Part Number">MAX865EUA+-ND</field>
       </fields>
@@ -263,6 +248,7 @@
       <property name="Vendor" value="Digi-Key"/>
       <property name="Vendor Part Number" value="MAX865EUA+-ND"/>
       <property name="Description" value="IC REG CHARGE PUMP INV DL 8UMAX"/>
+      <property name="Sim.Enable" value="0"/>
       <property name="Sheetname" value="power"/>
       <property name="Sheetfile" value="power.kicad_sch"/>
       <sheetpath names="/power/" tstamps="/6d9b1002-85b6-4eae-b3fb-51bf0c35118b/"/>
@@ -279,7 +265,7 @@
         <field name="Vendor">Digi-Key</field>
         <field name="Vendor Part Number">311-1375-1-ND</field>
       </fields>
-      <libsource lib="Janelia" part="C_0.1uF_0402" description=""/>
+      <libsource lib="Janelia" part="C_0.1uF_25V_0402" description=""/>
       <property name="Vendor" value="Digi-Key"/>
       <property name="Vendor Part Number" value="311-1375-1-ND"/>
       <property name="Description" value="CAP CER 0.1UF 25V Y5V"/>
@@ -302,7 +288,7 @@
         <field name="Vendor">Digi-Key</field>
         <field name="Vendor Part Number">311-1375-1-ND</field>
       </fields>
-      <libsource lib="Janelia" part="C_0.1uF_0402" description=""/>
+      <libsource lib="Janelia" part="C_0.1uF_25V_0402" description=""/>
       <property name="Vendor" value="Digi-Key"/>
       <property name="Vendor Part Number" value="311-1375-1-ND"/>
       <property name="Description" value="CAP CER 0.1UF 25V Y5V"/>
@@ -325,7 +311,7 @@
         <field name="Vendor">Digi-Key</field>
         <field name="Vendor Part Number">311-1375-1-ND</field>
       </fields>
-      <libsource lib="Janelia" part="C_0.1uF_0402" description=""/>
+      <libsource lib="Janelia" part="C_0.1uF_25V_0402" description=""/>
       <property name="Vendor" value="Digi-Key"/>
       <property name="Vendor Part Number" value="311-1375-1-ND"/>
       <property name="Description" value="CAP CER 0.1UF 25V Y5V"/>
@@ -348,7 +334,7 @@
         <field name="Vendor">Digi-Key</field>
         <field name="Vendor Part Number">311-1375-1-ND</field>
       </fields>
-      <libsource lib="Janelia" part="C_0.1uF_0402" description=""/>
+      <libsource lib="Janelia" part="C_0.1uF_25V_0402" description=""/>
       <property name="Vendor" value="Digi-Key"/>
       <property name="Vendor Part Number" value="311-1375-1-ND"/>
       <property name="Description" value="CAP CER 0.1UF 25V Y5V"/>
@@ -367,6 +353,7 @@
         <field name="Description">CONN UMC JACK STR 50 OHM SMD</field>
         <field name="Manufacturer">Amphenol RF</field>
         <field name="Manufacturer Part Number">A-1JB</field>
+        <field name="Sim.Enable">0</field>
         <field name="Vendor">Digi-Key</field>
         <field name="Vendor Part Number">115-A-1JBCT-ND</field>
       </fields>
@@ -376,6 +363,7 @@
       <property name="Vendor" value="Digi-Key"/>
       <property name="Vendor Part Number" value="115-A-1JBCT-ND"/>
       <property name="Description" value="CONN UMC JACK STR 50 OHM SMD"/>
+      <property name="Sim.Enable" value="0"/>
       <property name="Sheetname" value="filter"/>
       <property name="Sheetfile" value="filter.kicad_sch"/>
       <property name="ki_description" value="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"/>
@@ -590,28 +578,28 @@
       <sheetpath names="/filter/" tstamps="/6cde90e6-6156-42e3-aaac-c45ad2bfab8b/"/>
       <tstamps>4bb96439-3268-4bc0-806e-3fc6708787ab</tstamps>
     </comp>
-    <comp ref="RV1">
-      <value>500k</value>
-      <footprint>Janelia:Potentiometer_Bourns_3223W_Vertical</footprint>
+    <comp ref="R10">
+      <value>150k</value>
+      <footprint>Janelia:R_1206_3216Metric</footprint>
       <fields>
-        <field name="Description">TRIMMER 500K OHM 0.125W J LEAD</field>
-        <field name="Manufacturer">Bourns Inc.</field>
-        <field name="Manufacturer Part Number">3223W-1-504E</field>
+        <field name="Description">RES SMD 150K OHM 0.1% 1/4W</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Manufacturer Part Number">ERA-8AEB154V</field>
+        <field name="Package">1206</field>
         <field name="Vendor">Digi-Key</field>
-        <field name="Vendor Part Number">3223W-1-504ECT-ND</field>
+        <field name="Vendor Part Number">P150KBCCT-ND</field>
       </fields>
-      <libsource lib="Janelia" part="R_Potentiometer_500k_3.9x3.18mm_11turn_Vertical" description="Potentiometer"/>
-      <property name="Manufacturer" value="Bourns Inc."/>
-      <property name="Manufacturer Part Number" value="3223W-1-504E"/>
-      <property name="Description" value="TRIMMER 500K OHM 0.125W J LEAD"/>
+      <libsource lib="Janelia" part="R_150k_1206" description=""/>
       <property name="Vendor" value="Digi-Key"/>
-      <property name="Vendor Part Number" value="3223W-1-504ECT-ND"/>
+      <property name="Vendor Part Number" value="P150KBCCT-ND"/>
+      <property name="Description" value="RES SMD 150K OHM 0.1% 1/4W"/>
+      <property name="Package" value="1206"/>
+      <property name="Manufacturer" value="Panasonic Electronic Components"/>
+      <property name="Manufacturer Part Number" value="ERA-8AEB154V"/>
       <property name="Sheetname" value="filter"/>
       <property name="Sheetfile" value="filter.kicad_sch"/>
-      <property name="ki_description" value="Potentiometer"/>
-      <property name="ki_keywords" value="resistor variable"/>
       <sheetpath names="/filter/" tstamps="/6cde90e6-6156-42e3-aaac-c45ad2bfab8b/"/>
-      <tstamps>eb4fccc8-2b88-4af4-b8da-8546d5827108</tstamps>
+      <tstamps>db853ec9-2ae6-4a0c-a452-f2f92a2cbe4c</tstamps>
     </comp>
     <comp ref="U2">
       <value>UAF42_SMA</value>
@@ -620,6 +608,7 @@
         <field name="Description">IC UNIV ACTIVE FILTER 16-SOIC</field>
         <field name="Manufacturer">Texas Instruments</field>
         <field name="Manufacturer Part Number">UAF42AU</field>
+        <field name="Sim.Enable">0</field>
         <field name="Vendor">Digi-Key</field>
         <field name="Vendor Part Number">UAF42AU-ND</field>
       </fields>
@@ -629,6 +618,7 @@
       <property name="Description" value="IC UNIV ACTIVE FILTER 16-SOIC"/>
       <property name="Manufacturer" value="Texas Instruments"/>
       <property name="Manufacturer Part Number" value="UAF42AU"/>
+      <property name="Sim.Enable" value="0"/>
       <property name="Sheetname" value="filter"/>
       <property name="Sheetfile" value="filter.kicad_sch"/>
       <sheetpath names="/filter/" tstamps="/6cde90e6-6156-42e3-aaac-c45ad2bfab8b/"/>
@@ -641,6 +631,7 @@
         <field name="Description">IC UNIV ACTIVE FILTER 16-SOIC</field>
         <field name="Manufacturer">Texas Instruments</field>
         <field name="Manufacturer Part Number">UAF42AU</field>
+        <field name="Sim.Enable">0</field>
         <field name="Vendor">Digi-Key</field>
         <field name="Vendor Part Number">UAF42AU-ND</field>
       </fields>
@@ -650,79 +641,57 @@
       <property name="Description" value="IC UNIV ACTIVE FILTER 16-SOIC"/>
       <property name="Manufacturer" value="Texas Instruments"/>
       <property name="Manufacturer Part Number" value="UAF42AU"/>
+      <property name="Sim.Enable" value="0"/>
       <property name="Sheetname" value="filter"/>
       <property name="Sheetfile" value="filter.kicad_sch"/>
       <sheetpath names="/filter/" tstamps="/6cde90e6-6156-42e3-aaac-c45ad2bfab8b/"/>
       <tstamps>0e722fb5-8dd1-4f2f-b9f8-31e4ec7ae2c1</tstamps>
     </comp>
     <comp ref="C10">
-      <value>0.1uF</value>
+      <value>1uF</value>
       <footprint>Janelia:C_0402_1005Metric</footprint>
       <fields>
-        <field name="Description">CAP CER 0.1UF 25V Y5V</field>
-        <field name="Manufacturer">Yageo</field>
-        <field name="Manufacturer Part Number">CC0402ZRY5V8BB104</field>
+        <field name="Description">CAP CER 1UF 35V X5R</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer Part Number">CL05A105KL5NRNC</field>
         <field name="Package">0402</field>
         <field name="Vendor">Digi-Key</field>
-        <field name="Vendor Part Number">311-1375-1-ND</field>
+        <field name="Vendor Part Number">1276-6796-1-ND</field>
       </fields>
-      <libsource lib="Janelia" part="C_0.1uF_0402" description=""/>
+      <libsource lib="Janelia" part="C_1uF_35V_0402" description=""/>
       <property name="Vendor" value="Digi-Key"/>
-      <property name="Vendor Part Number" value="311-1375-1-ND"/>
-      <property name="Description" value="CAP CER 0.1UF 25V Y5V"/>
+      <property name="Vendor Part Number" value="1276-6796-1-ND"/>
+      <property name="Description" value="CAP CER 1UF 35V X5R"/>
       <property name="Package" value="0402"/>
-      <property name="Manufacturer" value="Yageo"/>
-      <property name="Manufacturer Part Number" value="CC0402ZRY5V8BB104"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Manufacturer Part Number" value="CL05A105KL5NRNC"/>
       <property name="Sheetname" value="photodiode"/>
       <property name="Sheetfile" value="photodiode.kicad_sch"/>
       <sheetpath names="/photodiode/" tstamps="/6f9841bf-b0ef-48ff-bf2c-2bd611c72bf3/"/>
-      <tstamps>3a184419-a573-4c72-aba5-dbcce0de1362</tstamps>
+      <tstamps>edf008b6-cd55-42c9-846d-c571a8c8db97</tstamps>
     </comp>
     <comp ref="C11">
-      <value>2pF</value>
+      <value>30pF</value>
       <footprint>Janelia:C_0402_1005Metric</footprint>
       <fields>
-        <field name="Description">CAP CER 2PF 50V C0G</field>
-        <field name="Manufacturer">TDK Corporation</field>
-        <field name="Manufacturer Part Number">CGA2B2C0G1H020C050BA</field>
+        <field name="Description">CAP CER 30PF 50V C0G/NP0</field>
+        <field name="Manufacturer">KEMET</field>
+        <field name="Manufacturer Part Number">C0402C300J5GACAUTO</field>
         <field name="Package">0402</field>
         <field name="Vendor">Digi-Key</field>
-        <field name="Vendor Part Number">445-5572-1-ND</field>
+        <field name="Vendor Part Number">399-C0402C300J5GACAUTOCT-ND</field>
       </fields>
-      <libsource lib="Janelia" part="C_2pF_0402" description=""/>
+      <libsource lib="Janelia" part="C_30pF_50V_0402" description=""/>
       <property name="Vendor" value="Digi-Key"/>
-      <property name="Vendor Part Number" value="445-5572-1-ND"/>
-      <property name="Description" value="CAP CER 2PF 50V C0G"/>
+      <property name="Vendor Part Number" value="399-C0402C300J5GACAUTOCT-ND"/>
+      <property name="Description" value="CAP CER 30PF 50V C0G/NP0"/>
       <property name="Package" value="0402"/>
-      <property name="Manufacturer" value="TDK Corporation"/>
-      <property name="Manufacturer Part Number" value="CGA2B2C0G1H020C050BA"/>
+      <property name="Manufacturer" value="KEMET"/>
+      <property name="Manufacturer Part Number" value="C0402C300J5GACAUTO"/>
       <property name="Sheetname" value="photodiode"/>
       <property name="Sheetfile" value="photodiode.kicad_sch"/>
       <sheetpath names="/photodiode/" tstamps="/6f9841bf-b0ef-48ff-bf2c-2bd611c72bf3/"/>
-      <tstamps>a7c67a23-793a-4d8c-ad1c-8d81a5f33ccb</tstamps>
-    </comp>
-    <comp ref="C12">
-      <value>0.1uF</value>
-      <footprint>Janelia:C_0402_1005Metric</footprint>
-      <fields>
-        <field name="Description">CAP CER 0.1UF 25V Y5V</field>
-        <field name="Manufacturer">Yageo</field>
-        <field name="Manufacturer Part Number">CC0402ZRY5V8BB104</field>
-        <field name="Package">0402</field>
-        <field name="Vendor">Digi-Key</field>
-        <field name="Vendor Part Number">311-1375-1-ND</field>
-      </fields>
-      <libsource lib="Janelia" part="C_0.1uF_0402" description=""/>
-      <property name="Vendor" value="Digi-Key"/>
-      <property name="Vendor Part Number" value="311-1375-1-ND"/>
-      <property name="Description" value="CAP CER 0.1UF 25V Y5V"/>
-      <property name="Package" value="0402"/>
-      <property name="Manufacturer" value="Yageo"/>
-      <property name="Manufacturer Part Number" value="CC0402ZRY5V8BB104"/>
-      <property name="Sheetname" value="photodiode"/>
-      <property name="Sheetfile" value="photodiode.kicad_sch"/>
-      <sheetpath names="/photodiode/" tstamps="/6f9841bf-b0ef-48ff-bf2c-2bd611c72bf3/"/>
-      <tstamps>c7fa857f-9911-4eb4-88f4-5de7b7cae734</tstamps>
+      <tstamps>eebc2fe6-5261-4c9f-8961-8d4ec816ea07</tstamps>
     </comp>
     <comp ref="D1">
       <value>PHOTODIODE</value>
@@ -731,6 +700,7 @@
         <field name="Description">SENSOR PHOTODIODE RADIAL</field>
         <field name="Manufacturer">American Bright Optoelectronics Corporation</field>
         <field name="Manufacturer Part Number">BPD-BQDA38V-FZ04</field>
+        <field name="Sim.Enable">0</field>
         <field name="Vendor">Digi-Key</field>
         <field name="Vendor Part Number">BPD-BQDA38V-FZ04CT-ND</field>
       </fields>
@@ -740,6 +710,7 @@
       <property name="Vendor" value="Digi-Key"/>
       <property name="Vendor Part Number" value="BPD-BQDA38V-FZ04CT-ND"/>
       <property name="Description" value="SENSOR PHOTODIODE RADIAL"/>
+      <property name="Sim.Enable" value="0"/>
       <property name="Sheetname" value="photodiode"/>
       <property name="Sheetfile" value="photodiode.kicad_sch"/>
       <property name="ki_description" value="Photodiode"/>
@@ -754,6 +725,7 @@
         <field name="Description">CONN UMC JACK STR 50 OHM SMD</field>
         <field name="Manufacturer">Amphenol RF</field>
         <field name="Manufacturer Part Number">A-1JB</field>
+        <field name="Sim.Enable">0</field>
         <field name="Vendor">Digi-Key</field>
         <field name="Vendor Part Number">115-A-1JBCT-ND</field>
       </fields>
@@ -763,150 +735,36 @@
       <property name="Vendor" value="Digi-Key"/>
       <property name="Vendor Part Number" value="115-A-1JBCT-ND"/>
       <property name="Description" value="CONN UMC JACK STR 50 OHM SMD"/>
+      <property name="Sim.Enable" value="0"/>
       <property name="Sheetname" value="photodiode"/>
       <property name="Sheetfile" value="photodiode.kicad_sch"/>
       <property name="ki_description" value="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"/>
       <property name="ki_keywords" value="BNC SMA SMB SMC LEMO coaxial connector CINCH RCA"/>
       <sheetpath names="/photodiode/" tstamps="/6f9841bf-b0ef-48ff-bf2c-2bd611c72bf3/"/>
-      <tstamps>68b8dae1-73e1-4690-9a19-5e1792929ec8</tstamps>
-    </comp>
-    <comp ref="R10">
-      <value>49.9k</value>
-      <footprint>Janelia:R_0402_1005Metric</footprint>
-      <fields>
-        <field name="Description">RES SMD 49.9K OHM 1% 1/10W</field>
-        <field name="Manufacturer">Panasonic Electronic Components</field>
-        <field name="Manufacturer Part Number">ERJ-2RKF4992X</field>
-        <field name="Package">0402</field>
-        <field name="Vendor">Digi-Key</field>
-        <field name="Vendor Part Number">P49.9KLCT-ND</field>
-      </fields>
-      <libsource lib="Janelia" part="R_49.9k_0402" description=""/>
-      <property name="Vendor" value="Digi-Key"/>
-      <property name="Vendor Part Number" value="P49.9KLCT-ND"/>
-      <property name="Description" value="RES SMD 49.9K OHM 1% 1/10W"/>
-      <property name="Package" value="0402"/>
-      <property name="Manufacturer" value="Panasonic Electronic Components"/>
-      <property name="Manufacturer Part Number" value="ERJ-2RKF4992X"/>
-      <property name="Sheetname" value="photodiode"/>
-      <property name="Sheetfile" value="photodiode.kicad_sch"/>
-      <sheetpath names="/photodiode/" tstamps="/6f9841bf-b0ef-48ff-bf2c-2bd611c72bf3/"/>
-      <tstamps>0a162d54-8f2a-4f88-ac9a-f3434c845b07</tstamps>
+      <tstamps>e2d4a7fa-219d-4198-9179-3cc2010f51ea</tstamps>
     </comp>
     <comp ref="R11">
-      <value>49.9k</value>
-      <footprint>Janelia:R_0402_1005Metric</footprint>
+      <value>2M</value>
+      <footprint>Janelia:R_1206_3216Metric</footprint>
       <fields>
-        <field name="Description">RES SMD 49.9K OHM 1% 1/10W</field>
+        <field name="Description">RES 2.0M OHM 1% 0.66W</field>
         <field name="Manufacturer">Panasonic Electronic Components</field>
-        <field name="Manufacturer Part Number">ERJ-2RKF4992X</field>
-        <field name="Package">0402</field>
+        <field name="Manufacturer Part Number">ERJ-PM8F2004V</field>
+        <field name="Package">1206</field>
         <field name="Vendor">Digi-Key</field>
-        <field name="Vendor Part Number">P49.9KLCT-ND</field>
+        <field name="Vendor Part Number">10-ERJ-PM8F2004VCT-ND</field>
       </fields>
-      <libsource lib="Janelia" part="R_49.9k_0402" description=""/>
+      <libsource lib="Janelia" part="R_2M_1206" description=""/>
       <property name="Vendor" value="Digi-Key"/>
-      <property name="Vendor Part Number" value="P49.9KLCT-ND"/>
-      <property name="Description" value="RES SMD 49.9K OHM 1% 1/10W"/>
-      <property name="Package" value="0402"/>
+      <property name="Vendor Part Number" value="10-ERJ-PM8F2004VCT-ND"/>
+      <property name="Description" value="RES 2.0M OHM 1% 0.66W"/>
+      <property name="Package" value="1206"/>
       <property name="Manufacturer" value="Panasonic Electronic Components"/>
-      <property name="Manufacturer Part Number" value="ERJ-2RKF4992X"/>
+      <property name="Manufacturer Part Number" value="ERJ-PM8F2004V"/>
       <property name="Sheetname" value="photodiode"/>
       <property name="Sheetfile" value="photodiode.kicad_sch"/>
       <sheetpath names="/photodiode/" tstamps="/6f9841bf-b0ef-48ff-bf2c-2bd611c72bf3/"/>
-      <tstamps>15de9722-3823-46fc-b0b5-f2f6080b73af</tstamps>
-    </comp>
-    <comp ref="R12">
-      <value>49.9k</value>
-      <footprint>Janelia:R_0402_1005Metric</footprint>
-      <fields>
-        <field name="Description">RES SMD 49.9K OHM 1% 1/10W</field>
-        <field name="Manufacturer">Panasonic Electronic Components</field>
-        <field name="Manufacturer Part Number">ERJ-2RKF4992X</field>
-        <field name="Package">0402</field>
-        <field name="Vendor">Digi-Key</field>
-        <field name="Vendor Part Number">P49.9KLCT-ND</field>
-      </fields>
-      <libsource lib="Janelia" part="R_49.9k_0402" description=""/>
-      <property name="Vendor" value="Digi-Key"/>
-      <property name="Vendor Part Number" value="P49.9KLCT-ND"/>
-      <property name="Description" value="RES SMD 49.9K OHM 1% 1/10W"/>
-      <property name="Package" value="0402"/>
-      <property name="Manufacturer" value="Panasonic Electronic Components"/>
-      <property name="Manufacturer Part Number" value="ERJ-2RKF4992X"/>
-      <property name="Sheetname" value="photodiode"/>
-      <property name="Sheetfile" value="photodiode.kicad_sch"/>
-      <sheetpath names="/photodiode/" tstamps="/6f9841bf-b0ef-48ff-bf2c-2bd611c72bf3/"/>
-      <tstamps>d423a530-14ca-4efe-861e-65f3e0b2d569</tstamps>
-    </comp>
-    <comp ref="R13">
-      <value>23.2k</value>
-      <footprint>Janelia:R_0402_1005Metric</footprint>
-      <fields>
-        <field name="Description">RES SMD 23.2K OHM 1% 1/10W</field>
-        <field name="Manufacturer">Panasonic Electronic Components</field>
-        <field name="Manufacturer Part Number">ERJ-2RKF2322X</field>
-        <field name="Package">0402</field>
-        <field name="Vendor">Digi-Key</field>
-        <field name="Vendor Part Number">P23.2KLCT-ND</field>
-      </fields>
-      <libsource lib="Janelia" part="R_23.2k_0402" description=""/>
-      <property name="Vendor" value="Digi-Key"/>
-      <property name="Vendor Part Number" value="P23.2KLCT-ND"/>
-      <property name="Description" value="RES SMD 23.2K OHM 1% 1/10W"/>
-      <property name="Package" value="0402"/>
-      <property name="Manufacturer" value="Panasonic Electronic Components"/>
-      <property name="Manufacturer Part Number" value="ERJ-2RKF2322X"/>
-      <property name="Sheetname" value="photodiode"/>
-      <property name="Sheetfile" value="photodiode.kicad_sch"/>
-      <sheetpath names="/photodiode/" tstamps="/6f9841bf-b0ef-48ff-bf2c-2bd611c72bf3/"/>
-      <tstamps>630a8d17-b501-4833-9433-1f1987568112</tstamps>
-    </comp>
-    <comp ref="R14">
-      <value>49.9k</value>
-      <footprint>Janelia:R_0402_1005Metric</footprint>
-      <fields>
-        <field name="Description">RES SMD 49.9K OHM 1% 1/10W</field>
-        <field name="Manufacturer">Panasonic Electronic Components</field>
-        <field name="Manufacturer Part Number">ERJ-2RKF4992X</field>
-        <field name="Package">0402</field>
-        <field name="Vendor">Digi-Key</field>
-        <field name="Vendor Part Number">P49.9KLCT-ND</field>
-      </fields>
-      <libsource lib="Janelia" part="R_49.9k_0402" description=""/>
-      <property name="Vendor" value="Digi-Key"/>
-      <property name="Vendor Part Number" value="P49.9KLCT-ND"/>
-      <property name="Description" value="RES SMD 49.9K OHM 1% 1/10W"/>
-      <property name="Package" value="0402"/>
-      <property name="Manufacturer" value="Panasonic Electronic Components"/>
-      <property name="Manufacturer Part Number" value="ERJ-2RKF4992X"/>
-      <property name="Sheetname" value="photodiode"/>
-      <property name="Sheetfile" value="photodiode.kicad_sch"/>
-      <sheetpath names="/photodiode/" tstamps="/6f9841bf-b0ef-48ff-bf2c-2bd611c72bf3/"/>
-      <tstamps>921fec00-3efd-4a94-9f87-60f08d1454a2</tstamps>
-    </comp>
-    <comp ref="RV2">
-      <value>500k</value>
-      <footprint>Janelia:Potentiometer_Bourns_3223W_Vertical</footprint>
-      <fields>
-        <field name="Description">TRIMMER 500K OHM 0.125W J LEAD</field>
-        <field name="Manufacturer">Bourns Inc.</field>
-        <field name="Manufacturer Part Number">3223W-1-504E</field>
-        <field name="Vendor">Digi-Key</field>
-        <field name="Vendor Part Number">3223W-1-504ECT-ND</field>
-      </fields>
-      <libsource lib="Janelia" part="R_Potentiometer_500k_3.9x3.18mm_11turn_Vertical" description="Potentiometer"/>
-      <property name="Manufacturer" value="Bourns Inc."/>
-      <property name="Manufacturer Part Number" value="3223W-1-504E"/>
-      <property name="Description" value="TRIMMER 500K OHM 0.125W J LEAD"/>
-      <property name="Vendor" value="Digi-Key"/>
-      <property name="Vendor Part Number" value="3223W-1-504ECT-ND"/>
-      <property name="Sheetname" value="photodiode"/>
-      <property name="Sheetfile" value="photodiode.kicad_sch"/>
-      <property name="ki_description" value="Potentiometer"/>
-      <property name="ki_keywords" value="resistor variable"/>
-      <sheetpath names="/photodiode/" tstamps="/6f9841bf-b0ef-48ff-bf2c-2bd611c72bf3/"/>
-      <tstamps>7e6f00c4-d5c1-4a76-9b7d-817fa61b75d9</tstamps>
+      <tstamps>8d785757-dcf4-4fdd-a6c6-320f05907637</tstamps>
     </comp>
     <comp ref="U4">
       <value>OPA381</value>
@@ -915,6 +773,7 @@
         <field name="Description">IC TRANSIMPEDANCE 1 CIRCUIT 8SON</field>
         <field name="Manufacturer">Texas Instruments</field>
         <field name="Manufacturer Part Number">OPA381AIDRBT</field>
+        <field name="Sim.Enable">0</field>
         <field name="Vendor">Digi-Key</field>
         <field name="Vendor Part Number">296-17363-1-ND</field>
       </fields>
@@ -924,220 +783,13 @@
       <property name="Vendor" value="Digi-Key"/>
       <property name="Vendor Part Number" value="296-17363-1-ND"/>
       <property name="Description" value="IC TRANSIMPEDANCE 1 CIRCUIT 8SON"/>
+      <property name="Sim.Enable" value="0"/>
       <property name="Sheetname" value="photodiode"/>
       <property name="Sheetfile" value="photodiode.kicad_sch"/>
       <property name="ki_description" value=" 2.7 GHz, High-Voltage, FET-Input, Low Noise, Operational Amplifier, WSON-8"/>
       <property name="ki_keywords" value="opamp VFA"/>
       <sheetpath names="/photodiode/" tstamps="/6f9841bf-b0ef-48ff-bf2c-2bd611c72bf3/"/>
       <tstamps>a807b3c5-9c9c-4322-843f-ae4f915109df</tstamps>
-    </comp>
-    <comp ref="U5">
-      <value>TSV630IQ1T</value>
-      <footprint>Janelia:PSON40P120X130X50-6N</footprint>
-      <fields>
-        <field name="Description">IC OPAMP GP 1 CIRCUIT</field>
-        <field name="Manufacturer">STMicroelectronics</field>
-        <field name="Manufacturer Part Number">TSV630IQ1T</field>
-        <field name="Package">6DFN</field>
-        <field name="Vendor">Digi-Key</field>
-        <field name="Vendor Part Number">497-17045-1-ND</field>
-      </fields>
-      <libsource lib="Janelia" part="TSV630IQ1T" description="IC OPAMP GP 1 CIRCUIT 6DFN"/>
-      <property name="Description" value="IC OPAMP GP 1 CIRCUIT"/>
-      <property name="Package" value="6DFN"/>
-      <property name="Manufacturer" value="STMicroelectronics"/>
-      <property name="Manufacturer Part Number" value="TSV630IQ1T"/>
-      <property name="Vendor" value="Digi-Key"/>
-      <property name="Vendor Part Number" value="497-17045-1-ND"/>
-      <property name="Sheetname" value="photodiode"/>
-      <property name="Sheetfile" value="photodiode.kicad_sch"/>
-      <property name="ki_description" value="IC OPAMP GP 1 CIRCUIT 6DFN"/>
-      <property name="ki_keywords" value="single opamp"/>
-      <sheetpath names="/photodiode/" tstamps="/6f9841bf-b0ef-48ff-bf2c-2bd611c72bf3/"/>
-      <tstamps>83663cd0-fcc9-4625-b4c4-061db8628fbd</tstamps>
-    </comp>
-    <comp ref="C13">
-      <value>4.7uF</value>
-      <footprint>Janelia:C_0603_1608Metric</footprint>
-      <fields>
-        <field name="Description">CAP CER 4.7UF 16V X5R 0603</field>
-        <field name="Manufacturer">TDK Corporation</field>
-        <field name="Manufacturer Part Number">C1608X5R1C475K080AC</field>
-        <field name="Vendor">Digi-Key</field>
-        <field name="Vendor Part Number">445-7478-1-ND</field>
-      </fields>
-      <libsource lib="Janelia" part="C_4.7uF_0603" description=""/>
-      <property name="Vendor" value="Digi-Key"/>
-      <property name="Vendor Part Number" value="445-7478-1-ND"/>
-      <property name="Description" value="CAP CER 4.7UF 16V X5R 0603"/>
-      <property name="Package" value=""/>
-      <property name="Manufacturer" value="TDK Corporation"/>
-      <property name="Manufacturer Part Number" value="C1608X5R1C475K080AC"/>
-      <property name="Sheetname" value="led"/>
-      <property name="Sheetfile" value="led.kicad_sch"/>
-      <sheetpath names="/led/" tstamps="/669b71f5-24db-4526-af56-a5891b9eda40/"/>
-      <tstamps>78e2eff6-27cf-4a8f-8506-3701a6a9ed7e</tstamps>
-    </comp>
-    <comp ref="D2">
-      <value>LED</value>
-      <footprint>Janelia:LED_RADIAL_RA_SMD_BRIGHT</footprint>
-      <fields>
-        <field name="Description">5MM 940 IR</field>
-        <field name="Manufacturer">American Bright Optoelectronics Corporation</field>
-        <field name="Manufacturer Part Number">BIR-BM17J8V-FZ04</field>
-        <field name="Vendor">Digi-Key</field>
-        <field name="Vendor Part Number">BIR-BM17J8V-FZ04CT-ND</field>
-      </fields>
-      <libsource lib="Janelia" part="LED_940nm_RADIAL_RA_SMD_BRIGHT" description="Light emitting diode"/>
-      <property name="Manufacturer" value="American Bright Optoelectronics Corporation"/>
-      <property name="Manufacturer Part Number" value="BIR-BM17J8V-FZ04"/>
-      <property name="Vendor" value="Digi-Key"/>
-      <property name="Vendor Part Number" value="BIR-BM17J8V-FZ04CT-ND"/>
-      <property name="Description" value="5MM 940 IR"/>
-      <property name="Sheetname" value="led"/>
-      <property name="Sheetfile" value="led.kicad_sch"/>
-      <property name="ki_description" value="Light emitting diode"/>
-      <property name="ki_keywords" value="LED diode"/>
-      <sheetpath names="/led/" tstamps="/669b71f5-24db-4526-af56-a5891b9eda40/"/>
-      <tstamps>daad0546-3d9d-4b33-9a0a-77b72593bc13</tstamps>
-    </comp>
-    <comp ref="J4">
-      <value>UMC_JACK_SMD</value>
-      <footprint>Janelia:UMC_AMPHENOL_A-1JB</footprint>
-      <fields>
-        <field name="Description">CONN UMC JACK STR 50 OHM SMD</field>
-        <field name="Manufacturer">Amphenol RF</field>
-        <field name="Manufacturer Part Number">A-1JB</field>
-        <field name="Vendor">Digi-Key</field>
-        <field name="Vendor Part Number">115-A-1JBCT-ND</field>
-      </fields>
-      <libsource lib="Janelia" part="CONN_UMC_JACK_SMD" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"/>
-      <property name="Manufacturer" value="Amphenol RF"/>
-      <property name="Manufacturer Part Number" value="A-1JB"/>
-      <property name="Vendor" value="Digi-Key"/>
-      <property name="Vendor Part Number" value="115-A-1JBCT-ND"/>
-      <property name="Description" value="CONN UMC JACK STR 50 OHM SMD"/>
-      <property name="Sheetname" value="led"/>
-      <property name="Sheetfile" value="led.kicad_sch"/>
-      <property name="ki_description" value="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"/>
-      <property name="ki_keywords" value="BNC SMA SMB SMC LEMO coaxial connector CINCH RCA"/>
-      <sheetpath names="/led/" tstamps="/669b71f5-24db-4526-af56-a5891b9eda40/"/>
-      <tstamps>beaa1dda-9347-489f-9469-07c7aa658b14</tstamps>
-    </comp>
-    <comp ref="Q1">
-      <value>MOSFET-N-CH</value>
-      <footprint>Janelia:XFDFN-3</footprint>
-      <fields>
-        <field name="Description">MOSFET N-CH 30V 1.5A 3PICOSTAR</field>
-        <field name="Manufacturer">Texas Instruments</field>
-        <field name="Manufacturer Part Number">CSD17483F4</field>
-        <field name="Vendor">Digi-Key</field>
-        <field name="Vendor Part Number">296-38914-1-ND</field>
-      </fields>
-      <libsource lib="Janelia" part="MOSFET-N-CH-EN-CSD17483F4" description="MOSFET N-CH 30V 1.5A 3PICOSTAR"/>
-      <property name="Description" value="MOSFET N-CH 30V 1.5A 3PICOSTAR"/>
-      <property name="Manufacturer" value="Texas Instruments"/>
-      <property name="Manufacturer Part Number" value="CSD17483F4"/>
-      <property name="Vendor" value="Digi-Key"/>
-      <property name="Vendor Part Number" value="296-38914-1-ND"/>
-      <property name="Sheetname" value="led"/>
-      <property name="Sheetfile" value="led.kicad_sch"/>
-      <property name="ki_description" value="MOSFET N-CH 30V 1.5A 3PICOSTAR"/>
-      <property name="ki_keywords" value="N-Channel MOSFET"/>
-      <sheetpath names="/led/" tstamps="/669b71f5-24db-4526-af56-a5891b9eda40/"/>
-      <tstamps>a28c652d-ca91-48cb-a436-86bafb0bdc8a</tstamps>
-    </comp>
-    <comp ref="R15">
-      <value>23.2k</value>
-      <footprint>Janelia:R_0402_1005Metric</footprint>
-      <fields>
-        <field name="Description">RES SMD 23.2K OHM 1% 1/10W</field>
-        <field name="Manufacturer">Panasonic Electronic Components</field>
-        <field name="Manufacturer Part Number">ERJ-2RKF2322X</field>
-        <field name="Package">0402</field>
-        <field name="Vendor">Digi-Key</field>
-        <field name="Vendor Part Number">P23.2KLCT-ND</field>
-      </fields>
-      <libsource lib="Janelia" part="R_23.2k_0402" description=""/>
-      <property name="Vendor" value="Digi-Key"/>
-      <property name="Vendor Part Number" value="P23.2KLCT-ND"/>
-      <property name="Description" value="RES SMD 23.2K OHM 1% 1/10W"/>
-      <property name="Package" value="0402"/>
-      <property name="Manufacturer" value="Panasonic Electronic Components"/>
-      <property name="Manufacturer Part Number" value="ERJ-2RKF2322X"/>
-      <property name="Sheetname" value="led"/>
-      <property name="Sheetfile" value="led.kicad_sch"/>
-      <sheetpath names="/led/" tstamps="/669b71f5-24db-4526-af56-a5891b9eda40/"/>
-      <tstamps>7386b6da-daec-4132-858a-8b1293e23c4a</tstamps>
-    </comp>
-    <comp ref="R16">
-      <value>49.9k</value>
-      <footprint>Janelia:R_0402_1005Metric</footprint>
-      <fields>
-        <field name="Description">RES SMD 49.9K OHM 1% 1/10W</field>
-        <field name="Manufacturer">Panasonic Electronic Components</field>
-        <field name="Manufacturer Part Number">ERJ-2RKF4992X</field>
-        <field name="Package">0402</field>
-        <field name="Vendor">Digi-Key</field>
-        <field name="Vendor Part Number">P49.9KLCT-ND</field>
-      </fields>
-      <libsource lib="Janelia" part="R_49.9k_0402" description=""/>
-      <property name="Vendor" value="Digi-Key"/>
-      <property name="Vendor Part Number" value="P49.9KLCT-ND"/>
-      <property name="Description" value="RES SMD 49.9K OHM 1% 1/10W"/>
-      <property name="Package" value="0402"/>
-      <property name="Manufacturer" value="Panasonic Electronic Components"/>
-      <property name="Manufacturer Part Number" value="ERJ-2RKF4992X"/>
-      <property name="Sheetname" value="led"/>
-      <property name="Sheetfile" value="led.kicad_sch"/>
-      <sheetpath names="/led/" tstamps="/669b71f5-24db-4526-af56-a5891b9eda40/"/>
-      <tstamps>be827fdc-b0e5-4d40-b585-323d8eea0169</tstamps>
-    </comp>
-    <comp ref="R17">
-      <value>2k</value>
-      <footprint>Janelia:R_0402_1005Metric</footprint>
-      <fields>
-        <field name="Description">RES SMD 2K OHM 1% 1/10W</field>
-        <field name="Manufacturer">Panasonic Electronic Components</field>
-        <field name="Manufacturer Part Number">ERJ-2RKF2001X</field>
-        <field name="Package">0402</field>
-        <field name="Vendor">Digi-Key</field>
-        <field name="Vendor Part Number">P2.00KLCT-ND</field>
-      </fields>
-      <libsource lib="Janelia" part="R_2k_0402" description=""/>
-      <property name="Vendor" value="Digi-Key"/>
-      <property name="Vendor Part Number" value="P2.00KLCT-ND"/>
-      <property name="Description" value="RES SMD 2K OHM 1% 1/10W"/>
-      <property name="Package" value="0402"/>
-      <property name="Manufacturer" value="Panasonic Electronic Components"/>
-      <property name="Manufacturer Part Number" value="ERJ-2RKF2001X"/>
-      <property name="Sheetname" value="led"/>
-      <property name="Sheetfile" value="led.kicad_sch"/>
-      <sheetpath names="/led/" tstamps="/669b71f5-24db-4526-af56-a5891b9eda40/"/>
-      <tstamps>146ec29f-895a-4650-b5b7-a9eb7f4beba6</tstamps>
-    </comp>
-    <comp ref="U6">
-      <value>LED_DRV_50mA</value>
-      <footprint>Janelia:DFN-6-1EP_2x2mm_P0.65mm_EP1x1.6mm</footprint>
-      <fields>
-        <field name="Description">IC LED DRIVER LINEAR 50MA</field>
-        <field name="Manufacturer">American Bright Optoelectronics Corporation</field>
-        <field name="Manufacturer Part Number">AB-EZPC-10</field>
-        <field name="Package">6DFN</field>
-        <field name="Vendor">Digi-Key</field>
-        <field name="Vendor Part Number">AB-EZPC-10CT-ND</field>
-      </fields>
-      <libsource lib="Janelia" part="LED_DRIVER_50mA" description=""/>
-      <property name="Package" value="6DFN"/>
-      <property name="Manufacturer" value="American Bright Optoelectronics Corporation"/>
-      <property name="Manufacturer Part Number" value="AB-EZPC-10"/>
-      <property name="Vendor" value="Digi-Key"/>
-      <property name="Vendor Part Number" value="AB-EZPC-10CT-ND"/>
-      <property name="Description" value="IC LED DRIVER LINEAR 50MA"/>
-      <property name="Sheetname" value="led"/>
-      <property name="Sheetfile" value="led.kicad_sch"/>
-      <sheetpath names="/led/" tstamps="/669b71f5-24db-4526-af56-a5891b9eda40/"/>
-      <tstamps>d22a0d4d-8d2b-4298-890f-a73e031f650a</tstamps>
     </comp>
   </components>
   <libparts>
@@ -1160,13 +812,14 @@
         <field name="Vendor">Digi-Key</field>
         <field name="Vendor Part Number">115-A-1JBCT-ND</field>
         <field name="Description">CONN UMC JACK STR 50 OHM SMD</field>
+        <field name="Sim.Enable">0</field>
       </fields>
       <pins>
         <pin num="1" name="In" type="passive"/>
         <pin num="2" name="Ext" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Janelia" part="C_0.1uF_0402">
+    <libpart lib="Janelia" part="C_0.1uF_25V_0402">
       <footprints>
         <fp>SM*</fp>
         <fp>C?</fp>
@@ -1174,7 +827,7 @@
       </footprints>
       <fields>
         <field name="Reference">C</field>
-        <field name="Value">0.1uF</field>
+        <field name="Value">0.1uF_25V</field>
         <field name="Footprint">Janelia:C_0402_1005Metric</field>
         <field name="Vendor">Digi-Key</field>
         <field name="Vendor Part Number">311-1375-1-ND</field>
@@ -1188,7 +841,7 @@
         <pin num="2" name="" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Janelia" part="C_2pF_0402">
+    <libpart lib="Janelia" part="C_1uF_35V_0402">
       <footprints>
         <fp>SM*</fp>
         <fp>C?</fp>
@@ -1196,21 +849,21 @@
       </footprints>
       <fields>
         <field name="Reference">C</field>
-        <field name="Value">2pF</field>
+        <field name="Value">1uF_35V</field>
         <field name="Footprint">Janelia:C_0402_1005Metric</field>
         <field name="Vendor">Digi-Key</field>
-        <field name="Vendor Part Number">445-5572-1-ND</field>
-        <field name="Description">CAP CER 2PF 50V C0G</field>
+        <field name="Vendor Part Number">1276-6796-1-ND</field>
+        <field name="Description">CAP CER 1UF 35V X5R</field>
         <field name="Package">0402</field>
-        <field name="Manufacturer">TDK Corporation</field>
-        <field name="Manufacturer Part Number">CGA2B2C0G1H020C050BA</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer Part Number">CL05A105KL5NRNC</field>
       </fields>
       <pins>
         <pin num="1" name="" type="passive"/>
         <pin num="2" name="" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Janelia" part="C_4.7uF_0603">
+    <libpart lib="Janelia" part="C_30pF_50V_0402">
       <footprints>
         <fp>SM*</fp>
         <fp>C?</fp>
@@ -1218,7 +871,29 @@
       </footprints>
       <fields>
         <field name="Reference">C</field>
-        <field name="Value">4.7uF</field>
+        <field name="Value">30pF_50V</field>
+        <field name="Footprint">Janelia:C_0402_1005Metric</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">399-C0402C300J5GACAUTOCT-ND</field>
+        <field name="Description">CAP CER 30PF 50V C0G/NP0</field>
+        <field name="Package">0402</field>
+        <field name="Manufacturer">KEMET</field>
+        <field name="Manufacturer Part Number">C0402C300J5GACAUTO</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Janelia" part="C_4.7uF_16V_0603">
+      <footprints>
+        <fp>SM*</fp>
+        <fp>C?</fp>
+        <fp>C1-1</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">4.7uF_16V</field>
         <field name="Footprint">Janelia:C_0603_1608Metric</field>
         <field name="Vendor">Digi-Key</field>
         <field name="Vendor Part Number">445-7478-1-ND</field>
@@ -1236,51 +911,8 @@
         <field name="Reference">FID</field>
         <field name="Value">FIDUCIAL_0.5mm_MASK1mm</field>
         <field name="Footprint">Janelia:FIDUCIAL_0.5mm_Mask1mm</field>
+        <field name="Sim.Enable">0</field>
       </fields>
-    </libpart>
-    <libpart lib="Janelia" part="LED_940nm_RADIAL_RA_SMD_BRIGHT">
-      <description>Light emitting diode</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>LED*</fp>
-        <fp>LED_SMD:*</fp>
-        <fp>LED_THT:*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">D</field>
-        <field name="Value">LED</field>
-        <field name="Footprint">Janelia:LED_RADIAL_RA_SMD_BRIGHT</field>
-        <field name="Datasheet">~</field>
-        <field name="Manufacturer">American Bright Optoelectronics Corporation</field>
-        <field name="Manufacturer Part Number">BIR-BM17J8V-FZ04</field>
-        <field name="Vendor">Digi-Key</field>
-        <field name="Vendor Part Number">BIR-BM17J8V-FZ04CT-ND</field>
-        <field name="Description">5MM 940 IR</field>
-      </fields>
-      <pins>
-        <pin num="1" name="K" type="passive"/>
-        <pin num="2" name="A" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Janelia" part="LED_DRIVER_50mA">
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">LED_DRV_50mA</field>
-        <field name="Footprint">Janelia:DFN-6-1EP_2x2mm_P0.65mm_EP1x1.6mm</field>
-        <field name="Package">6DFN</field>
-        <field name="Manufacturer">American Bright Optoelectronics Corporation</field>
-        <field name="Manufacturer Part Number">AB-EZPC-10</field>
-        <field name="Vendor">Digi-Key</field>
-        <field name="Vendor Part Number">AB-EZPC-10CT-ND</field>
-        <field name="Description">IC LED DRIVER LINEAR 50MA</field>
-      </fields>
-      <pins>
-        <pin num="1" name="P1" type="power_out"/>
-        <pin num="3" name="N1" type="power_out"/>
-        <pin num="4" name="VB" type="passive"/>
-        <pin num="6" name="VA" type="passive"/>
-        <pin num="7" name="EP" type="passive"/>
-      </pins>
     </libpart>
     <libpart lib="Janelia" part="MAX865EUA+">
       <fields>
@@ -1293,6 +925,7 @@
         <field name="Vendor">Digi-Key</field>
         <field name="Vendor Part Number">MAX865EUA+-ND</field>
         <field name="Description">IC REG CHARGE PUMP INV DL 8UMAX</field>
+        <field name="Sim.Enable">0</field>
       </fields>
       <pins>
         <pin num="1" name="C1-" type="passive"/>
@@ -1303,27 +936,6 @@
         <pin num="6" name="IN" type="power_in"/>
         <pin num="7" name="V+" type="power_out"/>
         <pin num="8" name="C1+" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Janelia" part="MOSFET-N-CH-EN-CSD17483F4">
-      <description>MOSFET N-CH 30V 1.5A 3PICOSTAR</description>
-      <footprints>
-        <fp>SOT?23*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">Q</field>
-        <field name="Value">MOSFET-N-CH</field>
-        <field name="Footprint">Janelia:XFDFN-3</field>
-        <field name="Description">MOSFET N-CH 30V 1.5A 3PICOSTAR</field>
-        <field name="Manufacturer">Texas Instruments</field>
-        <field name="Manufacturer Part Number">CSD17483F4</field>
-        <field name="Vendor">Digi-Key</field>
-        <field name="Vendor Part Number">296-38914-1-ND</field>
-      </fields>
-      <pins>
-        <pin num="1" name="G" type="input"/>
-        <pin num="2" name="S" type="passive"/>
-        <pin num="3" name="D" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Janelia" part="MOUNTING_HOLE_2">
@@ -1351,13 +963,17 @@
         <field name="Vendor">Digi-Key</field>
         <field name="Vendor Part Number">296-17363-1-ND</field>
         <field name="Description">IC TRANSIMPEDANCE 1 CIRCUIT 8SON</field>
+        <field name="Sim.Enable">0</field>
       </fields>
       <pins>
+        <pin num="1" name="NC" type="no_connect"/>
         <pin num="2" name="-" type="input"/>
         <pin num="3" name="+" type="input"/>
         <pin num="4" name="V-" type="power_in"/>
+        <pin num="5" name="NC" type="no_connect"/>
         <pin num="6" name="" type="output"/>
         <pin num="7" name="V+" type="power_in"/>
+        <pin num="8" name="NC" type="no_connect"/>
         <pin num="9" name="EP" type="passive"/>
       </pins>
     </libpart>
@@ -1374,13 +990,14 @@
         <field name="Vendor">Digi-Key</field>
         <field name="Vendor Part Number">BPD-BQDA38V-FZ04CT-ND</field>
         <field name="Description">SENSOR PHOTODIODE RADIAL</field>
+        <field name="Sim.Enable">0</field>
       </fields>
       <pins>
         <pin num="1" name="K" type="passive"/>
         <pin num="2" name="A" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Janelia" part="R_23.2k_0402">
+    <libpart lib="Janelia" part="R_150k_1206">
       <footprints>
         <fp>R?</fp>
         <fp>SM0603</fp>
@@ -1390,14 +1007,14 @@
       </footprints>
       <fields>
         <field name="Reference">R</field>
-        <field name="Value">23.2k</field>
-        <field name="Footprint">Janelia:R_0402_1005Metric</field>
+        <field name="Value">150k</field>
+        <field name="Footprint">Janelia:R_1206_3216Metric</field>
         <field name="Vendor">Digi-Key</field>
-        <field name="Vendor Part Number">P23.2KLCT-ND</field>
-        <field name="Description">RES SMD 23.2K OHM 1% 1/10W</field>
-        <field name="Package">0402</field>
+        <field name="Vendor Part Number">P150KBCCT-ND</field>
+        <field name="Description">RES SMD 150K OHM 0.1% 1/4W</field>
+        <field name="Package">1206</field>
         <field name="Manufacturer">Panasonic Electronic Components</field>
-        <field name="Manufacturer Part Number">ERJ-2RKF2322X</field>
+        <field name="Manufacturer Part Number">ERA-8AEB154V</field>
       </fields>
       <pins>
         <pin num="1" name="" type="passive"/>
@@ -1428,7 +1045,7 @@
         <pin num="2" name="" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Janelia" part="R_2k_0402">
+    <libpart lib="Janelia" part="R_2M_1206">
       <footprints>
         <fp>R?</fp>
         <fp>SM0603</fp>
@@ -1438,14 +1055,14 @@
       </footprints>
       <fields>
         <field name="Reference">R</field>
-        <field name="Value">2k</field>
-        <field name="Footprint">Janelia:R_0402_1005Metric</field>
+        <field name="Value">2M</field>
+        <field name="Footprint">Janelia:R_1206_3216Metric</field>
         <field name="Vendor">Digi-Key</field>
-        <field name="Vendor Part Number">P2.00KLCT-ND</field>
-        <field name="Description">RES SMD 2K OHM 1% 1/10W</field>
-        <field name="Package">0402</field>
+        <field name="Vendor Part Number">10-ERJ-PM8F2004VCT-ND</field>
+        <field name="Description">RES 2.0M OHM 1% 0.66W</field>
+        <field name="Package">1206</field>
         <field name="Manufacturer">Panasonic Electronic Components</field>
-        <field name="Manufacturer Part Number">ERJ-2RKF2001X</field>
+        <field name="Manufacturer Part Number">ERJ-PM8F2004V</field>
       </fields>
       <pins>
         <pin num="1" name="" type="passive"/>
@@ -1524,72 +1141,6 @@
         <pin num="2" name="" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Janelia" part="R_Potentiometer_500k_3.9x3.18mm_11turn_Vertical">
-      <description>Potentiometer</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>Potentiometer*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">RV</field>
-        <field name="Value">500k</field>
-        <field name="Footprint">Janelia:Potentiometer_Bourns_3223W_Vertical</field>
-        <field name="Datasheet">~</field>
-        <field name="Manufacturer">Bourns Inc.</field>
-        <field name="Manufacturer Part Number">3223W-1-504E</field>
-        <field name="Description">TRIMMER 500K OHM 0.125W J LEAD</field>
-        <field name="Vendor">Digi-Key</field>
-        <field name="Vendor Part Number">3223W-1-504ECT-ND</field>
-      </fields>
-      <pins>
-        <pin num="1" name="1" type="passive"/>
-        <pin num="2" name="2" type="passive"/>
-        <pin num="3" name="3" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Janelia" part="SolderJumper_2_Open">
-      <description>Solder Jumper, 2-pole, open</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>SolderJumper*Open*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">JP</field>
-        <field name="Value">SolderJumper_2_Open</field>
-        <field name="Footprint">Janelia:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</field>
-        <field name="Datasheet">~</field>
-        <field name="Sim.Enable">0</field>
-      </fields>
-      <pins>
-        <pin num="1" name="A" type="passive"/>
-        <pin num="2" name="B" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Janelia" part="TSV630IQ1T">
-      <description>IC OPAMP GP 1 CIRCUIT 6DFN</description>
-      <footprints>
-        <fp>TO?220?5*StaggerOdd*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">TSV630IQ1T</field>
-        <field name="Footprint">Janelia:PSON40P120X130X50-6N</field>
-        <field name="Description">IC OPAMP GP 1 CIRCUIT</field>
-        <field name="Package">6DFN</field>
-        <field name="Manufacturer">STMicroelectronics</field>
-        <field name="Manufacturer Part Number">TSV630IQ1T</field>
-        <field name="Vendor">Digi-Key</field>
-        <field name="Vendor Part Number">497-17045-1-ND</field>
-      </fields>
-      <pins>
-        <pin num="1" name="" type="output"/>
-        <pin num="2" name="V-" type="power_in"/>
-        <pin num="3" name="-" type="input"/>
-        <pin num="4" name="+" type="input"/>
-        <pin num="5" name="~{SHDN}" type="power_in"/>
-        <pin num="6" name="V+" type="power_in"/>
-      </pins>
-    </libpart>
     <libpart lib="Janelia" part="UAF42_SMA">
       <footprints>
         <fp>UAF42*</fp>
@@ -1603,6 +1154,7 @@
         <field name="Description">IC UNIV ACTIVE FILTER 16-SOIC</field>
         <field name="Manufacturer">Texas Instruments</field>
         <field name="Manufacturer Part Number">UAF42AU</field>
+        <field name="Sim.Enable">0</field>
       </fields>
       <pins>
         <pin num="1" name="LPVo" type="bidirectional"/>
@@ -1633,6 +1185,7 @@
         <field name="Vendor">Digi-Key</field>
         <field name="Vendor Part Number">609-6109-1-ND</field>
         <field name="Description">CONN RCP USB3.1 TYPEC 24P SMD RA</field>
+        <field name="Sim.Enable">0</field>
       </fields>
       <pins>
         <pin num="A1" name="GND" type="power_out"/>
@@ -1675,8 +1228,6 @@
     <net code="1" name="/GND">
       <node ref="C1" pin="2" pintype="passive"/>
       <node ref="C10" pin="2" pintype="passive"/>
-      <node ref="C12" pin="2" pintype="passive"/>
-      <node ref="C13" pin="2" pintype="passive"/>
       <node ref="C4" pin="2" pintype="passive"/>
       <node ref="C5" pin="1" pintype="passive"/>
       <node ref="C6" pin="2" pintype="passive"/>
@@ -1690,12 +1241,6 @@
       <node ref="J1" pin="B12" pinfunction="GND" pintype="passive"/>
       <node ref="J2" pin="2" pinfunction="Ext" pintype="passive"/>
       <node ref="J3" pin="2" pinfunction="Ext" pintype="passive"/>
-      <node ref="J4" pin="2" pinfunction="Ext" pintype="passive"/>
-      <node ref="Q1" pin="2" pinfunction="S" pintype="passive"/>
-      <node ref="R10" pin="1" pintype="passive"/>
-      <node ref="R14" pin="2" pintype="passive"/>
-      <node ref="R16" pin="2" pintype="passive"/>
-      <node ref="R17" pin="2" pintype="passive"/>
       <node ref="R2" pin="2" pintype="passive"/>
       <node ref="R4" pin="2" pintype="passive"/>
       <node ref="R9" pin="2" pintype="passive"/>
@@ -1709,32 +1254,23 @@
       <node ref="U4" pin="3" pinfunction="+" pintype="input"/>
       <node ref="U4" pin="4" pinfunction="V-" pintype="power_in"/>
       <node ref="U4" pin="9" pinfunction="EP" pintype="passive"/>
-      <node ref="U5" pin="2" pinfunction="V-" pintype="power_in"/>
-      <node ref="U6" pin="7" pinfunction="EP" pintype="passive"/>
     </net>
-    <net code="2" name="/PHOTODIODE_RAW">
+    <net code="2" name="/PHOTODIODE_SIG">
       <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="In" pintype="passive"/>
       <node ref="R1" pin="1" pintype="passive"/>
-      <node ref="R12" pin="2" pintype="passive"/>
-      <node ref="RV2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
       <node ref="U4" pin="6" pintype="output"/>
-      <node ref="U5" pin="4" pinfunction="+" pintype="input"/>
     </net>
     <net code="3" name="/V5+">
       <node ref="C1" pin="1" pintype="passive"/>
       <node ref="C10" pin="1" pintype="passive"/>
-      <node ref="C12" pin="1" pintype="passive"/>
-      <node ref="C13" pin="1" pintype="passive"/>
       <node ref="J1" pin="A4" pinfunction="VBUS_A" pintype="power_out"/>
       <node ref="J1" pin="A9" pinfunction="VBUS_A" pintype="passive"/>
       <node ref="J1" pin="B4" pinfunction="VBUS_B" pintype="passive"/>
       <node ref="J1" pin="B9" pinfunction="VBUS_B" pintype="passive"/>
-      <node ref="R15" pin="1" pintype="passive"/>
       <node ref="U1" pin="6" pinfunction="IN" pintype="power_in"/>
       <node ref="U4" pin="7" pinfunction="V+" pintype="power_in"/>
-      <node ref="U5" pin="5" pinfunction="~{SHDN}" pintype="power_in"/>
-      <node ref="U5" pin="6" pinfunction="V+" pintype="power_in"/>
-      <node ref="U6" pin="6" pinfunction="VA" pintype="passive"/>
     </net>
     <net code="4" name="/V10+">
       <node ref="C4" pin="1" pintype="passive"/>
@@ -1748,7 +1284,6 @@
       <node ref="C5" pin="2" pintype="passive"/>
       <node ref="C8" pin="2" pintype="passive"/>
       <node ref="C9" pin="2" pintype="passive"/>
-      <node ref="R11" pin="2" pintype="passive"/>
       <node ref="U1" pin="4" pinfunction="V-" pintype="power_out"/>
       <node ref="U2" pin="10" pinfunction="V-" pintype="power_in"/>
       <node ref="U3" pin="10" pinfunction="V-" pintype="power_in"/>
@@ -1764,195 +1299,162 @@
       <node ref="U2" pin="5" pinfunction="AAin+" pintype="bidirectional"/>
     </net>
     <net code="8" name="/filter/HIGHPASS_AMPLIFIED">
+      <node ref="R10" pin="2" pintype="passive"/>
       <node ref="R3" pin="1" pintype="passive"/>
-      <node ref="RV1" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="U2" pin="7" pinfunction="AAVo" pintype="bidirectional"/>
     </net>
     <net code="9" name="/filter/LOWPASS">
       <node ref="U3" pin="1" pinfunction="LPVo" pintype="bidirectional"/>
       <node ref="U3" pin="5" pinfunction="AAin+" pintype="bidirectional"/>
     </net>
-    <net code="10" name="/led/LED_ENABLE">
-      <node ref="J4" pin="1" pinfunction="In" pintype="passive"/>
-      <node ref="Q1" pin="1" pinfunction="G" pintype="input"/>
-      <node ref="R15" pin="2" pintype="passive"/>
-      <node ref="R16" pin="1" pintype="passive"/>
-    </net>
-    <net code="11" name="/led/VB">
-      <node ref="Q1" pin="3" pinfunction="D" pintype="passive"/>
-      <node ref="U6" pin="4" pinfunction="VB" pintype="passive"/>
-    </net>
-    <net code="12" name="/photodiode/PHOTODIODE_BUFFERED">
-      <node ref="R13" pin="1" pintype="passive"/>
-      <node ref="U5" pin="1" pintype="output"/>
-      <node ref="U5" pin="3" pinfunction="-" pintype="input"/>
-    </net>
-    <net code="13" name="/photodiode/PHOTODIODE_BUFFERED_SCALED">
-      <node ref="J3" pin="1" pinfunction="In" pintype="passive"/>
-      <node ref="R13" pin="2" pintype="passive"/>
-      <node ref="R14" pin="1" pintype="passive"/>
-    </net>
-    <net code="14" name="/power/C1+">
+    <net code="10" name="/power/C1+">
       <node ref="C2" pin="1" pintype="passive"/>
       <node ref="U1" pin="8" pinfunction="C1+" pintype="passive"/>
     </net>
-    <net code="15" name="/power/C1-">
+    <net code="11" name="/power/C1-">
       <node ref="C2" pin="2" pintype="passive"/>
       <node ref="U1" pin="1" pinfunction="C1-" pintype="passive"/>
     </net>
-    <net code="16" name="/power/C2+">
+    <net code="12" name="/power/C2+">
       <node ref="C3" pin="1" pintype="passive"/>
       <node ref="U1" pin="2" pinfunction="C2+" pintype="passive"/>
     </net>
-    <net code="17" name="/power/C2-">
+    <net code="13" name="/power/C2-">
       <node ref="C3" pin="2" pintype="passive"/>
       <node ref="U1" pin="3" pinfunction="C2-" pintype="passive"/>
     </net>
-    <net code="18" name="Net-(D1-K)">
+    <net code="14" name="Net-(D1-K)">
       <node ref="C11" pin="1" pintype="passive"/>
       <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="RV2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
       <node ref="U4" pin="2" pinfunction="-" pintype="input"/>
     </net>
-    <net code="19" name="Net-(D2-A)">
-      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="U6" pin="1" pinfunction="P1" pintype="power_out"/>
-    </net>
-    <net code="20" name="Net-(D2-K)">
-      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="U6" pin="3" pinfunction="N1" pintype="power_out"/>
-    </net>
-    <net code="21" name="Net-(JP1-A)">
-      <node ref="R17" pin="1" pintype="passive"/>
-    </net>
-    <net code="22" name="Net-(R10-Pad2)">
-      <node ref="R10" pin="2" pintype="passive"/>
-      <node ref="R11" pin="1" pintype="passive"/>
-      <node ref="R12" pin="1" pintype="passive"/>
-    </net>
-    <net code="23" name="Net-(U2-AAin-)">
+    <net code="15" name="Net-(U2-AAin-)">
+      <node ref="R10" pin="1" pintype="passive"/>
       <node ref="R9" pin="1" pintype="passive"/>
-      <node ref="RV1" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U2" pin="6" pinfunction="AAin-" pintype="bidirectional"/>
     </net>
-    <net code="24" name="Net-(U2-BPVo)">
+    <net code="16" name="Net-(U2-BPVo)">
       <node ref="R7" pin="1" pintype="passive"/>
       <node ref="U2" pin="8" pinfunction="BPVo" pintype="bidirectional"/>
     </net>
-    <net code="25" name="Net-(U2-Fadj1)">
+    <net code="17" name="Net-(U2-Fadj1)">
       <node ref="R5" pin="2" pintype="passive"/>
       <node ref="U2" pin="9" pinfunction="Fadj1" pintype="bidirectional"/>
     </net>
-    <net code="26" name="Net-(U2-Fadj2)">
+    <net code="18" name="Net-(U2-Fadj2)">
       <node ref="R7" pin="2" pintype="passive"/>
       <node ref="U2" pin="16" pinfunction="Fadj2" pintype="bidirectional"/>
     </net>
-    <net code="27" name="Net-(U2-Vin1)">
+    <net code="19" name="Net-(U2-Vin1)">
       <node ref="R1" pin="2" pintype="passive"/>
       <node ref="U2" pin="13" pinfunction="Vin1" pintype="bidirectional"/>
     </net>
-    <net code="28" name="Net-(U2-Vin2)">
+    <net code="20" name="Net-(U2-Vin2)">
       <node ref="R2" pin="1" pintype="passive"/>
       <node ref="U2" pin="4" pinfunction="Vin2" pintype="bidirectional"/>
     </net>
-    <net code="29" name="Net-(U3-BPVo)">
+    <net code="21" name="Net-(U3-BPVo)">
       <node ref="R8" pin="1" pintype="passive"/>
       <node ref="U3" pin="8" pinfunction="BPVo" pintype="bidirectional"/>
     </net>
-    <net code="30" name="Net-(U3-Fadj1)">
+    <net code="22" name="Net-(U3-Fadj1)">
       <node ref="R6" pin="2" pintype="passive"/>
       <node ref="U3" pin="9" pinfunction="Fadj1" pintype="bidirectional"/>
     </net>
-    <net code="31" name="Net-(U3-Fadj2)">
+    <net code="23" name="Net-(U3-Fadj2)">
       <node ref="R8" pin="2" pintype="passive"/>
       <node ref="U3" pin="16" pinfunction="Fadj2" pintype="bidirectional"/>
     </net>
-    <net code="32" name="Net-(U3-HPVo)">
+    <net code="24" name="Net-(U3-HPVo)">
       <node ref="R6" pin="1" pintype="passive"/>
       <node ref="U3" pin="14" pinfunction="HPVo" pintype="bidirectional"/>
     </net>
-    <net code="33" name="Net-(U3-Vin1)">
+    <net code="25" name="Net-(U3-Vin1)">
       <node ref="R3" pin="2" pintype="passive"/>
       <node ref="U3" pin="13" pinfunction="Vin1" pintype="bidirectional"/>
     </net>
-    <net code="34" name="Net-(U3-Vin2)">
+    <net code="26" name="Net-(U3-Vin2)">
       <node ref="R4" pin="1" pintype="passive"/>
       <node ref="U3" pin="4" pinfunction="Vin2" pintype="bidirectional"/>
     </net>
-    <net code="35" name="unconnected-(J1-CC1-PadA5)">
+    <net code="27" name="unconnected-(J1-CC1-PadA5)">
       <node ref="J1" pin="A5" pinfunction="CC1" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="36" name="unconnected-(J1-CC2-PadB5)">
+    <net code="28" name="unconnected-(J1-CC2-PadB5)">
       <node ref="J1" pin="B5" pinfunction="CC2" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="37" name="unconnected-(J1-DN1-PadA7)">
+    <net code="29" name="unconnected-(J1-DN1-PadA7)">
       <node ref="J1" pin="A7" pinfunction="DN1" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="38" name="unconnected-(J1-DN2-PadB7)">
+    <net code="30" name="unconnected-(J1-DN2-PadB7)">
       <node ref="J1" pin="B7" pinfunction="DN2" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="39" name="unconnected-(J1-DP1-PadA6)">
+    <net code="31" name="unconnected-(J1-DP1-PadA6)">
       <node ref="J1" pin="A6" pinfunction="DP1" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="40" name="unconnected-(J1-DP2-PadB6)">
+    <net code="32" name="unconnected-(J1-DP2-PadB6)">
       <node ref="J1" pin="B6" pinfunction="DP2" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="41" name="unconnected-(J1-SBU1-PadA8)">
+    <net code="33" name="unconnected-(J1-SBU1-PadA8)">
       <node ref="J1" pin="A8" pinfunction="SBU1" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="42" name="unconnected-(J1-SBU2-PadB8)">
+    <net code="34" name="unconnected-(J1-SBU2-PadB8)">
       <node ref="J1" pin="B8" pinfunction="SBU2" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="43" name="unconnected-(J1-SHIELD-PadS1)">
+    <net code="35" name="unconnected-(J1-SHIELD-PadS1)">
       <node ref="J1" pin="S1" pinfunction="SHIELD" pintype="passive+no_connect"/>
     </net>
-    <net code="44" name="unconnected-(J1-SHIELD-PadS2)">
+    <net code="36" name="unconnected-(J1-SHIELD-PadS2)">
       <node ref="J1" pin="S2" pinfunction="SHIELD" pintype="passive+no_connect"/>
     </net>
-    <net code="45" name="unconnected-(J1-SHIELD-PadS3)">
+    <net code="37" name="unconnected-(J1-SHIELD-PadS3)">
       <node ref="J1" pin="S3" pinfunction="SHIELD" pintype="passive+no_connect"/>
     </net>
-    <net code="46" name="unconnected-(J1-SHIELD-PadS4)">
+    <net code="38" name="unconnected-(J1-SHIELD-PadS4)">
       <node ref="J1" pin="S4" pinfunction="SHIELD" pintype="passive+no_connect"/>
     </net>
-    <net code="47" name="unconnected-(J1-SSRXN1-PadB10)">
+    <net code="39" name="unconnected-(J1-SSRXN1-PadB10)">
       <node ref="J1" pin="B10" pinfunction="SSRXN1" pintype="input+no_connect"/>
     </net>
-    <net code="48" name="unconnected-(J1-SSRXN2-PadA10)">
+    <net code="40" name="unconnected-(J1-SSRXN2-PadA10)">
       <node ref="J1" pin="A10" pinfunction="SSRXN2" pintype="input+no_connect"/>
     </net>
-    <net code="49" name="unconnected-(J1-SSRXP1-PadB11)">
+    <net code="41" name="unconnected-(J1-SSRXP1-PadB11)">
       <node ref="J1" pin="B11" pinfunction="SSRXP1" pintype="input+no_connect"/>
     </net>
-    <net code="50" name="unconnected-(J1-SSRXP2-PadA11)">
+    <net code="42" name="unconnected-(J1-SSRXP2-PadA11)">
       <node ref="J1" pin="A11" pinfunction="SSRXP2" pintype="input+no_connect"/>
     </net>
-    <net code="51" name="unconnected-(J1-SSTXN1-PadA3)">
+    <net code="43" name="unconnected-(J1-SSTXN1-PadA3)">
       <node ref="J1" pin="A3" pinfunction="SSTXN1" pintype="output+no_connect"/>
     </net>
-    <net code="52" name="unconnected-(J1-SSTXN2-PadB3)">
+    <net code="44" name="unconnected-(J1-SSTXN2-PadB3)">
       <node ref="J1" pin="B3" pinfunction="SSTXN2" pintype="output+no_connect"/>
     </net>
-    <net code="53" name="unconnected-(J1-SSTXP1-PadA2)">
+    <net code="45" name="unconnected-(J1-SSTXP1-PadA2)">
       <node ref="J1" pin="A2" pinfunction="SSTXP1" pintype="output+no_connect"/>
     </net>
-    <net code="54" name="unconnected-(J1-SSTXP2-PadB2)">
+    <net code="46" name="unconnected-(J1-SSTXP2-PadB2)">
       <node ref="J1" pin="B2" pinfunction="SSTXP2" pintype="output+no_connect"/>
     </net>
-    <net code="55" name="unconnected-(RV1-Pad3)">
-      <node ref="RV1" pin="3" pinfunction="3" pintype="passive+no_connect"/>
-    </net>
-    <net code="56" name="unconnected-(RV2-Pad3)">
-      <node ref="RV2" pin="3" pinfunction="3" pintype="passive+no_connect"/>
-    </net>
-    <net code="57" name="unconnected-(U2-LPVo-Pad1)">
+    <net code="47" name="unconnected-(U2-LPVo-Pad1)">
       <node ref="U2" pin="1" pinfunction="LPVo" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="58" name="unconnected-(U2-Vin3-Pad3)">
+    <net code="48" name="unconnected-(U2-Vin3-Pad3)">
       <node ref="U2" pin="3" pinfunction="Vin3" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="59" name="unconnected-(U3-Vin3-Pad3)">
+    <net code="49" name="unconnected-(U3-Vin3-Pad3)">
       <node ref="U3" pin="3" pinfunction="Vin3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="50" name="unconnected-(U4-NC-Pad1)">
+      <node ref="U4" pin="1" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="51" name="unconnected-(U4-NC-Pad5)">
+      <node ref="U4" pin="5" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="52" name="unconnected-(U4-NC-Pad8)">
+      <node ref="U4" pin="8" pinfunction="NC" pintype="no_connect"/>
     </net>
   </nets>
 </export>

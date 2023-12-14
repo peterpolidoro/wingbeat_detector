@@ -6,7 +6,7 @@
 
   (title_block
     (title "wingbeat_detector")
-    (date "2023-12-13")
+    (date "2023-12-14")
     (rev "4.0")
     (company "Peter Polidoro")
   )
@@ -1509,7 +1509,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 47491412-6333-44d6-a4b7-9f1797366cdc)
   )
-  (text "Vout/Vin = GAIN1 = Ra/Rb + 1\nLow Gain: 5k/249 + 1 = 21\nHigh Gain: 500k/249 + 1 = 2009 "
+  (text "Vout/Vin = FILTER GAIN = Ra/Rb + 1\nLow Gain: 5k/249 + 1 = 21\nHigh Gain: 500k/249 + 1 = 2009 "
     (at 161.29 49.53 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 5b4eb283-0a49-4e9b-b7ef-f7ec943b2882)
@@ -2305,7 +2305,7 @@
     (property "Reference" "R14" (at 176.53 50.8 90) (do_not_autoplace)
       (effects (font (size 1.016 1.016)))
     )
-    (property "Value" "GAIN1" (at 176.53 53.34 90) (do_not_autoplace)
+    (property "Value" "150k" (at 176.53 53.34 90) (do_not_autoplace)
       (effects (font (size 0.762 0.762)))
     )
     (property "Footprint" "Janelia:R_1206_3216Metric" (at 176.53 55.118 90)
