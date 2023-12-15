@@ -101,8 +101,8 @@
       <footprint>Janelia:C_0603_1608Metric</footprint>
       <fields>
         <field name="Description">CAP CER 4.7UF 16V X5R 0603</field>
-        <field name="Manufacturer">TDK Corporation</field>
-        <field name="Manufacturer Part Number">C1608X5R1C475K080AC</field>
+        <field name="MFN">TDK Corporation</field>
+        <field name="MPN">C1608X5R1C475K080AC</field>
         <field name="Vendor">Digi-Key</field>
         <field name="Vendor Part Number">445-7478-1-ND</field>
       </fields>
@@ -111,8 +111,8 @@
       <property name="Vendor Part Number" value="445-7478-1-ND"/>
       <property name="Description" value="CAP CER 4.7UF 16V X5R 0603"/>
       <property name="Package" value=""/>
-      <property name="Manufacturer" value="TDK Corporation"/>
-      <property name="Manufacturer Part Number" value="C1608X5R1C475K080AC"/>
+      <property name="MFN" value="TDK Corporation"/>
+      <property name="MPN" value="C1608X5R1C475K080AC"/>
       <property name="Sheetname" value="power"/>
       <property name="Sheetfile" value="power.kicad_sch"/>
       <sheetpath names="/power/" tstamps="/6d9b1002-85b6-4eae-b3fb-51bf0c35118b/"/>
@@ -123,8 +123,8 @@
       <footprint>Janelia:C_0603_1608Metric</footprint>
       <fields>
         <field name="Description">CAP CER 4.7UF 16V X5R 0603</field>
-        <field name="Manufacturer">TDK Corporation</field>
-        <field name="Manufacturer Part Number">C1608X5R1C475K080AC</field>
+        <field name="MFN">TDK Corporation</field>
+        <field name="MPN">C1608X5R1C475K080AC</field>
         <field name="Vendor">Digi-Key</field>
         <field name="Vendor Part Number">445-7478-1-ND</field>
       </fields>
@@ -133,8 +133,8 @@
       <property name="Vendor Part Number" value="445-7478-1-ND"/>
       <property name="Description" value="CAP CER 4.7UF 16V X5R 0603"/>
       <property name="Package" value=""/>
-      <property name="Manufacturer" value="TDK Corporation"/>
-      <property name="Manufacturer Part Number" value="C1608X5R1C475K080AC"/>
+      <property name="MFN" value="TDK Corporation"/>
+      <property name="MPN" value="C1608X5R1C475K080AC"/>
       <property name="Sheetname" value="power"/>
       <property name="Sheetfile" value="power.kicad_sch"/>
       <sheetpath names="/power/" tstamps="/6d9b1002-85b6-4eae-b3fb-51bf0c35118b/"/>
@@ -145,8 +145,8 @@
       <footprint>Janelia:C_0603_1608Metric</footprint>
       <fields>
         <field name="Description">CAP CER 4.7UF 16V X5R 0603</field>
-        <field name="Manufacturer">TDK Corporation</field>
-        <field name="Manufacturer Part Number">C1608X5R1C475K080AC</field>
+        <field name="MFN">TDK Corporation</field>
+        <field name="MPN">C1608X5R1C475K080AC</field>
         <field name="Vendor">Digi-Key</field>
         <field name="Vendor Part Number">445-7478-1-ND</field>
       </fields>
@@ -155,8 +155,8 @@
       <property name="Vendor Part Number" value="445-7478-1-ND"/>
       <property name="Description" value="CAP CER 4.7UF 16V X5R 0603"/>
       <property name="Package" value=""/>
-      <property name="Manufacturer" value="TDK Corporation"/>
-      <property name="Manufacturer Part Number" value="C1608X5R1C475K080AC"/>
+      <property name="MFN" value="TDK Corporation"/>
+      <property name="MPN" value="C1608X5R1C475K080AC"/>
       <property name="Sheetname" value="power"/>
       <property name="Sheetfile" value="power.kicad_sch"/>
       <sheetpath names="/power/" tstamps="/6d9b1002-85b6-4eae-b3fb-51bf0c35118b/"/>
@@ -167,8 +167,8 @@
       <footprint>Janelia:C_0603_1608Metric</footprint>
       <fields>
         <field name="Description">CAP CER 4.7UF 16V X5R 0603</field>
-        <field name="Manufacturer">TDK Corporation</field>
-        <field name="Manufacturer Part Number">C1608X5R1C475K080AC</field>
+        <field name="MFN">TDK Corporation</field>
+        <field name="MPN">C1608X5R1C475K080AC</field>
         <field name="Vendor">Digi-Key</field>
         <field name="Vendor Part Number">445-7478-1-ND</field>
       </fields>
@@ -177,8 +177,8 @@
       <property name="Vendor Part Number" value="445-7478-1-ND"/>
       <property name="Description" value="CAP CER 4.7UF 16V X5R 0603"/>
       <property name="Package" value=""/>
-      <property name="Manufacturer" value="TDK Corporation"/>
-      <property name="Manufacturer Part Number" value="C1608X5R1C475K080AC"/>
+      <property name="MFN" value="TDK Corporation"/>
+      <property name="MPN" value="C1608X5R1C475K080AC"/>
       <property name="Sheetname" value="power"/>
       <property name="Sheetfile" value="power.kicad_sch"/>
       <sheetpath names="/power/" tstamps="/6d9b1002-85b6-4eae-b3fb-51bf0c35118b/"/>
@@ -189,8 +189,8 @@
       <footprint>Janelia:C_0603_1608Metric</footprint>
       <fields>
         <field name="Description">CAP CER 4.7UF 16V X5R 0603</field>
-        <field name="Manufacturer">TDK Corporation</field>
-        <field name="Manufacturer Part Number">C1608X5R1C475K080AC</field>
+        <field name="MFN">TDK Corporation</field>
+        <field name="MPN">C1608X5R1C475K080AC</field>
         <field name="Vendor">Digi-Key</field>
         <field name="Vendor Part Number">445-7478-1-ND</field>
       </fields>
@@ -199,8 +199,8 @@
       <property name="Vendor Part Number" value="445-7478-1-ND"/>
       <property name="Description" value="CAP CER 4.7UF 16V X5R 0603"/>
       <property name="Package" value=""/>
-      <property name="Manufacturer" value="TDK Corporation"/>
-      <property name="Manufacturer Part Number" value="C1608X5R1C475K080AC"/>
+      <property name="MFN" value="TDK Corporation"/>
+      <property name="MPN" value="C1608X5R1C475K080AC"/>
       <property name="Sheetname" value="power"/>
       <property name="Sheetfile" value="power.kicad_sch"/>
       <sheetpath names="/power/" tstamps="/6d9b1002-85b6-4eae-b3fb-51bf0c35118b/"/>
@@ -211,15 +211,15 @@
       <footprint>Janelia:USB_C_Receptacle_Amphenol_10137062-00021LF</footprint>
       <fields>
         <field name="Description">CONN RCP USB3.1 TYPEC 24P SMD RA</field>
-        <field name="Manufacturer">Amphenol</field>
-        <field name="Manufacturer Part Number">10137062-00021LF</field>
+        <field name="MFN">Amphenol</field>
+        <field name="MPN">10137062-00021LF</field>
         <field name="Sim.Enable">0</field>
         <field name="Vendor">Digi-Key</field>
         <field name="Vendor Part Number">609-6109-1-ND</field>
       </fields>
       <libsource lib="Janelia" part="USB_C_10137062-00021LF" description=""/>
-      <property name="Manufacturer" value="Amphenol"/>
-      <property name="Manufacturer Part Number" value="10137062-00021LF"/>
+      <property name="MFN" value="Amphenol"/>
+      <property name="MPN" value="10137062-00021LF"/>
       <property name="Vendor" value="Digi-Key"/>
       <property name="Vendor Part Number" value="609-6109-1-ND"/>
       <property name="Description" value="CONN RCP USB3.1 TYPEC 24P SMD RA"/>
@@ -234,8 +234,8 @@
       <footprint>Janelia:SOP65P490X110-8N</footprint>
       <fields>
         <field name="Description">IC REG CHARGE PUMP INV DL 8UMAX</field>
-        <field name="Manufacturer">Maxim Integrated</field>
-        <field name="Manufacturer Part Number">MAX865EUA+</field>
+        <field name="MFN">Maxim Integrated</field>
+        <field name="MPN">MAX865EUA+</field>
         <field name="Package">SOP65P490X110-8N</field>
         <field name="Sim.Enable">0</field>
         <field name="Vendor">Digi-Key</field>
@@ -243,8 +243,8 @@
       </fields>
       <libsource lib="Janelia" part="MAX865EUA+" description=""/>
       <property name="Package" value="SOP65P490X110-8N"/>
-      <property name="Manufacturer" value="Maxim Integrated"/>
-      <property name="Manufacturer Part Number" value="MAX865EUA+"/>
+      <property name="MFN" value="Maxim Integrated"/>
+      <property name="MPN" value="MAX865EUA+"/>
       <property name="Vendor" value="Digi-Key"/>
       <property name="Vendor Part Number" value="MAX865EUA+-ND"/>
       <property name="Description" value="IC REG CHARGE PUMP INV DL 8UMAX"/>
@@ -259,8 +259,8 @@
       <footprint>Janelia:C_0402_1005Metric</footprint>
       <fields>
         <field name="Description">CAP CER 0.1UF 25V Y5V</field>
-        <field name="Manufacturer">Yageo</field>
-        <field name="Manufacturer Part Number">CC0402ZRY5V8BB104</field>
+        <field name="MFN">Yageo</field>
+        <field name="MPN">CC0402ZRY5V8BB104</field>
         <field name="Package">0402</field>
         <field name="Vendor">Digi-Key</field>
         <field name="Vendor Part Number">311-1375-1-ND</field>
@@ -270,8 +270,8 @@
       <property name="Vendor Part Number" value="311-1375-1-ND"/>
       <property name="Description" value="CAP CER 0.1UF 25V Y5V"/>
       <property name="Package" value="0402"/>
-      <property name="Manufacturer" value="Yageo"/>
-      <property name="Manufacturer Part Number" value="CC0402ZRY5V8BB104"/>
+      <property name="MFN" value="Yageo"/>
+      <property name="MPN" value="CC0402ZRY5V8BB104"/>
       <property name="Sheetname" value="filter"/>
       <property name="Sheetfile" value="filter.kicad_sch"/>
       <sheetpath names="/filter/" tstamps="/6cde90e6-6156-42e3-aaac-c45ad2bfab8b/"/>
@@ -282,8 +282,8 @@
       <footprint>Janelia:C_0402_1005Metric</footprint>
       <fields>
         <field name="Description">CAP CER 0.1UF 25V Y5V</field>
-        <field name="Manufacturer">Yageo</field>
-        <field name="Manufacturer Part Number">CC0402ZRY5V8BB104</field>
+        <field name="MFN">Yageo</field>
+        <field name="MPN">CC0402ZRY5V8BB104</field>
         <field name="Package">0402</field>
         <field name="Vendor">Digi-Key</field>
         <field name="Vendor Part Number">311-1375-1-ND</field>
@@ -293,8 +293,8 @@
       <property name="Vendor Part Number" value="311-1375-1-ND"/>
       <property name="Description" value="CAP CER 0.1UF 25V Y5V"/>
       <property name="Package" value="0402"/>
-      <property name="Manufacturer" value="Yageo"/>
-      <property name="Manufacturer Part Number" value="CC0402ZRY5V8BB104"/>
+      <property name="MFN" value="Yageo"/>
+      <property name="MPN" value="CC0402ZRY5V8BB104"/>
       <property name="Sheetname" value="filter"/>
       <property name="Sheetfile" value="filter.kicad_sch"/>
       <sheetpath names="/filter/" tstamps="/6cde90e6-6156-42e3-aaac-c45ad2bfab8b/"/>
@@ -305,8 +305,8 @@
       <footprint>Janelia:C_0402_1005Metric</footprint>
       <fields>
         <field name="Description">CAP CER 0.1UF 25V Y5V</field>
-        <field name="Manufacturer">Yageo</field>
-        <field name="Manufacturer Part Number">CC0402ZRY5V8BB104</field>
+        <field name="MFN">Yageo</field>
+        <field name="MPN">CC0402ZRY5V8BB104</field>
         <field name="Package">0402</field>
         <field name="Vendor">Digi-Key</field>
         <field name="Vendor Part Number">311-1375-1-ND</field>
@@ -316,8 +316,8 @@
       <property name="Vendor Part Number" value="311-1375-1-ND"/>
       <property name="Description" value="CAP CER 0.1UF 25V Y5V"/>
       <property name="Package" value="0402"/>
-      <property name="Manufacturer" value="Yageo"/>
-      <property name="Manufacturer Part Number" value="CC0402ZRY5V8BB104"/>
+      <property name="MFN" value="Yageo"/>
+      <property name="MPN" value="CC0402ZRY5V8BB104"/>
       <property name="Sheetname" value="filter"/>
       <property name="Sheetfile" value="filter.kicad_sch"/>
       <sheetpath names="/filter/" tstamps="/6cde90e6-6156-42e3-aaac-c45ad2bfab8b/"/>
@@ -328,8 +328,8 @@
       <footprint>Janelia:C_0402_1005Metric</footprint>
       <fields>
         <field name="Description">CAP CER 0.1UF 25V Y5V</field>
-        <field name="Manufacturer">Yageo</field>
-        <field name="Manufacturer Part Number">CC0402ZRY5V8BB104</field>
+        <field name="MFN">Yageo</field>
+        <field name="MPN">CC0402ZRY5V8BB104</field>
         <field name="Package">0402</field>
         <field name="Vendor">Digi-Key</field>
         <field name="Vendor Part Number">311-1375-1-ND</field>
@@ -339,8 +339,8 @@
       <property name="Vendor Part Number" value="311-1375-1-ND"/>
       <property name="Description" value="CAP CER 0.1UF 25V Y5V"/>
       <property name="Package" value="0402"/>
-      <property name="Manufacturer" value="Yageo"/>
-      <property name="Manufacturer Part Number" value="CC0402ZRY5V8BB104"/>
+      <property name="MFN" value="Yageo"/>
+      <property name="MPN" value="CC0402ZRY5V8BB104"/>
       <property name="Sheetname" value="filter"/>
       <property name="Sheetfile" value="filter.kicad_sch"/>
       <sheetpath names="/filter/" tstamps="/6cde90e6-6156-42e3-aaac-c45ad2bfab8b/"/>
@@ -351,15 +351,15 @@
       <footprint>Janelia:UMC_AMPHENOL_A-1JB</footprint>
       <fields>
         <field name="Description">CONN UMC JACK STR 50 OHM SMD</field>
-        <field name="Manufacturer">Amphenol RF</field>
-        <field name="Manufacturer Part Number">A-1JB</field>
+        <field name="MFN">Amphenol RF</field>
+        <field name="MPN">A-1JB</field>
         <field name="Sim.Enable">0</field>
         <field name="Vendor">Digi-Key</field>
         <field name="Vendor Part Number">115-A-1JBCT-ND</field>
       </fields>
       <libsource lib="Janelia" part="CONN_UMC_JACK_SMD" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"/>
-      <property name="Manufacturer" value="Amphenol RF"/>
-      <property name="Manufacturer Part Number" value="A-1JB"/>
+      <property name="MFN" value="Amphenol RF"/>
+      <property name="MPN" value="A-1JB"/>
       <property name="Vendor" value="Digi-Key"/>
       <property name="Vendor Part Number" value="115-A-1JBCT-ND"/>
       <property name="Description" value="CONN UMC JACK STR 50 OHM SMD"/>
@@ -376,8 +376,8 @@
       <footprint>Janelia:R_0402_1005Metric</footprint>
       <fields>
         <field name="Description">RES SMD 49.9K OHM 1% 1/10W</field>
-        <field name="Manufacturer">Panasonic Electronic Components</field>
-        <field name="Manufacturer Part Number">ERJ-2RKF4992X</field>
+        <field name="MFN">Panasonic Electronic Components</field>
+        <field name="MPN">ERJ-2RKF4992X</field>
         <field name="Package">0402</field>
         <field name="Vendor">Digi-Key</field>
         <field name="Vendor Part Number">P49.9KLCT-ND</field>
@@ -387,8 +387,8 @@
       <property name="Vendor Part Number" value="P49.9KLCT-ND"/>
       <property name="Description" value="RES SMD 49.9K OHM 1% 1/10W"/>
       <property name="Package" value="0402"/>
-      <property name="Manufacturer" value="Panasonic Electronic Components"/>
-      <property name="Manufacturer Part Number" value="ERJ-2RKF4992X"/>
+      <property name="MFN" value="Panasonic Electronic Components"/>
+      <property name="MPN" value="ERJ-2RKF4992X"/>
       <property name="Sheetname" value="filter"/>
       <property name="Sheetfile" value="filter.kicad_sch"/>
       <sheetpath names="/filter/" tstamps="/6cde90e6-6156-42e3-aaac-c45ad2bfab8b/"/>
@@ -399,8 +399,8 @@
       <footprint>Janelia:R_0402_1005Metric</footprint>
       <fields>
         <field name="Description">RES SMD 68.1K OHM 1% 1/10W</field>
-        <field name="Manufacturer">Panasonic Electronic Components</field>
-        <field name="Manufacturer Part Number">ERJ-2RKF6812X</field>
+        <field name="MFN">Panasonic Electronic Components</field>
+        <field name="MPN">ERJ-2RKF6812X</field>
         <field name="Package">0402</field>
         <field name="Vendor">Digi-Key</field>
         <field name="Vendor Part Number">P68.1KLCT-ND</field>
@@ -410,8 +410,8 @@
       <property name="Vendor Part Number" value="P68.1KLCT-ND"/>
       <property name="Description" value="RES SMD 68.1K OHM 1% 1/10W"/>
       <property name="Package" value="0402"/>
-      <property name="Manufacturer" value="Panasonic Electronic Components"/>
-      <property name="Manufacturer Part Number" value="ERJ-2RKF6812X"/>
+      <property name="MFN" value="Panasonic Electronic Components"/>
+      <property name="MPN" value="ERJ-2RKF6812X"/>
       <property name="Sheetname" value="filter"/>
       <property name="Sheetfile" value="filter.kicad_sch"/>
       <sheetpath names="/filter/" tstamps="/6cde90e6-6156-42e3-aaac-c45ad2bfab8b/"/>
@@ -422,8 +422,8 @@
       <footprint>Janelia:R_0402_1005Metric</footprint>
       <fields>
         <field name="Description">RES SMD 49.9K OHM 1% 1/10W</field>
-        <field name="Manufacturer">Panasonic Electronic Components</field>
-        <field name="Manufacturer Part Number">ERJ-2RKF4992X</field>
+        <field name="MFN">Panasonic Electronic Components</field>
+        <field name="MPN">ERJ-2RKF4992X</field>
         <field name="Package">0402</field>
         <field name="Vendor">Digi-Key</field>
         <field name="Vendor Part Number">P49.9KLCT-ND</field>
@@ -433,8 +433,8 @@
       <property name="Vendor Part Number" value="P49.9KLCT-ND"/>
       <property name="Description" value="RES SMD 49.9K OHM 1% 1/10W"/>
       <property name="Package" value="0402"/>
-      <property name="Manufacturer" value="Panasonic Electronic Components"/>
-      <property name="Manufacturer Part Number" value="ERJ-2RKF4992X"/>
+      <property name="MFN" value="Panasonic Electronic Components"/>
+      <property name="MPN" value="ERJ-2RKF4992X"/>
       <property name="Sheetname" value="filter"/>
       <property name="Sheetfile" value="filter.kicad_sch"/>
       <sheetpath names="/filter/" tstamps="/6cde90e6-6156-42e3-aaac-c45ad2bfab8b/"/>
@@ -445,8 +445,8 @@
       <footprint>Janelia:R_0402_1005Metric</footprint>
       <fields>
         <field name="Description">RES SMD 68.1K OHM 1% 1/10W</field>
-        <field name="Manufacturer">Panasonic Electronic Components</field>
-        <field name="Manufacturer Part Number">ERJ-2RKF6812X</field>
+        <field name="MFN">Panasonic Electronic Components</field>
+        <field name="MPN">ERJ-2RKF6812X</field>
         <field name="Package">0402</field>
         <field name="Vendor">Digi-Key</field>
         <field name="Vendor Part Number">P68.1KLCT-ND</field>
@@ -456,8 +456,8 @@
       <property name="Vendor Part Number" value="P68.1KLCT-ND"/>
       <property name="Description" value="RES SMD 68.1K OHM 1% 1/10W"/>
       <property name="Package" value="0402"/>
-      <property name="Manufacturer" value="Panasonic Electronic Components"/>
-      <property name="Manufacturer Part Number" value="ERJ-2RKF6812X"/>
+      <property name="MFN" value="Panasonic Electronic Components"/>
+      <property name="MPN" value="ERJ-2RKF6812X"/>
       <property name="Sheetname" value="filter"/>
       <property name="Sheetfile" value="filter.kicad_sch"/>
       <sheetpath names="/filter/" tstamps="/6cde90e6-6156-42e3-aaac-c45ad2bfab8b/"/>
@@ -468,8 +468,8 @@
       <footprint>Janelia:R_0603_1608Metric</footprint>
       <fields>
         <field name="Description">RES SMD 3.65M OHM 1% 1/10W</field>
-        <field name="Manufacturer">Vishay Dale</field>
-        <field name="Manufacturer Part Number">CRCW06033M65FKEA</field>
+        <field name="MFN">Vishay Dale</field>
+        <field name="MPN">CRCW06033M65FKEA</field>
         <field name="Package">0603</field>
         <field name="Vendor">Digi-Key</field>
         <field name="Vendor Part Number">541-3.65MHCT-ND</field>
@@ -479,8 +479,8 @@
       <property name="Vendor Part Number" value="541-3.65MHCT-ND"/>
       <property name="Description" value="RES SMD 3.65M OHM 1% 1/10W"/>
       <property name="Package" value="0603"/>
-      <property name="Manufacturer" value="Vishay Dale"/>
-      <property name="Manufacturer Part Number" value="CRCW06033M65FKEA"/>
+      <property name="MFN" value="Vishay Dale"/>
+      <property name="MPN" value="CRCW06033M65FKEA"/>
       <property name="Sheetname" value="filter"/>
       <property name="Sheetfile" value="filter.kicad_sch"/>
       <sheetpath names="/filter/" tstamps="/6cde90e6-6156-42e3-aaac-c45ad2bfab8b/"/>
@@ -491,8 +491,8 @@
       <footprint>Janelia:R_0402_1005Metric</footprint>
       <fields>
         <field name="Description">RES SMD 49.9K OHM 1% 1/10W</field>
-        <field name="Manufacturer">Panasonic Electronic Components</field>
-        <field name="Manufacturer Part Number">ERJ-2RKF4992X</field>
+        <field name="MFN">Panasonic Electronic Components</field>
+        <field name="MPN">ERJ-2RKF4992X</field>
         <field name="Package">0402</field>
         <field name="Vendor">Digi-Key</field>
         <field name="Vendor Part Number">P49.9KLCT-ND</field>
@@ -502,8 +502,8 @@
       <property name="Vendor Part Number" value="P49.9KLCT-ND"/>
       <property name="Description" value="RES SMD 49.9K OHM 1% 1/10W"/>
       <property name="Package" value="0402"/>
-      <property name="Manufacturer" value="Panasonic Electronic Components"/>
-      <property name="Manufacturer Part Number" value="ERJ-2RKF4992X"/>
+      <property name="MFN" value="Panasonic Electronic Components"/>
+      <property name="MPN" value="ERJ-2RKF4992X"/>
       <property name="Sheetname" value="filter"/>
       <property name="Sheetfile" value="filter.kicad_sch"/>
       <sheetpath names="/filter/" tstamps="/6cde90e6-6156-42e3-aaac-c45ad2bfab8b/"/>
@@ -514,8 +514,8 @@
       <footprint>Janelia:R_0603_1608Metric</footprint>
       <fields>
         <field name="Description">RES SMD 3.65M OHM 1% 1/10W</field>
-        <field name="Manufacturer">Vishay Dale</field>
-        <field name="Manufacturer Part Number">CRCW06033M65FKEA</field>
+        <field name="MFN">Vishay Dale</field>
+        <field name="MPN">CRCW06033M65FKEA</field>
         <field name="Package">0603</field>
         <field name="Vendor">Digi-Key</field>
         <field name="Vendor Part Number">541-3.65MHCT-ND</field>
@@ -525,8 +525,8 @@
       <property name="Vendor Part Number" value="541-3.65MHCT-ND"/>
       <property name="Description" value="RES SMD 3.65M OHM 1% 1/10W"/>
       <property name="Package" value="0603"/>
-      <property name="Manufacturer" value="Vishay Dale"/>
-      <property name="Manufacturer Part Number" value="CRCW06033M65FKEA"/>
+      <property name="MFN" value="Vishay Dale"/>
+      <property name="MPN" value="CRCW06033M65FKEA"/>
       <property name="Sheetname" value="filter"/>
       <property name="Sheetfile" value="filter.kicad_sch"/>
       <sheetpath names="/filter/" tstamps="/6cde90e6-6156-42e3-aaac-c45ad2bfab8b/"/>
@@ -537,8 +537,8 @@
       <footprint>Janelia:R_0402_1005Metric</footprint>
       <fields>
         <field name="Description">RES SMD 49.9K OHM 1% 1/10W</field>
-        <field name="Manufacturer">Panasonic Electronic Components</field>
-        <field name="Manufacturer Part Number">ERJ-2RKF4992X</field>
+        <field name="MFN">Panasonic Electronic Components</field>
+        <field name="MPN">ERJ-2RKF4992X</field>
         <field name="Package">0402</field>
         <field name="Vendor">Digi-Key</field>
         <field name="Vendor Part Number">P49.9KLCT-ND</field>
@@ -548,8 +548,8 @@
       <property name="Vendor Part Number" value="P49.9KLCT-ND"/>
       <property name="Description" value="RES SMD 49.9K OHM 1% 1/10W"/>
       <property name="Package" value="0402"/>
-      <property name="Manufacturer" value="Panasonic Electronic Components"/>
-      <property name="Manufacturer Part Number" value="ERJ-2RKF4992X"/>
+      <property name="MFN" value="Panasonic Electronic Components"/>
+      <property name="MPN" value="ERJ-2RKF4992X"/>
       <property name="Sheetname" value="filter"/>
       <property name="Sheetfile" value="filter.kicad_sch"/>
       <sheetpath names="/filter/" tstamps="/6cde90e6-6156-42e3-aaac-c45ad2bfab8b/"/>
@@ -560,8 +560,8 @@
       <footprint>Janelia:R_0402_1005Metric</footprint>
       <fields>
         <field name="Description">RES SMD 249 OHM 1% 1/10W</field>
-        <field name="Manufacturer">Panasonic Electronic Components</field>
-        <field name="Manufacturer Part Number">ERJ-2RKF2490X</field>
+        <field name="MFN">Panasonic Electronic Components</field>
+        <field name="MPN">ERJ-2RKF2490X</field>
         <field name="Package">0402</field>
         <field name="Vendor">Digi-Key</field>
         <field name="Vendor Part Number">P249LCT-ND</field>
@@ -571,8 +571,8 @@
       <property name="Vendor Part Number" value="P249LCT-ND"/>
       <property name="Description" value="RES SMD 249 OHM 1% 1/10W"/>
       <property name="Package" value="0402"/>
-      <property name="Manufacturer" value="Panasonic Electronic Components"/>
-      <property name="Manufacturer Part Number" value="ERJ-2RKF2490X"/>
+      <property name="MFN" value="Panasonic Electronic Components"/>
+      <property name="MPN" value="ERJ-2RKF2490X"/>
       <property name="Sheetname" value="filter"/>
       <property name="Sheetfile" value="filter.kicad_sch"/>
       <sheetpath names="/filter/" tstamps="/6cde90e6-6156-42e3-aaac-c45ad2bfab8b/"/>
@@ -583,8 +583,8 @@
       <footprint>Janelia:R_1206_3216Metric</footprint>
       <fields>
         <field name="Description">RES SMD 150K OHM 0.1% 1/4W</field>
-        <field name="Manufacturer">Panasonic Electronic Components</field>
-        <field name="Manufacturer Part Number">ERA-8AEB154V</field>
+        <field name="MFN">Panasonic Electronic Components</field>
+        <field name="MPN">ERA-8AEB154V</field>
         <field name="Package">1206</field>
         <field name="Vendor">Digi-Key</field>
         <field name="Vendor Part Number">P150KBCCT-ND</field>
@@ -594,8 +594,8 @@
       <property name="Vendor Part Number" value="P150KBCCT-ND"/>
       <property name="Description" value="RES SMD 150K OHM 0.1% 1/4W"/>
       <property name="Package" value="1206"/>
-      <property name="Manufacturer" value="Panasonic Electronic Components"/>
-      <property name="Manufacturer Part Number" value="ERA-8AEB154V"/>
+      <property name="MFN" value="Panasonic Electronic Components"/>
+      <property name="MPN" value="ERA-8AEB154V"/>
       <property name="Sheetname" value="filter"/>
       <property name="Sheetfile" value="filter.kicad_sch"/>
       <sheetpath names="/filter/" tstamps="/6cde90e6-6156-42e3-aaac-c45ad2bfab8b/"/>
@@ -606,8 +606,8 @@
       <footprint>Janelia:SOIC-16W_7.5x10.3mm_P1.27mm</footprint>
       <fields>
         <field name="Description">IC UNIV ACTIVE FILTER 16-SOIC</field>
-        <field name="Manufacturer">Texas Instruments</field>
-        <field name="Manufacturer Part Number">UAF42AU</field>
+        <field name="MFN">Texas Instruments</field>
+        <field name="MPN">UAF42AU</field>
         <field name="Sim.Enable">0</field>
         <field name="Vendor">Digi-Key</field>
         <field name="Vendor Part Number">UAF42AU-ND</field>
@@ -616,8 +616,8 @@
       <property name="Vendor" value="Digi-Key"/>
       <property name="Vendor Part Number" value="UAF42AU-ND"/>
       <property name="Description" value="IC UNIV ACTIVE FILTER 16-SOIC"/>
-      <property name="Manufacturer" value="Texas Instruments"/>
-      <property name="Manufacturer Part Number" value="UAF42AU"/>
+      <property name="MFN" value="Texas Instruments"/>
+      <property name="MPN" value="UAF42AU"/>
       <property name="Sim.Enable" value="0"/>
       <property name="Sheetname" value="filter"/>
       <property name="Sheetfile" value="filter.kicad_sch"/>
@@ -629,8 +629,8 @@
       <footprint>Janelia:SOIC-16W_7.5x10.3mm_P1.27mm</footprint>
       <fields>
         <field name="Description">IC UNIV ACTIVE FILTER 16-SOIC</field>
-        <field name="Manufacturer">Texas Instruments</field>
-        <field name="Manufacturer Part Number">UAF42AU</field>
+        <field name="MFN">Texas Instruments</field>
+        <field name="MPN">UAF42AU</field>
         <field name="Sim.Enable">0</field>
         <field name="Vendor">Digi-Key</field>
         <field name="Vendor Part Number">UAF42AU-ND</field>
@@ -639,8 +639,8 @@
       <property name="Vendor" value="Digi-Key"/>
       <property name="Vendor Part Number" value="UAF42AU-ND"/>
       <property name="Description" value="IC UNIV ACTIVE FILTER 16-SOIC"/>
-      <property name="Manufacturer" value="Texas Instruments"/>
-      <property name="Manufacturer Part Number" value="UAF42AU"/>
+      <property name="MFN" value="Texas Instruments"/>
+      <property name="MPN" value="UAF42AU"/>
       <property name="Sim.Enable" value="0"/>
       <property name="Sheetname" value="filter"/>
       <property name="Sheetfile" value="filter.kicad_sch"/>
@@ -652,8 +652,8 @@
       <footprint>Janelia:C_0402_1005Metric</footprint>
       <fields>
         <field name="Description">CAP CER 1UF 35V X5R</field>
-        <field name="Manufacturer">Samsung Electro-Mechanics</field>
-        <field name="Manufacturer Part Number">CL05A105KL5NRNC</field>
+        <field name="MFN">Samsung Electro-Mechanics</field>
+        <field name="MPN">CL05A105KL5NRNC</field>
         <field name="Package">0402</field>
         <field name="Vendor">Digi-Key</field>
         <field name="Vendor Part Number">1276-6796-1-ND</field>
@@ -663,8 +663,8 @@
       <property name="Vendor Part Number" value="1276-6796-1-ND"/>
       <property name="Description" value="CAP CER 1UF 35V X5R"/>
       <property name="Package" value="0402"/>
-      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
-      <property name="Manufacturer Part Number" value="CL05A105KL5NRNC"/>
+      <property name="MFN" value="Samsung Electro-Mechanics"/>
+      <property name="MPN" value="CL05A105KL5NRNC"/>
       <property name="Sheetname" value="photodiode"/>
       <property name="Sheetfile" value="photodiode.kicad_sch"/>
       <sheetpath names="/photodiode/" tstamps="/6f9841bf-b0ef-48ff-bf2c-2bd611c72bf3/"/>
@@ -675,8 +675,8 @@
       <footprint>Janelia:C_0402_1005Metric</footprint>
       <fields>
         <field name="Description">CAP CER 30PF 50V C0G/NP0</field>
-        <field name="Manufacturer">KEMET</field>
-        <field name="Manufacturer Part Number">C0402C300J5GACAUTO</field>
+        <field name="MFN">KEMET</field>
+        <field name="MPN">C0402C300J5GACAUTO</field>
         <field name="Package">0402</field>
         <field name="Vendor">Digi-Key</field>
         <field name="Vendor Part Number">399-C0402C300J5GACAUTOCT-ND</field>
@@ -686,8 +686,8 @@
       <property name="Vendor Part Number" value="399-C0402C300J5GACAUTOCT-ND"/>
       <property name="Description" value="CAP CER 30PF 50V C0G/NP0"/>
       <property name="Package" value="0402"/>
-      <property name="Manufacturer" value="KEMET"/>
-      <property name="Manufacturer Part Number" value="C0402C300J5GACAUTO"/>
+      <property name="MFN" value="KEMET"/>
+      <property name="MPN" value="C0402C300J5GACAUTO"/>
       <property name="Sheetname" value="photodiode"/>
       <property name="Sheetfile" value="photodiode.kicad_sch"/>
       <sheetpath names="/photodiode/" tstamps="/6f9841bf-b0ef-48ff-bf2c-2bd611c72bf3/"/>
@@ -698,15 +698,15 @@
       <footprint>Janelia:PHOTODIODE_RADIAL_RA_SMD_BRIGHT</footprint>
       <fields>
         <field name="Description">SENSOR PHOTODIODE RADIAL</field>
-        <field name="Manufacturer">American Bright Optoelectronics Corporation</field>
-        <field name="Manufacturer Part Number">BPD-BQDA38V-FZ04</field>
+        <field name="MFN">American Bright Optoelectronics Corporation</field>
+        <field name="MPN">BPD-BQDA38V-FZ04</field>
         <field name="Sim.Enable">0</field>
         <field name="Vendor">Digi-Key</field>
         <field name="Vendor Part Number">BPD-BQDA38V-FZ04CT-ND</field>
       </fields>
       <libsource lib="Janelia" part="PHOTODIODE_940nm_RADIAL_RA_SMD_BRIGHT" description="Photodiode"/>
-      <property name="Manufacturer" value="American Bright Optoelectronics Corporation"/>
-      <property name="Manufacturer Part Number" value="BPD-BQDA38V-FZ04"/>
+      <property name="MFN" value="American Bright Optoelectronics Corporation"/>
+      <property name="MPN" value="BPD-BQDA38V-FZ04"/>
       <property name="Vendor" value="Digi-Key"/>
       <property name="Vendor Part Number" value="BPD-BQDA38V-FZ04CT-ND"/>
       <property name="Description" value="SENSOR PHOTODIODE RADIAL"/>
@@ -723,15 +723,15 @@
       <footprint>Janelia:UMC_AMPHENOL_A-1JB</footprint>
       <fields>
         <field name="Description">CONN UMC JACK STR 50 OHM SMD</field>
-        <field name="Manufacturer">Amphenol RF</field>
-        <field name="Manufacturer Part Number">A-1JB</field>
+        <field name="MFN">Amphenol RF</field>
+        <field name="MPN">A-1JB</field>
         <field name="Sim.Enable">0</field>
         <field name="Vendor">Digi-Key</field>
         <field name="Vendor Part Number">115-A-1JBCT-ND</field>
       </fields>
       <libsource lib="Janelia" part="CONN_UMC_JACK_SMD" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"/>
-      <property name="Manufacturer" value="Amphenol RF"/>
-      <property name="Manufacturer Part Number" value="A-1JB"/>
+      <property name="MFN" value="Amphenol RF"/>
+      <property name="MPN" value="A-1JB"/>
       <property name="Vendor" value="Digi-Key"/>
       <property name="Vendor Part Number" value="115-A-1JBCT-ND"/>
       <property name="Description" value="CONN UMC JACK STR 50 OHM SMD"/>
@@ -748,8 +748,8 @@
       <footprint>Janelia:R_1206_3216Metric</footprint>
       <fields>
         <field name="Description">RES 2.0M OHM 1% 0.66W</field>
-        <field name="Manufacturer">Panasonic Electronic Components</field>
-        <field name="Manufacturer Part Number">ERJ-PM8F2004V</field>
+        <field name="MFN">Panasonic Electronic Components</field>
+        <field name="MPN">ERJ-PM8F2004V</field>
         <field name="Package">1206</field>
         <field name="Vendor">Digi-Key</field>
         <field name="Vendor Part Number">10-ERJ-PM8F2004VCT-ND</field>
@@ -759,8 +759,8 @@
       <property name="Vendor Part Number" value="10-ERJ-PM8F2004VCT-ND"/>
       <property name="Description" value="RES 2.0M OHM 1% 0.66W"/>
       <property name="Package" value="1206"/>
-      <property name="Manufacturer" value="Panasonic Electronic Components"/>
-      <property name="Manufacturer Part Number" value="ERJ-PM8F2004V"/>
+      <property name="MFN" value="Panasonic Electronic Components"/>
+      <property name="MPN" value="ERJ-PM8F2004V"/>
       <property name="Sheetname" value="photodiode"/>
       <property name="Sheetfile" value="photodiode.kicad_sch"/>
       <sheetpath names="/photodiode/" tstamps="/6f9841bf-b0ef-48ff-bf2c-2bd611c72bf3/"/>
@@ -771,15 +771,15 @@
       <footprint>Janelia:VSON-8-1EP_3x3mm_P0.65mm_EP1.65x2.4mm</footprint>
       <fields>
         <field name="Description">IC TRANSIMPEDANCE 1 CIRCUIT 8SON</field>
-        <field name="Manufacturer">Texas Instruments</field>
-        <field name="Manufacturer Part Number">OPA381AIDRBT</field>
+        <field name="MFN">Texas Instruments</field>
+        <field name="MPN">OPA381AIDRBT</field>
         <field name="Sim.Enable">0</field>
         <field name="Vendor">Digi-Key</field>
         <field name="Vendor Part Number">296-17363-1-ND</field>
       </fields>
       <libsource lib="Janelia" part="OPA381" description=" 2.7 GHz, High-Voltage, FET-Input, Low Noise, Operational Amplifier, WSON-8"/>
-      <property name="Manufacturer" value="Texas Instruments"/>
-      <property name="Manufacturer Part Number" value="OPA381AIDRBT"/>
+      <property name="MFN" value="Texas Instruments"/>
+      <property name="MPN" value="OPA381AIDRBT"/>
       <property name="Vendor" value="Digi-Key"/>
       <property name="Vendor Part Number" value="296-17363-1-ND"/>
       <property name="Description" value="IC TRANSIMPEDANCE 1 CIRCUIT 8SON"/>
@@ -807,8 +807,8 @@
         <field name="Reference">J</field>
         <field name="Value">UMC_JACK_SMD</field>
         <field name="Footprint">Janelia:UMC_AMPHENOL_A-1JB</field>
-        <field name="Manufacturer">Amphenol RF</field>
-        <field name="Manufacturer Part Number">A-1JB</field>
+        <field name="MFN">Amphenol RF</field>
+        <field name="MPN">A-1JB</field>
         <field name="Vendor">Digi-Key</field>
         <field name="Vendor Part Number">115-A-1JBCT-ND</field>
         <field name="Description">CONN UMC JACK STR 50 OHM SMD</field>
@@ -833,8 +833,8 @@
         <field name="Vendor Part Number">311-1375-1-ND</field>
         <field name="Description">CAP CER 0.1UF 25V Y5V</field>
         <field name="Package">0402</field>
-        <field name="Manufacturer">Yageo</field>
-        <field name="Manufacturer Part Number">CC0402ZRY5V8BB104</field>
+        <field name="MFN">Yageo</field>
+        <field name="MPN">CC0402ZRY5V8BB104</field>
       </fields>
       <pins>
         <pin num="1" name="" type="passive"/>
@@ -855,8 +855,8 @@
         <field name="Vendor Part Number">1276-6796-1-ND</field>
         <field name="Description">CAP CER 1UF 35V X5R</field>
         <field name="Package">0402</field>
-        <field name="Manufacturer">Samsung Electro-Mechanics</field>
-        <field name="Manufacturer Part Number">CL05A105KL5NRNC</field>
+        <field name="MFN">Samsung Electro-Mechanics</field>
+        <field name="MPN">CL05A105KL5NRNC</field>
       </fields>
       <pins>
         <pin num="1" name="" type="passive"/>
@@ -877,8 +877,8 @@
         <field name="Vendor Part Number">399-C0402C300J5GACAUTOCT-ND</field>
         <field name="Description">CAP CER 30PF 50V C0G/NP0</field>
         <field name="Package">0402</field>
-        <field name="Manufacturer">KEMET</field>
-        <field name="Manufacturer Part Number">C0402C300J5GACAUTO</field>
+        <field name="MFN">KEMET</field>
+        <field name="MPN">C0402C300J5GACAUTO</field>
       </fields>
       <pins>
         <pin num="1" name="" type="passive"/>
@@ -898,8 +898,8 @@
         <field name="Vendor">Digi-Key</field>
         <field name="Vendor Part Number">445-7478-1-ND</field>
         <field name="Description">CAP CER 4.7UF 16V X5R 0603</field>
-        <field name="Manufacturer">TDK Corporation</field>
-        <field name="Manufacturer Part Number">C1608X5R1C475K080AC</field>
+        <field name="MFN">TDK Corporation</field>
+        <field name="MPN">C1608X5R1C475K080AC</field>
       </fields>
       <pins>
         <pin num="1" name="" type="passive"/>
@@ -920,8 +920,8 @@
         <field name="Value">MAX865EUA+</field>
         <field name="Footprint">Janelia:SOP65P490X110-8N</field>
         <field name="Package">SOP65P490X110-8N</field>
-        <field name="Manufacturer">Maxim Integrated</field>
-        <field name="Manufacturer Part Number">MAX865EUA+</field>
+        <field name="MFN">Maxim Integrated</field>
+        <field name="MPN">MAX865EUA+</field>
         <field name="Vendor">Digi-Key</field>
         <field name="Vendor Part Number">MAX865EUA+-ND</field>
         <field name="Description">IC REG CHARGE PUMP INV DL 8UMAX</field>
@@ -958,8 +958,8 @@
         <field name="Reference">U</field>
         <field name="Value">OPA381</field>
         <field name="Footprint">Janelia:VSON-8-1EP_3x3mm_P0.65mm_EP1.65x2.4mm</field>
-        <field name="Manufacturer">Texas Instruments</field>
-        <field name="Manufacturer Part Number">OPA381AIDRBT</field>
+        <field name="MFN">Texas Instruments</field>
+        <field name="MPN">OPA381AIDRBT</field>
         <field name="Vendor">Digi-Key</field>
         <field name="Vendor Part Number">296-17363-1-ND</field>
         <field name="Description">IC TRANSIMPEDANCE 1 CIRCUIT 8SON</field>
@@ -985,8 +985,8 @@
         <field name="Value">PHOTODIODE</field>
         <field name="Footprint">Janelia:PHOTODIODE_RADIAL_RA_SMD_BRIGHT</field>
         <field name="Datasheet">~</field>
-        <field name="Manufacturer">American Bright Optoelectronics Corporation</field>
-        <field name="Manufacturer Part Number">BPD-BQDA38V-FZ04</field>
+        <field name="MFN">American Bright Optoelectronics Corporation</field>
+        <field name="MPN">BPD-BQDA38V-FZ04</field>
         <field name="Vendor">Digi-Key</field>
         <field name="Vendor Part Number">BPD-BQDA38V-FZ04CT-ND</field>
         <field name="Description">SENSOR PHOTODIODE RADIAL</field>
@@ -1013,8 +1013,8 @@
         <field name="Vendor Part Number">P150KBCCT-ND</field>
         <field name="Description">RES SMD 150K OHM 0.1% 1/4W</field>
         <field name="Package">1206</field>
-        <field name="Manufacturer">Panasonic Electronic Components</field>
-        <field name="Manufacturer Part Number">ERA-8AEB154V</field>
+        <field name="MFN">Panasonic Electronic Components</field>
+        <field name="MPN">ERA-8AEB154V</field>
       </fields>
       <pins>
         <pin num="1" name="" type="passive"/>
@@ -1037,8 +1037,8 @@
         <field name="Vendor Part Number">P249LCT-ND</field>
         <field name="Description">RES SMD 249 OHM 1% 1/10W</field>
         <field name="Package">0402</field>
-        <field name="Manufacturer">Panasonic Electronic Components</field>
-        <field name="Manufacturer Part Number">ERJ-2RKF2490X</field>
+        <field name="MFN">Panasonic Electronic Components</field>
+        <field name="MPN">ERJ-2RKF2490X</field>
       </fields>
       <pins>
         <pin num="1" name="" type="passive"/>
@@ -1061,8 +1061,8 @@
         <field name="Vendor Part Number">10-ERJ-PM8F2004VCT-ND</field>
         <field name="Description">RES 2.0M OHM 1% 0.66W</field>
         <field name="Package">1206</field>
-        <field name="Manufacturer">Panasonic Electronic Components</field>
-        <field name="Manufacturer Part Number">ERJ-PM8F2004V</field>
+        <field name="MFN">Panasonic Electronic Components</field>
+        <field name="MPN">ERJ-PM8F2004V</field>
       </fields>
       <pins>
         <pin num="1" name="" type="passive"/>
@@ -1085,8 +1085,8 @@
         <field name="Vendor Part Number">541-3.65MHCT-ND</field>
         <field name="Description">RES SMD 3.65M OHM 1% 1/10W</field>
         <field name="Package">0603</field>
-        <field name="Manufacturer">Vishay Dale</field>
-        <field name="Manufacturer Part Number">CRCW06033M65FKEA</field>
+        <field name="MFN">Vishay Dale</field>
+        <field name="MPN">CRCW06033M65FKEA</field>
       </fields>
       <pins>
         <pin num="1" name="" type="passive"/>
@@ -1109,8 +1109,8 @@
         <field name="Vendor Part Number">P49.9KLCT-ND</field>
         <field name="Description">RES SMD 49.9K OHM 1% 1/10W</field>
         <field name="Package">0402</field>
-        <field name="Manufacturer">Panasonic Electronic Components</field>
-        <field name="Manufacturer Part Number">ERJ-2RKF4992X</field>
+        <field name="MFN">Panasonic Electronic Components</field>
+        <field name="MPN">ERJ-2RKF4992X</field>
       </fields>
       <pins>
         <pin num="1" name="" type="passive"/>
@@ -1133,8 +1133,8 @@
         <field name="Vendor Part Number">P68.1KLCT-ND</field>
         <field name="Description">RES SMD 68.1K OHM 1% 1/10W</field>
         <field name="Package">0402</field>
-        <field name="Manufacturer">Panasonic Electronic Components</field>
-        <field name="Manufacturer Part Number">ERJ-2RKF6812X</field>
+        <field name="MFN">Panasonic Electronic Components</field>
+        <field name="MPN">ERJ-2RKF6812X</field>
       </fields>
       <pins>
         <pin num="1" name="" type="passive"/>
@@ -1152,8 +1152,8 @@
         <field name="Vendor">Digi-Key</field>
         <field name="Vendor Part Number">UAF42AU-ND</field>
         <field name="Description">IC UNIV ACTIVE FILTER 16-SOIC</field>
-        <field name="Manufacturer">Texas Instruments</field>
-        <field name="Manufacturer Part Number">UAF42AU</field>
+        <field name="MFN">Texas Instruments</field>
+        <field name="MPN">UAF42AU</field>
         <field name="Sim.Enable">0</field>
       </fields>
       <pins>
@@ -1180,8 +1180,8 @@
         <field name="Reference">J</field>
         <field name="Value">USB_C_10137062-00021LF</field>
         <field name="Footprint">Janelia:USB_C_Receptacle_Amphenol_10137062-00021LF</field>
-        <field name="Manufacturer">Amphenol</field>
-        <field name="Manufacturer Part Number">10137062-00021LF</field>
+        <field name="MFN">Amphenol</field>
+        <field name="MPN">10137062-00021LF</field>
         <field name="Vendor">Digi-Key</field>
         <field name="Vendor Part Number">609-6109-1-ND</field>
         <field name="Description">CONN RCP USB3.1 TYPEC 24P SMD RA</field>
