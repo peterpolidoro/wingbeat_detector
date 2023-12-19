@@ -257,8 +257,8 @@ kb.save_all_csv_files()
 column_names = ['Item',
                 'Reference(s)',
                 'Description',
-                'Manufacturer Part Number',
-                'Manufacturer',
+                'MPN',
+                'MFN',
                 'Quantity',
                 'Package']
 format_for_org_table = True
@@ -268,15 +268,16 @@ return bom
 
 ** Supplemental
 
-| Item | Description                      |        Manufacturer Part Number | Manufacturer       | Quantity |
-|------+----------------------------------+---------------------------------+--------------------+----------|
-|    1 | BNC STRAIGHT BULKHEAD JACK TO AM |                 095-850-210-150 | Amphenol RF        |        1 |
-|    2 | AC/DC WALL MNT ADAPTER 5.1V 15W  | RPI USB-C POWER SUPPLY BLACK US | Raspberry Pi       |        1 |
-|    3 | CBL ASSY BNC PLUG-PLUG RG58 6"   |                          5697-6 | Pomona Electronics |        1 |
-|    4 | CBL ASSY BNC PLUG-PLUG RG58 5'   |                         5697-60 | Pomona Electronics |        1 |
-|    5 | CBL ASSY BNC PLUG-PLUG RG58 10'  |                        5697-120 | Pomona Electronics |        1 |
-|    6 | TEST LEAD BNC TO SOCKET 5.6"     |                            5069 | Pomona Electronics |        1 |
-|    7 | TEST LEAD BNC TO GRAB HOOK 5.5"  |                            5305 | Pomona Electronics |        1 |
+| Item | Description                                                 | MPN             | MFN                | Quantity |
+|------+-------------------------------------------------------------+-----------------+--------------------+----------|
+|    1 | BNC STRAIGHT BULKHEAD JACK TO AM                            | 095-850-210-150 | Amphenol RF        |        1 |
+|    2 | AC/DC WALL MNT ADAPTER 5.1V 15W                             | SC0445          | Raspberry Pi       |        1 |
+|    3 | CBL ASSY BNC PLUG-PLUG RG58 5'                              | 5697-60         | Pomona Electronics |        1 |
+|    4 | LLG 3 mm Core 420 - 2000 nm 1.2 m                           | LLG3-4Z         | thorlabs           |        1 |
+|    5 | 3 mm LLG to SM1 Adapter                                     | AD3LLG          | thorlabs           |        1 |
+|    6 | Adapter with External SM05 Threads and Internal SM1 Threads | SM1A1           | thorlabs           |        1 |
+|    7 | SM05 Lens Tube 0.50 in Thread Depth                         | SM05L05         | thorlabs           |        1 |
+|      |                                                             |                 |                    |          |
 
 * Development
 
@@ -313,7 +314,7 @@ exit
         (url "https://git.savannah.gnu.org/git/guix.git")
         (branch "master")
         (commit
-          "33f9d3cc36fbfbd2849d626492721667abfe8306")
+          "ee93015b54a2abfe59bc2270c09ea4f7624488e5")
         (introduction
           (make-channel-introduction
             "9edb3f66fd807b096b48283debdcddccfea34bad"
