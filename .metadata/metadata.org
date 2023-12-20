@@ -277,6 +277,7 @@ return bom
 |    5 | 3 mm LLG to SM1 Adapter                                     | AD3LLG          | thorlabs           |        1 |
 |    6 | Adapter with External SM05 Threads and Internal SM1 Threads | SM1A1           | thorlabs           |        1 |
 |    7 | SM05 Lens Tube 0.50 in Thread Depth                         | SM05L05         | thorlabs           |        1 |
+|    8 | 825nm 12.5mm Dia Longpass Filter                            | 86-062          | edmundoptics       |        1 |
 |      |                                                             |                 |                    |          |
 
 * Development
