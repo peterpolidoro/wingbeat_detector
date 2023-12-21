@@ -1,15 +1,15 @@
-- [About](#orgabebe20)
-- [Images](#orgfbbb1d6)
-- [Schematic](#org16fc2f2)
-- [PCB](#org42bda37)
-- [Bill of Materials](#org54b689c)
-- [Development](#org0a3e0eb)
+- [About](#orgbc64dc9)
+- [Images](#orgf9a7a72)
+- [Schematic](#org7f13b52)
+- [PCB](#orgb7344c8)
+- [Bill of Materials](#org2635938)
+- [Development](#org2630041)
 
     <!-- This file is generated automatically from metadata -->
     <!-- File edits may be overwritten! -->
 
 
-<a id="orgabebe20"></a>
+<a id="orgbc64dc9"></a>
 
 # About
 
@@ -18,7 +18,7 @@
 - Description: Measures fly wingbeats using IR light reflected from flapping fly wings.
 - Version: 4.0
 - Kicad Version: 7.0.9
-- Release Date: 2023-12-20
+- Release Date: 2023-12-21
 - Creation Date: 2023-02-17
 - License: GPL-3.0
 - URL: https://github.com/peterpolidoro/wingbeat_detector
@@ -31,7 +31,7 @@
 ```
 
 
-<a id="orgfbbb1d6"></a>
+<a id="orgf9a7a72"></a>
 
 # Images
 
@@ -50,7 +50,7 @@
 <img src="./documentation/pcb/right.png" width="1280px">
 
 
-<a id="org16fc2f2"></a>
+<a id="org7f13b52"></a>
 
 # Schematic
 
@@ -67,7 +67,7 @@
 <img src="./documentation/schematic/wingbeat_detector-assembly.svg" width="1280px">
 
 
-<a id="org42bda37"></a>
+<a id="orgb7344c8"></a>
 
 # PCB
 
@@ -82,7 +82,7 @@
 <img src="./documentation/pcb/wingbeat_detector-B_Fab.svg" width="1280px">
 
 
-<a id="org54b689c"></a>
+<a id="org2635938"></a>
 
 # Bill of Materials
 
@@ -111,21 +111,21 @@
 
 ## Supplemental
 
-| Item | Description                         | Manufacturer Part Number | Manufacturer       | Quantity | Cost   |
-|---- |----------------------------------- |------------------------ |------------------ |-------- |------ |
-| 1    | BNC STRAIGHT BULKHEAD JACK TO AM    | 095-850-210-150          | Amphenol RF        | 1        | 24.41  |
-| 2    | AC/DC WALL MNT ADAPTER 5.1V 15W     | SC0445                   | Raspberry Pi       | 1        | 8.00   |
-| 3    | CBL ASSY BNC PLUG-PLUG RG58 5'      | 5697-60                  | Pomona Electronics | 1        | 21.29  |
-| 4    | LLG 3 mm Core 420 - 2000 nm 1.2 m   | LLG3-4Z                  | thorlabs           | 1        | 392.69 |
-| 5    | 3 mm LLG to SM1 Adapter             | AD3LLG                   | thorlabs           | 1        | 38.32  |
-| 6    | Adapter External SM05 Internal SM1  | SM1A1                    | thorlabs           | 1        | 23.41  |
-| 7    | SM05 Lens Tube 0.50 in Thread Depth | SM05L05                  | thorlabs           | 1        | 15.25  |
-| 8    | 825nm 12.5mm Dia Longpass Filter    | 86-062                   | edmundoptics       | 1        | 194.00 |
-| 9    | Universal probe holder              | MXB                      | siskiyou           | 1        | 275.00 |
-|      |                                     |                          |                    |          |        |
+| Item | Description                        | Manufacturer Part Number | Manufacturer       | Quantity | Cost   |
+|---- |---------------------------------- |------------------------ |------------------ |-------- |------ |
+| 1    | BNC STRAIGHT BULKHEAD JACK TO AM   | 095-850-210-150          | Amphenol RF        | 1        | 24.41  |
+| 2    | AC/DC WALL MNT ADAPTER 5.1V 15W    | SC0445                   | Raspberry Pi       | 1        | 8.00   |
+| 3    | CBL ASSY BNC PLUG-PLUG RG58 5'     | 5697-60                  | Pomona Electronics | 1        | 21.29  |
+| 4    | LLG 3 mm Core 420 - 2000 nm 1.2 m  | LLG3-4Z                  | thorlabs           | 1        | 392.69 |
+| 5    | 3 mm LLG to SM1 Adapter            | AD3LLG                   | thorlabs           | 1        | 38.32  |
+| 6    | Adapter External SM05 Internal SM1 | SM1A1                    | thorlabs           | 1        | 23.41  |
+| 7    | SM05 Adjustable Lens Tube          | SM05V05                  | thorlabs           | 1        | 31.64  |
+| 8    | 825nm 12.5mm Dia Longpass Filter   | 86-062                   | edmundoptics       | 1        | 194.00 |
+| 9    | Universal probe holder             | MXB                      | siskiyou           | 1        | 275.00 |
+|      |                                    |                          |                    |          |        |
 
 
-<a id="org0a3e0eb"></a>
+<a id="org2630041"></a>
 
 # Development
 

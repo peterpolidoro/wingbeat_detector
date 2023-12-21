@@ -268,18 +268,18 @@ return bom
 
 ** Supplemental
 
-| Item | Description                         | Manufacturer Part Number | Manufacturer       | Quantity |   Cost |
-|------+-------------------------------------+--------------------------+--------------------+----------+--------|
-|    1 | BNC STRAIGHT BULKHEAD JACK TO AM    | 095-850-210-150          | Amphenol RF        |        1 |  24.41 |
-|    2 | AC/DC WALL MNT ADAPTER 5.1V 15W     | SC0445                   | Raspberry Pi       |        1 |   8.00 |
-|    3 | CBL ASSY BNC PLUG-PLUG RG58 5'      | 5697-60                  | Pomona Electronics |        1 |  21.29 |
-|    4 | LLG 3 mm Core 420 - 2000 nm 1.2 m   | LLG3-4Z                  | thorlabs           |        1 | 392.69 |
-|    5 | 3 mm LLG to SM1 Adapter             | AD3LLG                   | thorlabs           |        1 |  38.32 |
-|    6 | Adapter External SM05 Internal SM1  | SM1A1                    | thorlabs           |        1 |  23.41 |
-|    7 | SM05 Lens Tube 0.50 in Thread Depth | SM05L05                  | thorlabs           |        1 |  15.25 |
-|    8 | 825nm 12.5mm Dia Longpass Filter    | 86-062                   | edmundoptics       |        1 | 194.00 |
-|    9 | Universal probe holder              | MXB                      | siskiyou           |        1 | 275.00 |
-|      |                                     |                          |                    |          |        |
+| Item | Description                        | Manufacturer Part Number | Manufacturer       | Quantity |   Cost |
+|------+------------------------------------+--------------------------+--------------------+----------+--------|
+|    1 | BNC STRAIGHT BULKHEAD JACK TO AM   | 095-850-210-150          | Amphenol RF        |        1 |  24.41 |
+|    2 | AC/DC WALL MNT ADAPTER 5.1V 15W    | SC0445                   | Raspberry Pi       |        1 |   8.00 |
+|    3 | CBL ASSY BNC PLUG-PLUG RG58 5'     | 5697-60                  | Pomona Electronics |        1 |  21.29 |
+|    4 | LLG 3 mm Core 420 - 2000 nm 1.2 m  | LLG3-4Z                  | thorlabs           |        1 | 392.69 |
+|    5 | 3 mm LLG to SM1 Adapter            | AD3LLG                   | thorlabs           |        1 |  38.32 |
+|    6 | Adapter External SM05 Internal SM1 | SM1A1                    | thorlabs           |        1 |  23.41 |
+|    7 | SM05 Adjustable Lens Tube          | SM05V05                  | thorlabs           |        1 |  31.64 |
+|    8 | 825nm 12.5mm Dia Longpass Filter   | 86-062                   | edmundoptics       |        1 | 194.00 |
+|    9 | Universal probe holder             | MXB                      | siskiyou           |        1 | 275.00 |
+|      |                                    |                          |                    |          |        |
 
 * Development
 
