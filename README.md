@@ -1,15 +1,15 @@
-- [About](#orgeeaf732)
-- [Images](#orga156bbc)
-- [Schematic](#org4c67822)
-- [PCB](#org63fbb71)
-- [Bill of Materials](#orgace9e73)
-- [Development](#org7f4c210)
+- [About](#org9b99c5a)
+- [Images](#orgfaf241b)
+- [Schematic](#orgfb528ca)
+- [PCB](#org0754e76)
+- [Bill of Materials](#orgdc93c9e)
+- [Development](#org9b25b3e)
 
     <!-- This file is generated automatically from metadata -->
     <!-- File edits may be overwritten! -->
 
 
-<a id="orgeeaf732"></a>
+<a id="org9b99c5a"></a>
 
 # About
 
@@ -18,7 +18,7 @@
 - Description: Measures fly wingbeats using IR light reflected from flapping fly wings.
 - Version: 4.0
 - Kicad Version: 7.0.9
-- Release Date: 2024-01-09
+- Release Date: 2024-01-12
 - Creation Date: 2023-02-17
 - License: GPL-3.0
 - URL: https://github.com/peterpolidoro/wingbeat_detector
@@ -31,7 +31,7 @@
 ```
 
 
-<a id="orga156bbc"></a>
+<a id="orgfaf241b"></a>
 
 # Images
 
@@ -50,7 +50,7 @@
 <img src="./documentation/pcb/right.png" width="1280px">
 
 
-<a id="org4c67822"></a>
+<a id="orgfb528ca"></a>
 
 # Schematic
 
@@ -67,7 +67,7 @@
 <img src="./documentation/schematic/wingbeat_detector-assembly.svg" width="1280px">
 
 
-<a id="org63fbb71"></a>
+<a id="org0754e76"></a>
 
 # PCB
 
@@ -82,16 +82,31 @@
 <img src="./documentation/pcb/wingbeat_detector-B_Fab.svg" width="1280px">
 
 
-<a id="orgace9e73"></a>
+<a id="orgdc93c9e"></a>
 
 # Bill of Materials
 
 
 ## Board
 
-|    |
-|--- |
-|  |
+| Item | Reference(s)   | Description                      | Manufacturer Part Number | Manufacturer                                | Quantity | Package          |
+|---- |-------------- |-------------------------------- |------------------------ |------------------------------------------- |-------- |---------------- |
+| 1    | C1 C2 C3 C4 C5 | CAP CER 4.7UF 16V X5R 0603       | C1608X5R1C475K080AC      | TDK Corporation                             | 5        |                  |
+| 2    | C6 C7 C8 C9    | CAP CER 0.1UF 25V Y5V            | CC0402ZRY5V8BB104        | Yageo                                       | 4        | 0402             |
+| 3    | C10            | CAP CER 1UF 35V X5R              | CL05A105KL5NRNC          | Samsung Electro-Mechanics                   | 1        | 0402             |
+| 4    | C11            | CAP CER 30PF 50V C0G/NP0         | C0402C300J5GACAUTO       | KEMET                                       | 1        | 0402             |
+| 5    | D1             | SENSOR PHOTODIODE RADIAL         | BPD-BQDA38V-FZ04         | American Bright Optoelectronics Corporation | 1        |                  |
+| 6    | J1             | CONN RCP USB3.1 TYPEC 24P SMD RA | 10137062-00021LF         | Amphenol                                    | 1        |                  |
+| 7    | J2 J3          | CONN UMC JACK STR 50 OHM SMD     | A-1JB                    | Amphenol RF                                 | 2        |                  |
+| 8    | R1 R3 R6 R8    | RES SMD 49.9K OHM 1% 1/10W       | ERJ-2RKF4992X            | Panasonic Electronic Components             | 4        | 0402             |
+| 9    | R2 R4          | RES SMD 68.1K OHM 1% 1/10W       | ERJ-2RKF6812X            | Panasonic Electronic Components             | 2        | 0402             |
+| 10   | R5 R7          | RES SMD 3.65M OHM 1% 1/10W       | CRCW06033M65FKEA         | Vishay Dale                                 | 2        | 0603             |
+| 11   | R9             | RES SMD 249 OHM 1% 1/10W         | ERJ-2RKF2490X            | Panasonic Electronic Components             | 1        | 0402             |
+| 12   | R10            | RES SMD 150K OHM 0.1% 1/4W       | ERA-8AEB154V             | Panasonic Electronic Components             | 1        | 1206             |
+| 13   | R11            | RES 2.0M OHM 1% 0.66W            | ERJ-PM8F2004V            | Panasonic Electronic Components             | 1        | 1206             |
+| 14   | U1             | IC REG CHARGE PUMP INV DL 8UMAX  | MAX865EUA+               | Maxim Integrated                            | 1        | SOP65P490X110-8N |
+| 15   | U2 U3          | IC UNIV ACTIVE FILTER 16-SOIC    | UAF42AU                  | Texas Instruments                           | 2        |                  |
+| 16   | U4             | IC TRANSIMPEDANCE 1 CIRCUIT 8SON | OPA381AIDRBT             | Texas Instruments                           | 1        |                  |
 
 
 ## Supplemental
@@ -112,7 +127,7 @@
 |      |                                    |                          |                     |          |        |
 
 
-<a id="org7f4c210"></a>
+<a id="org9b25b3e"></a>
 
 # Development
 
