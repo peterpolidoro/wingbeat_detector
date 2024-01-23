@@ -19,4 +19,5 @@
    "python-ipython"
    "python-kicad-bom"
    "dosbox"
-   "freecad"))
+   "freecad"
+   "font-orbitron"))
