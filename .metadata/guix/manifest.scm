@@ -20,4 +20,8 @@
    "python-kicad-bom"
    "dosbox"
    "freecad"
-   "font-orbitron"))
+   "font-orbitron"
+   "texlive-base"
+   "texlive-adjustbox"
+   "texlive-ulem"
+   "texlive-geometry"))

@@ -14,6 +14,21 @@ GUIX-CONTAINER = $(GUIX-SHELL) $(CONTAINER)
 metadata-edits:
 	$(GUIX-CONTAINER) -- sh -c "emacs -q --no-site-file --no-site-lisp --no-splash -l $(MAKEFILE_DIR)/emacs/init.el --file $(MAKEFILE_DIR)/metadata.org"
 
+.PHONY: org
+org:
+	$(GUIX-CONTAINER) -- sh -c "emacs --batch -Q  -l $(MAKEFILE_DIR)/emacs/init.el --file $(MAKEFILE_DIR)/metadata.org -f org-org-export-to-org"; mv $(MAKEFILE_DIR)/README.org ./
+
+.PHONY: markdown
+markdown:
+	$(GUIX-CONTAINER) -- sh -c "emacs --batch -Q  -l $(MAKEFILE_DIR)/emacs/init.el --file README.org -f org-gfm-export-to-markdown"
+
+.PHONY: readme
+readme: org markdown
+
+.PHONY: bom-pdf
+bom-pdf:
+	$(GUIX-CONTAINER) -- sh -c "emacs --batch -Q  -l $(MAKEFILE_DIR)/emacs/init.el --file ./documentation/bom/supplemental-bom.org -f org-latex-export-to-pdf"
+
 .PHONY: metadata
 metadata:
 	$(GUIX-CONTAINER) -- sh -c "emacs --batch -Q  -l $(MAKEFILE_DIR)/emacs/init.el --eval '(process-org \"$(MAKEFILE_DIR)/metadata.org\")'"

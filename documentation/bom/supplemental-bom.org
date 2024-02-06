@@ -1,0 +1,25 @@
+#+OPTIONS: toc:nil title:nil num:nil
+#+LATEX_HEADER: \usepackage{adjustbox}
+#+LATEX_HEADER: \usepackage[margin=2cm]{geometry}
+#+NAME: supplemental-bom-table
+#+BEGIN_TABLE
+#+LATEX: \adjustbox{max width=\linewidth}{
+#+ATTR_LATEX: :center nil
+|  Item | Description                        | Manufacturer Part Number | Manufacturer        | Quantity |   Cost |   Total |
+|-------+------------------------------------+--------------------------+---------------------+----------+--------+---------|
+|     1 | BNC STRAIGHT BULKHEAD JACK TO AM   | 095-850-210-150          | Amphenol RF         |        1 |  24.41 |   24.41 |
+|     2 | AC/DC WALL MNT ADAPTER 5.1V 15W    | SC0445                   | Raspberry Pi        |        1 |   8.00 |    8.00 |
+|     3 | CBL ASSY BNC PLUG-PLUG RG58 5'     | 5697-60                  | Pomona Electronics  |        1 |  21.29 |   21.29 |
+|     4 | LLG 3 mm Core 420 - 2000 nm 1.2 m  | LLG3-4Z                  | thorlabs            |        1 | 392.69 |  392.69 |
+|     5 | 3 mm LLG to SM1 Adapter            | AD3LLG                   | thorlabs            |        1 |  38.32 |   38.32 |
+|     6 | Adapter External SM05 Internal SM1 | SM1A1                    | thorlabs            |        1 |  23.41 |   23.41 |
+|     7 | SM05 Adjustable Lens Tube          | SM05V05                  | thorlabs            |        1 |  31.64 |   31.64 |
+|     8 | 825nm 12.5mm Dia Longpass Filter   | 86-062                   | edmundoptics        |        1 | 194.00 |  194.00 |
+|     9 | Universal probe holder             | MXB                      | siskiyou            |        1 | 275.00 |  275.00 |
+|    10 | MACHINE SCREW PAN PHILLIPS 2-56    | PMSSS 256 0050 PH        | B&F Fastener Supply |        4 |   0.24 |    0.96 |
+|    11 | HEX NUT 3/16" STN STEEL 2-56       | HNSS256                  | B&F Fastener Supply |        4 |   0.28 |    1.12 |
+|-------+------------------------------------+--------------------------+---------------------+----------+--------+---------|
+| Total |                                    |                          |                     |          |        | 1010.84 |
+#+TBLFM: $7=$5*$6;%0.2f::@>$7=vsum(@2..@-1);%0.2f
+#+LATEX: }
+#+END_TABLE
