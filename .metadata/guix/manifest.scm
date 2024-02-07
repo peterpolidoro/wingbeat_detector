@@ -21,7 +21,11 @@
    "dosbox"
    "freecad"
    "font-orbitron"
-   "texlive-base"
+   "pandoc"
+   "texlive-scheme-basic"
    "texlive-adjustbox"
-   "texlive-ulem"
-   "texlive-geometry"))
+   "texlive-booktabs"
+   "texlive-siunitx"
+   "texlive-graphics"
+   "texlive-geometry"
+   "texlive-ulem"))
