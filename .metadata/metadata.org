@@ -268,6 +268,8 @@ return bom
 
 ** Supplemental
 
+#+NAME: supplemental-bom-block
+#+BEGIN_SRC org :noweb yes :exports none
 #+NAME: supplemental-bom-table
 |  Item | Description                        | Manufacturer Part Number | Manufacturer        | Quantity |   Cost |   Total |
 |-------+------------------------------------+--------------------------+---------------------+----------+--------+---------|
@@ -285,6 +287,11 @@ return bom
 |-------+------------------------------------+--------------------------+---------------------+----------+--------+---------|
 | Total |                                    |                          |                     |          |        | 1010.84 |
 #+TBLFM: $7=$5*$6;%0.2f::@>$7=vsum(@2..@-1);%0.2f
+#+END_SRC
+
+#+BEGIN_SRC org :noweb yes
+<<supplemental-bom-block>>
+#+END_SRC
 
 * Development
 
@@ -366,6 +373,7 @@ exit
    "texlive-siunitx"
    "texlive-graphics"
    "texlive-geometry"
+   "texlive-texinfo"
    "texlive-ulem"))
 #+END_SRC
 
@@ -481,11 +489,16 @@ trimmed-images:
     (with-current-buffer org-file-buffer
       (org-open-file (org-latex-export-to-pdf)))))
 
+;; (defun process-org (org-file)
+;;   "Tangle and export org file"
+;;   (progn (tangle-org org-file)
+;;          (export-org-to-markdown org-file)
+;;          (export-org-to-pdf org-file)))
+
 (defun process-org (org-file)
   "Tangle and export org file"
   (progn (tangle-org org-file)
-         (export-org-to-markdown org-file)
-         (export-org-to-pdf org-file)))
+         (export-org-to-markdown org-file)))
 
 (make-variable-buffer-local 'org-export-filter-final-output-functions)
 (defun my-double-blank-line-filter (output backend info)

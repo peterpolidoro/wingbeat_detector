@@ -48,11 +48,16 @@
     (with-current-buffer org-file-buffer
       (org-open-file (org-latex-export-to-pdf)))))
 
+;; (defun process-org (org-file)
+;;   "Tangle and export org file"
+;;   (progn (tangle-org org-file)
+;;          (export-org-to-markdown org-file)
+;;          (export-org-to-pdf org-file)))
+
 (defun process-org (org-file)
   "Tangle and export org file"
   (progn (tangle-org org-file)
-         (export-org-to-markdown org-file)
-         (export-org-to-pdf org-file)))
+         (export-org-to-markdown org-file)))
 
 (make-variable-buffer-local 'org-export-filter-final-output-functions)
 (defun my-double-blank-line-filter (output backend info)

@@ -28,4 +28,5 @@
    "texlive-siunitx"
    "texlive-graphics"
    "texlive-geometry"
+   "texlive-texinfo"
    "texlive-ulem"))
