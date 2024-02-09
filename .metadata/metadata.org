@@ -1,4 +1,4 @@
-# Hey Emacs, this is a -*- org -*- file ...
+Q# Hey Emacs, this is a -*- org -*- file ...
 #+TITLE: Wingbeat Detector Documentation
 #+AUTHOR: Peter Polidoro
 #+EMAIL: peter@polidoro.io
@@ -8,9 +8,7 @@
 #+OPTIONS: H:5 num:nil toc:2 p:t
 #+EXPORT_FILE_NAME: ../docs/index.html
 
-#+SETUPFILE: ./org/theme-readtheorg-local.setup
-
-#+PROPERTY:  header-args :eval never-export
+#+SETUPFILE: ./org-html-theme/theme-readtheorg-local.setup
 
 * Project Specific Variables                                       :noexport:
 
@@ -92,24 +90,29 @@ LICENSE
 peterpolidoro
 #+END_SRC
 
-#+NAME: forge
+#+NAME: repository-forge
 #+BEGIN_SRC text :exports none :noweb yes
 github.com
 #+END_SRC
 
+#+NAME: documentation-domain
+#+BEGIN_SRC text :exports none :noweb yes
+github.io
+#+END_SRC
+
 #+NAME: repository-url
 #+BEGIN_SRC text :exports none :noweb yes
-https://<<forge>>/<<repository-organization>>/<<repository-name>>
+https://<<repository-forge>>/<<repository-organization>>/<<repository-name>>
 #+END_SRC
 
 #+NAME: documentation-url
 #+BEGIN_SRC text :exports none :noweb yes
-https://<<forge>>/<<repository-organization>>/<<repository-name>>
+https://<<repository-organization>>.<<documentation-domain>>/<<repository-name>>/
 #+END_SRC
 
 #+NAME: git-clone-url-ssh
 #+BEGIN_SRC text :exports none :noweb yes
-git@<<forge>>:<<repository-organization>>/<<repository-name>>.git
+git@<<repository-forge>>:<<repository-organization>>/<<repository-name>>.git
 #+END_SRC
 
 #+NAME: author-given-name
@@ -157,34 +160,29 @@ KiCad
 1280
 #+END_SRC
 
-#+NAME: documentation-dir
-#+BEGIN_SRC text :exports none :noweb yes
-documentation
-#+END_SRC
-
 #+NAME: bom-dir
 #+BEGIN_SRC text :exports none :noweb yes
-<<documentation-dir>>/bom
+bom
 #+END_SRC
 
 #+NAME: fabrication-dir
 #+BEGIN_SRC text :exports none :noweb yes
-<<documentation-dir>>/fabrication
+fabrication
 #+END_SRC
 
 #+NAME: pcb-dir
 #+BEGIN_SRC text :exports none :noweb yes
-<<documentation-dir>>/pcb
+pcb
 #+END_SRC
 
 #+NAME: reference-dir
 #+BEGIN_SRC text :exports none :noweb yes
-<<documentation-dir>>/reference
+reference
 #+END_SRC
 
 #+NAME: schematic-dir
 #+BEGIN_SRC text :exports none :noweb yes
-<<documentation-dir>>/schematic
+schematic
 #+END_SRC
 
 * About

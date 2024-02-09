@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2024-02-09 Fri 02:42 -->
+<!-- 2024-02-09 Fri 02:54 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Wingbeat Detector Documentation</title>
@@ -25,78 +25,387 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#orgcf3afa7">About</a></li>
-<li><a href="#org0ebf54d">Images</a></li>
-<li><a href="#org609b686">Schematic</a></li>
-<li><a href="#org420053b">PCB</a></li>
-<li><a href="#org1dfcc53">Bill of Materials</a>
+<li><a href="#org04bf2d6">About</a></li>
+<li><a href="#org46e59e2">Images</a></li>
+<li><a href="#org2f3741d">Schematic</a></li>
+<li><a href="#orgdeedf51">PCB</a></li>
+<li><a href="#org0a9a1a5">Bill of Materials</a>
 <ul>
-<li><a href="#org88b8c8a">Board</a></li>
-<li><a href="#org61cf055">Supplemental</a></li>
+<li><a href="#orgb13a976">Board</a></li>
+<li><a href="#org35ef4f3">Supplemental</a></li>
 </ul>
 </li>
-<li><a href="#orgc7a8216">Development</a>
+<li><a href="#org7758147">Development</a>
 <ul>
-<li><a href="#orgd583ce2">Install Guix</a></li>
-<li><a href="#org55cc42c">Edit metadata.org</a></li>
-<li><a href="#org1b0bd70">Tangle metadata.org</a></li>
-<li><a href="#orge3013bc">Edit project</a></li>
+<li><a href="#org13b02c7">Install Guix</a></li>
+<li><a href="#org6ce0505">Edit metadata.org</a></li>
+<li><a href="#org94a40bd">Tangle metadata.org</a></li>
+<li><a href="#orgd7620d4">Edit project</a></li>
 </ul>
 </li>
 </ul>
 </div>
 </div>
+<p>
+Q# Hey Emacs, this is a -<b>- org -</b>- file &#x2026;
+</p>
 
-<div id="outline-container-orgcf3afa7" class="outline-2">
-<h2 id="orgcf3afa7">About</h2>
-<div class="outline-text-2" id="text-orgcf3afa7">
+<div id="outline-container-org04bf2d6" class="outline-2">
+<h2 id="org04bf2d6">About</h2>
+<div class="outline-text-2" id="text-org04bf2d6">
 <ul class="org-ul">
-<li>Project Name: <a id="org78c8c75"></a></li>
-<li>Description: <a id="orgf374acd"></a></li>
-<li>Release Date: <a id="org9442116"></a></li>
-<li>PCB Version: <a id="orgc8f5e8b"></a></li>
-<li>Enclosure Version: <a id="orgf148994"></a></li>
-<li>Supplemental BOM Version: <a id="org2c487ef"></a></li>
-<li>Kicad Version: <a id="org72379c0"></a></li>
-<li>Creation Date: <a id="org2ff4cdc"></a></li>
-<li>License: <a id="org7e96f0d"></a></li>
-<li>Repository URL: <a id="orgb7ba6e5"></a></li>
-<li>Documentation URL: <a id="org92662a0"></a></li>
-<li>Author: <a id="orgd782865"></a></li>
-<li>Email: <a id="orgedc6c83"></a></li>
-<li>Copyright: <a id="orgf8c9bcd"></a></li>
+<li>Project Name: <a id="orgf7e2971"></a></li>
+<li>Description: <a id="org3211ca2"></a></li>
+<li>Release Date: <a id="org7908b0c"></a></li>
+<li>PCB Version: <a id="orgd5ba279"></a></li>
+<li>Enclosure Version: <a id="orgcbfc84a"></a></li>
+<li>Supplemental BOM Version: <a id="orga6d214a"></a></li>
+<li>Kicad Version: <a id="org31c319f"></a></li>
+<li>Creation Date: <a id="org2fadfc8"></a></li>
+<li>License: <a id="orge860cd8"></a></li>
+<li>Repository URL: <a id="org61e6511"></a></li>
+<li>Documentation URL: <a id="org8980e30"></a></li>
+<li>Author: <a id="org3c5ab46"></a></li>
+<li>Email: <a id="orga38317f"></a></li>
+<li>Copyright: <a id="orge4d49ea"></a></li>
 <li>References:
 <ul class="org-ul">
-<li><a id="org30f6eca"></a></li>
+<li><a id="org933c5c0"></a></li>
 </ul></li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-org0ebf54d" class="outline-2">
-<h2 id="org0ebf54d">Images</h2>
+<div id="outline-container-org46e59e2" class="outline-2">
+<h2 id="org46e59e2">Images</h2>
+<div class="outline-text-2" id="text-org46e59e2">
+
+<div id="org1bb90c4" class="figure">
+<p><img src="./documentation/pcb/raytrace.png" alt="raytrace.png" />
+</p>
 </div>
 
-<div id="outline-container-org609b686" class="outline-2">
-<h2 id="org609b686">Schematic</h2>
+
+<div id="orga7d0d25" class="figure">
+<p><img src="./documentation/pcb/top.png" alt="top.png" />
+</p>
 </div>
 
-<div id="outline-container-org420053b" class="outline-2">
-<h2 id="org420053b">PCB</h2>
+
+<div id="org550950b" class="figure">
+<p><img src="./documentation/pcb/bottom.png" alt="bottom.png" />
+</p>
 </div>
 
-<div id="outline-container-org1dfcc53" class="outline-2">
-<h2 id="org1dfcc53">Bill of Materials</h2>
-<div class="outline-text-2" id="text-org1dfcc53">
-</div>
-<div id="outline-container-org88b8c8a" class="outline-3">
-<h3 id="org88b8c8a">Board</h3>
+
+<div id="orge7e8d8f" class="figure">
+<p><img src="./documentation/pcb/front.png" alt="front.png" />
+</p>
 </div>
 
-<div id="outline-container-org61cf055" class="outline-3">
-<h3 id="org61cf055">Supplemental</h3>
-<div class="outline-text-3" id="text-org61cf055">
-<table id="org69016a3" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+<div id="org6914f32" class="figure">
+<p><img src="./documentation/pcb/back.png" alt="back.png" />
+</p>
+</div>
+
+
+<div id="org8197a1d" class="figure">
+<p><img src="./documentation/pcb/left.png" alt="left.png" />
+</p>
+</div>
+
+
+<div id="org32fe265" class="figure">
+<p><img src="./documentation/pcb/right.png" alt="right.png" />
+</p>
+</div>
+</div>
+</div>
+
+
+<div id="outline-container-org2f3741d" class="outline-2">
+<h2 id="org2f3741d">Schematic</h2>
+<div class="outline-text-2" id="text-org2f3741d">
+<p>
+<a href="./documentation/schematic/wingbeat_detector.pdf">./documentation/schematic/wingbeat<sub>detector.pdf</sub></a>
+</p>
+
+
+
+<div id="org0c76311" class="figure">
+<p><img src="./documentation/schematic/wingbeat_detector.svg" alt="wingbeat_detector.svg" class="org-svg" />
+</p>
+</div>
+
+
+<div id="org050fcfa" class="figure">
+<p><img src="./documentation/schematic/wingbeat_detector-power.svg" alt="wingbeat_detector-power.svg" class="org-svg" />
+</p>
+</div>
+
+
+<div id="org889853a" class="figure">
+<p><img src="./documentation/schematic/wingbeat_detector-filter.svg" alt="wingbeat_detector-filter.svg" class="org-svg" />
+</p>
+</div>
+
+
+<div id="orgce3dc70" class="figure">
+<p><img src="./documentation/schematic/wingbeat_detector-photodiode.svg" alt="wingbeat_detector-photodiode.svg" class="org-svg" />
+</p>
+</div>
+
+
+<div id="org7a5f187" class="figure">
+<p><img src="./documentation/schematic/wingbeat_detector-assembly.svg" alt="wingbeat_detector-assembly.svg" class="org-svg" />
+</p>
+</div>
+</div>
+</div>
+
+
+<div id="outline-container-orgdeedf51" class="outline-2">
+<h2 id="orgdeedf51">PCB</h2>
+<div class="outline-text-2" id="text-orgdeedf51">
+
+<div id="orgf323873" class="figure">
+<p><img src="./documentation/pcb/wingbeat_detector-User_Drawings.svg" alt="wingbeat_detector-User_Drawings.svg" class="org-svg" />
+</p>
+</div>
+
+
+<div id="org028a0b1" class="figure">
+<p><img src="./documentation/pcb/wingbeat_detector-F_Silkscreen.svg" alt="wingbeat_detector-F_Silkscreen.svg" class="org-svg" />
+</p>
+</div>
+
+
+<div id="org2ad7d07" class="figure">
+<p><img src="./documentation/pcb/wingbeat_detector-B_Silkscreen.svg" alt="wingbeat_detector-B_Silkscreen.svg" class="org-svg" />
+</p>
+</div>
+
+
+<div id="orgbd680a2" class="figure">
+<p><img src="./documentation/pcb/wingbeat_detector-F_Fab.svg" alt="wingbeat_detector-F_Fab.svg" class="org-svg" />
+</p>
+</div>
+
+
+<div id="orgb7b1721" class="figure">
+<p><img src="./documentation/pcb/wingbeat_detector-B_Fab.svg" alt="wingbeat_detector-B_Fab.svg" class="org-svg" />
+</p>
+</div>
+</div>
+</div>
+
+
+<div id="outline-container-org0a9a1a5" class="outline-2">
+<h2 id="org0a9a1a5">Bill of Materials</h2>
+<div class="outline-text-2" id="text-org0a9a1a5">
+</div>
+<div id="outline-container-orgb13a976" class="outline-3">
+<h3 id="orgb13a976">Board</h3>
+<div class="outline-text-3" id="text-orgb13a976">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-right" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-right">Item</th>
+<th scope="col" class="org-left">Reference(s)</th>
+<th scope="col" class="org-left">Description</th>
+<th scope="col" class="org-left">Manufacturer Part Number</th>
+<th scope="col" class="org-left">Manufacturer</th>
+<th scope="col" class="org-right">Quantity</th>
+<th scope="col" class="org-right">Package</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-right">1</td>
+<td class="org-left">C1 C2 C3 C4 C5</td>
+<td class="org-left">CAP CER 4.7UF 16V X5R 0603</td>
+<td class="org-left">C1608X5R1C475K080AC</td>
+<td class="org-left">TDK Corporation</td>
+<td class="org-right">5</td>
+<td class="org-right">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-right">2</td>
+<td class="org-left">C6 C7 C8 C9</td>
+<td class="org-left">CAP CER 0.1UF 25V Y5V</td>
+<td class="org-left">CC0402ZRY5V8BB104</td>
+<td class="org-left">Yageo</td>
+<td class="org-right">4</td>
+<td class="org-right">0402</td>
+</tr>
+
+<tr>
+<td class="org-right">3</td>
+<td class="org-left">C10</td>
+<td class="org-left">CAP CER 1UF 35V X5R</td>
+<td class="org-left">CL05A105KL5NRNC</td>
+<td class="org-left">Samsung Electro-Mechanics</td>
+<td class="org-right">1</td>
+<td class="org-right">0402</td>
+</tr>
+
+<tr>
+<td class="org-right">4</td>
+<td class="org-left">C11</td>
+<td class="org-left">CAP CER 30PF 50V C0G/NP0</td>
+<td class="org-left">C0402C300J5GACAUTO</td>
+<td class="org-left">KEMET</td>
+<td class="org-right">1</td>
+<td class="org-right">0402</td>
+</tr>
+
+<tr>
+<td class="org-right">5</td>
+<td class="org-left">D1</td>
+<td class="org-left">SENSOR PHOTODIODE RADIAL</td>
+<td class="org-left">BPD-BQDA38V-FZ04</td>
+<td class="org-left">American Bright Optoelectronics Corporation</td>
+<td class="org-right">1</td>
+<td class="org-right">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-right">6</td>
+<td class="org-left">J1</td>
+<td class="org-left">CONN RCP USB3.1 TYPEC 24P SMD RA</td>
+<td class="org-left">10137062-00021LF</td>
+<td class="org-left">Amphenol</td>
+<td class="org-right">1</td>
+<td class="org-right">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-right">7</td>
+<td class="org-left">J2 J3</td>
+<td class="org-left">CONN UMC JACK STR 50 OHM SMD</td>
+<td class="org-left">A-1JB</td>
+<td class="org-left">Amphenol RF</td>
+<td class="org-right">2</td>
+<td class="org-right">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-right">8</td>
+<td class="org-left">R1 R3 R6 R8</td>
+<td class="org-left">RES SMD 49.9K OHM 1% 1/10W</td>
+<td class="org-left">ERJ-2RKF4992X</td>
+<td class="org-left">Panasonic Electronic Components</td>
+<td class="org-right">4</td>
+<td class="org-right">0402</td>
+</tr>
+
+<tr>
+<td class="org-right">9</td>
+<td class="org-left">R2 R4</td>
+<td class="org-left">RES SMD 68.1K OHM 1% 1/10W</td>
+<td class="org-left">ERJ-2RKF6812X</td>
+<td class="org-left">Panasonic Electronic Components</td>
+<td class="org-right">2</td>
+<td class="org-right">0402</td>
+</tr>
+
+<tr>
+<td class="org-right">10</td>
+<td class="org-left">R5 R7</td>
+<td class="org-left">RES SMD 3.65M OHM 1% 1/10W</td>
+<td class="org-left">CRCW06033M65FKEA</td>
+<td class="org-left">Vishay Dale</td>
+<td class="org-right">2</td>
+<td class="org-right">0603</td>
+</tr>
+
+<tr>
+<td class="org-right">11</td>
+<td class="org-left">R9</td>
+<td class="org-left">RES SMD 249 OHM 1% 1/10W</td>
+<td class="org-left">ERJ-2RKF2490X</td>
+<td class="org-left">Panasonic Electronic Components</td>
+<td class="org-right">1</td>
+<td class="org-right">0402</td>
+</tr>
+
+<tr>
+<td class="org-right">12</td>
+<td class="org-left">R10</td>
+<td class="org-left">RES SMD 150K OHM 0.1% 1/4W</td>
+<td class="org-left">ERA-8AEB154V</td>
+<td class="org-left">Panasonic Electronic Components</td>
+<td class="org-right">1</td>
+<td class="org-right">1206</td>
+</tr>
+
+<tr>
+<td class="org-right">13</td>
+<td class="org-left">R11</td>
+<td class="org-left">RES 2.0M OHM 1% 0.66W</td>
+<td class="org-left">ERJ-PM8F2004V</td>
+<td class="org-left">Panasonic Electronic Components</td>
+<td class="org-right">1</td>
+<td class="org-right">1206</td>
+</tr>
+
+<tr>
+<td class="org-right">14</td>
+<td class="org-left">U1</td>
+<td class="org-left">IC REG CHARGE PUMP INV DL 8UMAX</td>
+<td class="org-left">MAX865EUA+</td>
+<td class="org-left">Maxim Integrated</td>
+<td class="org-right">1</td>
+<td class="org-right">SOP65P490X110-8N</td>
+</tr>
+
+<tr>
+<td class="org-right">15</td>
+<td class="org-left">U2 U3</td>
+<td class="org-left">IC UNIV ACTIVE FILTER 16-SOIC</td>
+<td class="org-left">UAF42AU</td>
+<td class="org-left">Texas Instruments</td>
+<td class="org-right">2</td>
+<td class="org-right">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-right">16</td>
+<td class="org-left">U4</td>
+<td class="org-left">IC TRANSIMPEDANCE 1 CIRCUIT 8SON</td>
+<td class="org-left">OPA381AIDRBT</td>
+<td class="org-left">Texas Instruments</td>
+<td class="org-right">1</td>
+<td class="org-right">&#xa0;</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+<div id="outline-container-org35ef4f3" class="outline-3">
+<h3 id="org35ef4f3">Supplemental</h3>
+<div class="outline-text-3" id="text-org35ef4f3">
+<table id="orgd79b214" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
 
 <colgroup>
@@ -252,41 +561,41 @@
 </div>
 </div>
 
-<div id="outline-container-orgc7a8216" class="outline-2">
-<h2 id="orgc7a8216">Development</h2>
-<div class="outline-text-2" id="text-orgc7a8216">
+<div id="outline-container-org7758147" class="outline-2">
+<h2 id="org7758147">Development</h2>
+<div class="outline-text-2" id="text-org7758147">
 </div>
-<div id="outline-container-orgd583ce2" class="outline-3">
-<h3 id="orgd583ce2">Install Guix</h3>
-<div class="outline-text-3" id="text-orgd583ce2">
+<div id="outline-container-org13b02c7" class="outline-3">
+<h3 id="org13b02c7">Install Guix</h3>
+<div class="outline-text-3" id="text-org13b02c7">
 <p>
 <a href="https://guix.gnu.org/manual/en/html_node/Binary-Installation.html">Install Guix</a>
 </p>
 </div>
 </div>
 
-<div id="outline-container-org55cc42c" class="outline-3">
-<h3 id="org55cc42c">Edit metadata.org</h3>
-<div class="outline-text-3" id="text-org55cc42c">
-<pre class="example" id="orgddaf710">
+<div id="outline-container-org6ce0505" class="outline-3">
+<h3 id="org6ce0505">Edit metadata.org</h3>
+<div class="outline-text-3" id="text-org6ce0505">
+<pre class="example" id="orgdd4b321">
 make -f .metadata/Makefile metadata-edits
 </pre>
 </div>
 </div>
 
-<div id="outline-container-org1b0bd70" class="outline-3">
-<h3 id="org1b0bd70">Tangle metadata.org</h3>
-<div class="outline-text-3" id="text-org1b0bd70">
-<pre class="example" id="orgbadb191">
+<div id="outline-container-org94a40bd" class="outline-3">
+<h3 id="org94a40bd">Tangle metadata.org</h3>
+<div class="outline-text-3" id="text-org94a40bd">
+<pre class="example" id="org80a3908">
 make -f .metadata/Makefile metadata
 </pre>
 </div>
 </div>
 
-<div id="outline-container-orge3013bc" class="outline-3">
-<h3 id="orge3013bc">Edit project</h3>
-<div class="outline-text-3" id="text-orge3013bc">
-<pre class="example" id="org7c76c72">
+<div id="outline-container-orgd7620d4" class="outline-3">
+<h3 id="orgd7620d4">Edit project</h3>
+<div class="outline-text-3" id="text-orgd7620d4">
+<pre class="example" id="org5d1becd">
 make -f .metadata/Makefile kicad-edits
 exit
 </pre>
@@ -296,7 +605,7 @@ exit
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: Peter Polidoro</p>
-<p class="date">Created: 2024-02-09 Fri 02:42</p>
+<p class="date">Created: 2024-02-09 Fri 02:54</p>
 <p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>

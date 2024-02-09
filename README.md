@@ -1,12 +1,12 @@
 # Documentation
 
-https://github.com/peterpolidoro/wingbeat_detector
+https://peterpolidoro.github.io/wingbeat_detector/
 
 # About
 
 - Project Name: wingbeat_detector
 - Description: Measures fly wingbeats using IR light reflected from flapping fly wings.
-- Release Date: 2024-02-08
+- Release Date: 2024-02-09
 - PCB Version: 4.0
 - Enclosure Version: 1.1
 - Supplemental BOM Version: 1.0
@@ -14,7 +14,7 @@ https://github.com/peterpolidoro/wingbeat_detector
 - Creation Date: 2023-02-17
 - License: GPL-3.0
 - Repository URL: https://github.com/peterpolidoro/wingbeat_detector
-- Documentation URL: https://github.com/peterpolidoro/wingbeat_detector
+- Documentation URL: https://peterpolidoro.github.io/wingbeat_detector/
 - Author: Peter Polidoro
 - Email: peter@polidoro.io
 - Copyright: 2024 Peter Polidoro
