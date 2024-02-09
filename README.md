@@ -1,3 +1,7 @@
+# Documentation
+
+https://github.com/peterpolidoro/wingbeat_detector
+
 # About
 
 - Project Name: wingbeat_detector
@@ -18,8 +22,4 @@
   - https://www.kicad.org/
   - https://github.com/janelia-kicad/light_sensor_boards
 
-#+html: <img src="./documentation/pcb/raytrace.png" width="1280">
-
-# Documentation
-
-https://github.com/peterpolidoro/wingbeat_detector
+<img src="./documentation/pcb/raytrace.png" width="1280">

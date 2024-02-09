@@ -340,6 +340,10 @@ exit
 * Tangled Files                                                    :noexport:
 
 #+BEGIN_SRC markdown :noweb yes :tangle ../README.md
+# Documentation
+
+<<documentation-url>>
+
 # About
 
 - Project Name: <<project-name>>
@@ -359,11 +363,7 @@ exit
 - References:
   - <<references>>
 
-#+html: <img src="./<<pcb-dir>>/raytrace.png" width="<<image-width>>">
-
-# Documentation
-
-<<documentation-url>>
+<img src="./<<pcb-dir>>/raytrace.png" width="1280">
 #+END_SRC
 
 #+BEGIN_SRC scheme :tangle guix/channels.scm :exports none :noweb yes
