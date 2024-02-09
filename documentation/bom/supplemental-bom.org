@@ -1,9 +1,0 @@
-#+OPTIONS: toc:nil title:nil num:nil
-#+LATEX_HEADER: \usepackage{adjustbox}
-#+LATEX_HEADER: \usepackage[margin=2cm]{geometry}
-#+BEGIN_TABLE
-#+LATEX: \adjustbox{max width=\linewidth}{
-#+ATTR_LATEX: :center nil
-tbl
-#+LATEX: }
-#+END_TABLE

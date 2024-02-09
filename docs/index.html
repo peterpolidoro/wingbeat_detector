@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2024-02-09 Fri 02:42 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Wingbeat Detector Documentation</title>
+<meta name="author" content="Peter Polidoro" />
+<meta name="description" content="Measures fly wingbeats using IR light reflected from flapping fly wings." />
+<meta name="keywords" content="fly, science, wing, neurobiology" />
+<meta name="generator" content="Org Mode" />
+<link rel="stylesheet" type="text/css" href="src/readtheorg_theme/css/htmlize.css"/>
+<link rel="stylesheet" type="text/css" href="src/readtheorg_theme/css/readtheorg.css"/>
+<script type="text/javascript" src="src/lib/js/jquery.min.js"></script>
+<script type="text/javascript" src="src/lib/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="src/lib/js/jquery.stickytableheaders.min.js"></script>
+<script type="text/javascript" src="src/readtheorg_theme/js/readtheorg.js"></script>
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">Wingbeat Detector Documentation</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#orgcf3afa7">About</a></li>
+<li><a href="#org0ebf54d">Images</a></li>
+<li><a href="#org609b686">Schematic</a></li>
+<li><a href="#org420053b">PCB</a></li>
+<li><a href="#org1dfcc53">Bill of Materials</a>
+<ul>
+<li><a href="#org88b8c8a">Board</a></li>
+<li><a href="#org61cf055">Supplemental</a></li>
+</ul>
+</li>
+<li><a href="#orgc7a8216">Development</a>
+<ul>
+<li><a href="#orgd583ce2">Install Guix</a></li>
+<li><a href="#org55cc42c">Edit metadata.org</a></li>
+<li><a href="#org1b0bd70">Tangle metadata.org</a></li>
+<li><a href="#orge3013bc">Edit project</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgcf3afa7" class="outline-2">
+<h2 id="orgcf3afa7">About</h2>
+<div class="outline-text-2" id="text-orgcf3afa7">
+<ul class="org-ul">
+<li>Project Name: <a id="org78c8c75"></a></li>
+<li>Description: <a id="orgf374acd"></a></li>
+<li>Release Date: <a id="org9442116"></a></li>
+<li>PCB Version: <a id="orgc8f5e8b"></a></li>
+<li>Enclosure Version: <a id="orgf148994"></a></li>
+<li>Supplemental BOM Version: <a id="org2c487ef"></a></li>
+<li>Kicad Version: <a id="org72379c0"></a></li>
+<li>Creation Date: <a id="org2ff4cdc"></a></li>
+<li>License: <a id="org7e96f0d"></a></li>
+<li>Repository URL: <a id="orgb7ba6e5"></a></li>
+<li>Documentation URL: <a id="org92662a0"></a></li>
+<li>Author: <a id="orgd782865"></a></li>
+<li>Email: <a id="orgedc6c83"></a></li>
+<li>Copyright: <a id="orgf8c9bcd"></a></li>
+<li>References:
+<ul class="org-ul">
+<li><a id="org30f6eca"></a></li>
+</ul></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org0ebf54d" class="outline-2">
+<h2 id="org0ebf54d">Images</h2>
+</div>
+
+<div id="outline-container-org609b686" class="outline-2">
+<h2 id="org609b686">Schematic</h2>
+</div>
+
+<div id="outline-container-org420053b" class="outline-2">
+<h2 id="org420053b">PCB</h2>
+</div>
+
+<div id="outline-container-org1dfcc53" class="outline-2">
+<h2 id="org1dfcc53">Bill of Materials</h2>
+<div class="outline-text-2" id="text-org1dfcc53">
+</div>
+<div id="outline-container-org88b8c8a" class="outline-3">
+<h3 id="org88b8c8a">Board</h3>
+</div>
+
+<div id="outline-container-org61cf055" class="outline-3">
+<h3 id="org61cf055">Supplemental</h3>
+<div class="outline-text-3" id="text-org61cf055">
+<table id="org69016a3" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-right" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-right">Item</th>
+<th scope="col" class="org-left">Description</th>
+<th scope="col" class="org-left">Manufacturer Part Number</th>
+<th scope="col" class="org-left">Manufacturer</th>
+<th scope="col" class="org-right">Quantity</th>
+<th scope="col" class="org-right">Cost</th>
+<th scope="col" class="org-right">Total</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-right">1</td>
+<td class="org-left">BNC STRAIGHT BULKHEAD JACK TO AM</td>
+<td class="org-left">095-850-210-150</td>
+<td class="org-left">Amphenol RF</td>
+<td class="org-right">1</td>
+<td class="org-right">24.41</td>
+<td class="org-right">24.41</td>
+</tr>
+
+<tr>
+<td class="org-right">2</td>
+<td class="org-left">AC/DC WALL MNT ADAPTER 5.1V 15W</td>
+<td class="org-left">SC0445</td>
+<td class="org-left">Raspberry Pi</td>
+<td class="org-right">1</td>
+<td class="org-right">8.00</td>
+<td class="org-right">8.00</td>
+</tr>
+
+<tr>
+<td class="org-right">3</td>
+<td class="org-left">CBL ASSY BNC PLUG-PLUG RG58 5'</td>
+<td class="org-left">5697-60</td>
+<td class="org-left">Pomona Electronics</td>
+<td class="org-right">1</td>
+<td class="org-right">21.29</td>
+<td class="org-right">21.29</td>
+</tr>
+
+<tr>
+<td class="org-right">4</td>
+<td class="org-left">LLG 3 mm Core 420 - 2000 nm 1.2 m</td>
+<td class="org-left">LLG3-4Z</td>
+<td class="org-left">thorlabs</td>
+<td class="org-right">1</td>
+<td class="org-right">392.69</td>
+<td class="org-right">392.69</td>
+</tr>
+
+<tr>
+<td class="org-right">5</td>
+<td class="org-left">3 mm LLG to SM1 Adapter</td>
+<td class="org-left">AD3LLG</td>
+<td class="org-left">thorlabs</td>
+<td class="org-right">1</td>
+<td class="org-right">38.32</td>
+<td class="org-right">38.32</td>
+</tr>
+
+<tr>
+<td class="org-right">6</td>
+<td class="org-left">Adapter External SM05 Internal SM1</td>
+<td class="org-left">SM1A1</td>
+<td class="org-left">thorlabs</td>
+<td class="org-right">1</td>
+<td class="org-right">23.41</td>
+<td class="org-right">23.41</td>
+</tr>
+
+<tr>
+<td class="org-right">7</td>
+<td class="org-left">SM05 Adjustable Lens Tube</td>
+<td class="org-left">SM05V05</td>
+<td class="org-left">thorlabs</td>
+<td class="org-right">1</td>
+<td class="org-right">31.64</td>
+<td class="org-right">31.64</td>
+</tr>
+
+<tr>
+<td class="org-right">8</td>
+<td class="org-left">825nm 12.5mm Dia Longpass Filter</td>
+<td class="org-left">86-062</td>
+<td class="org-left">edmundoptics</td>
+<td class="org-right">1</td>
+<td class="org-right">194.00</td>
+<td class="org-right">194.00</td>
+</tr>
+
+<tr>
+<td class="org-right">9</td>
+<td class="org-left">Universal probe holder</td>
+<td class="org-left">MXB</td>
+<td class="org-left">siskiyou</td>
+<td class="org-right">1</td>
+<td class="org-right">275.00</td>
+<td class="org-right">275.00</td>
+</tr>
+
+<tr>
+<td class="org-right">10</td>
+<td class="org-left">MACHINE SCREW PAN PHILLIPS 2-56</td>
+<td class="org-left">PMSSS 256 0050 PH</td>
+<td class="org-left">B&amp;F Fastener Supply</td>
+<td class="org-right">4</td>
+<td class="org-right">0.24</td>
+<td class="org-right">0.96</td>
+</tr>
+
+<tr>
+<td class="org-right">11</td>
+<td class="org-left">HEX NUT 3/16" STN STEEL 2-56</td>
+<td class="org-left">HNSS256</td>
+<td class="org-left">B&amp;F Fastener Supply</td>
+<td class="org-right">4</td>
+<td class="org-right">0.28</td>
+<td class="org-right">1.12</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-right">Total</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">1010.84</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgc7a8216" class="outline-2">
+<h2 id="orgc7a8216">Development</h2>
+<div class="outline-text-2" id="text-orgc7a8216">
+</div>
+<div id="outline-container-orgd583ce2" class="outline-3">
+<h3 id="orgd583ce2">Install Guix</h3>
+<div class="outline-text-3" id="text-orgd583ce2">
+<p>
+<a href="https://guix.gnu.org/manual/en/html_node/Binary-Installation.html">Install Guix</a>
+</p>
+</div>
+</div>
+
+<div id="outline-container-org55cc42c" class="outline-3">
+<h3 id="org55cc42c">Edit metadata.org</h3>
+<div class="outline-text-3" id="text-org55cc42c">
+<pre class="example" id="orgddaf710">
+make -f .metadata/Makefile metadata-edits
+</pre>
+</div>
+</div>
+
+<div id="outline-container-org1b0bd70" class="outline-3">
+<h3 id="org1b0bd70">Tangle metadata.org</h3>
+<div class="outline-text-3" id="text-org1b0bd70">
+<pre class="example" id="orgbadb191">
+make -f .metadata/Makefile metadata
+</pre>
+</div>
+</div>
+
+<div id="outline-container-orge3013bc" class="outline-3">
+<h3 id="orge3013bc">Edit project</h3>
+<div class="outline-text-3" id="text-orge3013bc">
+<pre class="example" id="org7c76c72">
+make -f .metadata/Makefile kicad-edits
+exit
+</pre>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Peter Polidoro</p>
+<p class="date">Created: 2024-02-09 Fri 02:42</p>
+<p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>

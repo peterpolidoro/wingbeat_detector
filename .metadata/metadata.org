@@ -6,16 +6,11 @@
 #+KEYWORDS: fly, science, wing, neurobiology
 #+LANGUAGE: en
 #+OPTIONS: H:5 num:nil toc:2 p:t
+#+EXPORT_FILE_NAME: ../docs/index.html
 
 #+SETUPFILE: ./org/theme-readtheorg-local.setup
 
 #+PROPERTY:  header-args :eval never-export
-
-# Place warning at the top of the exported file
-#+BEGIN_EXAMPLE
-<!-- This file is generated automatically from metadata -->
-<!-- File edits may be overwritten! -->
-#+END_EXAMPLE
 
 * Project Specific Variables                                       :noexport:
 
@@ -225,7 +220,7 @@ file_path_strings = ['raytrace.png',
 for file_path_string in file_path_strings:
     path = Path('..') / Path('<<pcb-dir>>') / Path(file_path_string)
     if path.is_file():
-        print(f'#+html: <img src="./<<pcb-dir>>/{path.name}" width="<<image-width>>">\n')
+        print(f'[[file:./<<pcb-dir>>/{path.name}]]\n')
 #+END_SRC
 
 * Schematic
@@ -250,7 +245,7 @@ for child in path.iterdir():
         # sort by Id inside svg text
         match_object = search('Id:\s*(\d*)', text)
         number = int(match_object.groups()[0])
-        svg_dict[number] = f'#+html: <img src="./<<schematic-dir>>/{child.name}" width="<<image-width>>">'
+        svg_dict[number] = f'[[./<<schematic-dir>>/{child.name}]]'
 sorted_svg_dict = OrderedDict(sorted(svg_dict.items()))
 for svg_string in sorted_svg_dict.values():
     print(f'{svg_string}\n')
@@ -268,7 +263,7 @@ file_path_strings = ['<<project-name>>-User_Drawings.svg',
 for file_path_string in file_path_strings:
     path = Path('..') / Path('<<pcb-dir>>') / Path(file_path_string)
     if path.is_file():
-        print(f'#+html: <img src="./<<pcb-dir>>/{path.name}" width="<<image-width>>">\n')
+        print(f'[[file:./<<pcb-dir>>/{path.name}]]\n')
 #+END_SRC
 
 * Bill of Materials
@@ -518,27 +513,32 @@ trimmed-images:
     (error "INFILE must be an org file."))
   (org-babel-tangle-file org-file))
 
-(defun export-org-to-markdown (org-file)
-  "Export org file to gfm file"
+(defun export-org-to-html (org-file)
+  "Export org file to html file"
   (unless (string= "org" (file-name-extension org-file))
     (error "INFILE must be an org file."))
   (let ((org-file-buffer (find-file-noselect org-file)))
     (with-current-buffer org-file-buffer
-      (org-open-file (org-gfm-export-to-markdown)))))
-
-(defun export-org-to-pdf (org-file)
-  "Export org file to pdf file"
-  (unless (string= "org" (file-name-extension org-file))
-    (error "INFILE must be an org file."))
-  (let ((org-file-buffer (find-file-noselect org-file)))
-    (with-current-buffer org-file-buffer
-      (org-open-file (org-latex-export-to-pdf)))))
+      (org-open-file (org-html-export-to-html)))))
 
 (defun process-org (org-file)
   "Tangle and export org file"
   (progn (tangle-org org-file)
-         (export-org-to-markdown org-file)
-         (export-org-to-pdf org-file)))
+         (export-org-to-html org-file)))
+
+;; (defun export-org-to-pdf (org-file)
+;;   "Export org file to pdf file"
+;;   (unless (string= "org" (file-name-extension org-file))
+;;     (error "INFILE must be an org file."))
+;;   (let ((org-file-buffer (find-file-noselect org-file)))
+;;     (with-current-buffer org-file-buffer
+;;       (org-open-file (org-latex-export-to-pdf)))))
+
+;; (defun process-org (org-file)
+;;   "Tangle and export org file"
+;;   (progn (tangle-org org-file)
+;;          (export-org-to-html org-file)
+;;          (export-org-to-pdf org-file)))
 
 (make-variable-buffer-local 'org-export-filter-final-output-functions)
 (defun my-double-blank-line-filter (output backend info)

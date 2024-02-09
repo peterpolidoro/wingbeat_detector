@@ -4,7 +4,7 @@
     "license": "https://spdx.org/licenses/GPL-3.0",
     "codeRepository": "https://github.com/peterpolidoro/wingbeat_detector",
     "dateCreated": "2023-02-17",
-    "dateModified": "2024-02-07",
+    "dateModified": "2024-02-09",
     "name": "wingbeat_detector",
     "version": "4.0",
     "description": "Measures fly wingbeats using IR light reflected from flapping fly wings.",
