@@ -1,5 +1,15 @@
-#+EXPORT_FILE_NAME: ../README
-#+OPTIONS: toc:1 |:t ^:nil tags:nil
+# Hey Emacs, this is a -*- org -*- file ...
+#+TITLE: Wingbeat Detector Documentation
+#+AUTHOR: Peter Polidoro
+#+EMAIL: peter@polidoro.io
+#+DESCRIPTION: Measures fly wingbeats using IR light reflected from flapping fly wings.
+#+KEYWORDS: fly, science, wing, neurobiology
+#+LANGUAGE: en
+#+OPTIONS: H:5 num:nil toc:2 p:t
+
+#+SETUPFILE: ./org/theme-readtheorg-local.setup
+
+#+PROPERTY:  header-args :eval never-export
 
 # Place warning at the top of the exported file
 #+BEGIN_EXAMPLE
@@ -19,9 +29,19 @@ wingbeat_detector
 wingbeat_detector
 #+END_SRC
 
-#+NAME: version
+#+NAME: pcb-version
 #+BEGIN_SRC text :exports none :noweb yes
 4.0
+#+END_SRC
+
+#+NAME: enclosure-version
+#+BEGIN_SRC text :exports none :noweb yes
+1.1
+#+END_SRC
+
+#+NAME: supplemental-bom-version
+#+BEGIN_SRC text :exports none :noweb yes
+1.0
 #+END_SRC
 
 #+NAME: description
@@ -83,6 +103,11 @@ github.com
 #+END_SRC
 
 #+NAME: repository-url
+#+BEGIN_SRC text :exports none :noweb yes
+https://<<forge>>/<<repository-organization>>/<<repository-name>>
+#+END_SRC
+
+#+NAME: documentation-url
 #+BEGIN_SRC text :exports none :noweb yes
 https://<<forge>>/<<repository-organization>>/<<repository-name>>
 #+END_SRC
@@ -169,21 +194,22 @@ documentation
 
 * About
 
-#+BEGIN_SRC markdown :noweb yes
 - Project Name: <<project-name>>
 - Description: <<description>>
-- Version: <<version>>
-- Kicad Version: <<kicad-version>>
 - Release Date: <<release-date>>
+- PCB Version: <<pcb-version>>
+- Enclosure Version: <<enclosure-version>>
+- Supplemental BOM Version: <<supplemental-bom-version>>
+- Kicad Version: <<kicad-version>>
 - Creation Date: <<creation-date>>
 - License: <<license>>
-- URL: <<repository-url>>
+- Repository URL: <<repository-url>>
+- Documentation URL: <<documentation-url>>
 - Author: <<author>>
 - Email: <<email>>
 - Copyright: <<copyright>>
 - References:
   - <<references>>
-#+END_SRC
 
 * Images
 
@@ -312,6 +338,33 @@ exit
 #+END_EXAMPLE
 
 * Tangled Files                                                    :noexport:
+
+#+BEGIN_SRC markdown :noweb yes :tangle ../README.md
+# About
+
+- Project Name: <<project-name>>
+- Description: <<description>>
+- Release Date: <<release-date>>
+- PCB Version: <<pcb-version>>
+- Enclosure Version: <<enclosure-version>>
+- Supplemental BOM Version: <<supplemental-bom-version>>
+- Kicad Version: <<kicad-version>>
+- Creation Date: <<creation-date>>
+- License: <<license>>
+- Repository URL: <<repository-url>>
+- Documentation URL: <<documentation-url>>
+- Author: <<author>>
+- Email: <<email>>
+- Copyright: <<copyright>>
+- References:
+  - <<references>>
+
+#+html: <img src="./<<pcb-dir>>/raytrace.png" width="<<image-width>>">
+
+# Documentation
+
+<<documentation-url>>
+#+END_SRC
 
 #+BEGIN_SRC scheme :tangle guix/channels.scm :exports none :noweb yes
 ;; This file is generated automatically from metadata
@@ -520,7 +573,7 @@ trimmed-images:
     "dateCreated": "<<creation-date>>",
     "dateModified": "<<release-date>>",
     "name": "<<project-name>>",
-    "version": "<<version>>",
+    "version": "<<pcb-version>>",
     "description": "<<description>>",
     "programmingLanguage": [
         "<<programming-language>>"
