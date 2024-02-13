@@ -1,15 +1,15 @@
-- [About](#orged641c1)
-- [Images](#org7974d5e)
-- [Schematic](#orgadda6b2)
-- [PCB](#orgd175040)
-- [Bill of Materials](#orgec1ef9f)
-- [Development](#orgcdf9034)
+- [About](#orga24d6d9)
+- [Images](#org9b24650)
+- [Schematic](#org8b71ef2)
+- [PCB](#orgf741aec)
+- [Bill of Materials](#org77134e3)
+- [Development](#org6935961)
 
     <!-- This file is generated automatically from metadata -->
     <!-- File edits may be overwritten! -->
 
 
-<a id="orged641c1"></a>
+<a id="orga24d6d9"></a>
 
 # About
 
@@ -52,7 +52,7 @@ The oscillating voltage signal can be fed into a data acquisition card, oscillos
 This device was first created at Caltech in the Dickinson lab in collaboration with Gaby Maimon around 2010. It has transformed over several generations, getting smaller and more robust each iteration. It has been used on rigs in multiple universities and research institutes and has been referenced in several papers. A couple of iterations were designed in collaboration with Sung Soo Kim and the Card lab at Janelia Research Campus. The latest version was created in collaboration with the Suver lab at Vanderbilt.
 
 
-<a id="org7974d5e"></a>
+<a id="org9b24650"></a>
 
 # Images
 
@@ -69,7 +69,7 @@ This device was first created at Caltech in the Dickinson lab in collaboration w
 <img src="./documentation/pcb/right.png" width="1280">
 
 
-<a id="orgadda6b2"></a>
+<a id="org8b71ef2"></a>
 
 # Schematic
 
@@ -86,7 +86,7 @@ This device was first created at Caltech in the Dickinson lab in collaboration w
 <img src="./documentation/schematic/wingbeat_detector-assembly.svg" width="1280">
 
 
-<a id="orgd175040"></a>
+<a id="orgf741aec"></a>
 
 # PCB
 
@@ -101,7 +101,7 @@ This device was first created at Caltech in the Dickinson lab in collaboration w
 <img src="./documentation/pcb/wingbeat_detector-B_Fab.svg" width="1280">
 
 
-<a id="orgec1ef9f"></a>
+<a id="org77134e3"></a>
 
 # Bill of Materials
 
@@ -130,23 +130,23 @@ This device was first created at Caltech in the Dickinson lab in collaboration w
 
 ## Supplemental
 
-| Item | Description                        | Manufacturer Part Number | Manufacturer        | Quantity | Cost   | Total   | Vendor                                                                                                                              |                                                                                          |
-|---- |---------------------------------- |------------------------ |------------------- |-------- |------ |------- |----------------------------------------------------------------------------------------------------------------------------------- |---------------------------------------------------------------------------------------- |
-| 1    | BNC STRAIGHT BULKHEAD JACK TO AM   | 095-850-210-150          | Amphenol RF         | 1        | 24.41  | 24.41   | [Digi-Key](https://www.digikey.com/en/products/detail/amphenol-rf/095-850-210-150/10123901?s=N4IgTCBcDaIAwE4CsBaAHEuKwEYs8xAF0BfIA) |                                                                                          |
-| 2    | AC/DC WALL MNT ADAPTER 5.1V 15W    | SC0445                   | Raspberry Pi        | 1        | 8.00   | 8.00    | [Digi-Key](https://www.digikey.com/en/products/detail/raspberry-pi/SC0445/10258760?s=N4IgTCBcDaIMoGEAMAWFBWEBdAvkA)                 |                                                                                          |
-| 3    | CBL ASSY BNC PLUG-PLUG RG58 5'     | 5697-60                  | Pomona Electronics  | 1        | 21.29  | 21.29   |                                                                                                                                     | [Digi-Key](https://www.digikey.com/en/products/detail/pomona-electronics/5697-60/737387) |
-| 4    | LLG 3 mm Core 420 - 2000 nm 1.2 m  | LLG3-4Z                  | thorlabs            | 1        | 392.69 | 392.69  |                                                                                                                                     |                                                                                          |
-| 5    | 3 mm LLG to SM1 Adapter            | AD3LLG                   | thorlabs            | 1        | 38.32  | 38.32   |                                                                                                                                     |                                                                                          |
-| 6    | Adapter External SM05 Internal SM1 | SM1A1                    | thorlabs            | 1        | 23.41  | 23.41   |                                                                                                                                     |                                                                                          |
-| 7    | SM05 Adjustable Lens Tube          | SM05V05                  | thorlabs            | 1        | 31.64  | 31.64   |                                                                                                                                     |                                                                                          |
-| 8    | 825nm 12.5mm Dia Longpass Filter   | 86-062                   | edmundoptics        | 1        | 194.00 | 194.00  |                                                                                                                                     |                                                                                          |
-| 9    | Universal probe holder             | MXB                      | siskiyou            | 1        | 275.00 | 275.00  |                                                                                                                                     |                                                                                          |
-| 10   | MACHINE SCREW PAN PHILLIPS 2-56    | PMSSS 256 0050 PH        | B&F Fastener Supply | 4        | 0.24   | 0.96    |                                                                                                                                     |                                                                                          |
-| 11   | HEX NUT 3/16" STN STEEL 2-56       | HNSS256                  | B&F Fastener Supply | 4        | 0.28   | 1.12    |                                                                                                                                     |                                                                                          |
-|      | Supplemental BOM Version: 1.0      |                          |                     |          | Total  | 1010.84 |                                                                                                                                     |                                                                                          |
+| Item | Description                        | Manufacturer Part Number | Manufacturer        | Quantity | Cost   | Total   |
+|---- |---------------------------------- |------------------------ |------------------- |-------- |------ |------- |
+| 1    | BNC STRAIGHT BULKHEAD JACK TO AM   | 095-850-210-150          | Amphenol RF         | 1        | 24.41  | 24.41   |
+| 2    | AC/DC WALL MNT ADAPTER 5.1V 15W    | SC0445                   | Raspberry Pi        | 1        | 8.00   | 8.00    |
+| 3    | CBL ASSY BNC PLUG-PLUG RG58 5'     | 5697-60                  | Pomona Electronics  | 1        | 21.29  | 21.29   |
+| 4    | LLG 3 mm Core 420 - 2000 nm 1.2 m  | LLG3-4Z                  | thorlabs            | 1        | 392.69 | 392.69  |
+| 5    | 3 mm LLG to SM1 Adapter            | AD3LLG                   | thorlabs            | 1        | 38.32  | 38.32   |
+| 6    | Adapter External SM05 Internal SM1 | SM1A1                    | thorlabs            | 1        | 23.41  | 23.41   |
+| 7    | SM05 Adjustable Lens Tube          | SM05V05                  | thorlabs            | 1        | 31.64  | 31.64   |
+| 8    | 825nm 12.5mm Dia Longpass Filter   | 86-062                   | edmundoptics        | 1        | 194.00 | 194.00  |
+| 9    | Universal probe holder             | MXB                      | siskiyou            | 1        | 275.00 | 275.00  |
+| 10   | MACHINE SCREW PAN PHILLIPS 2-56    | PMSSS 256 0050 PH        | B&F Fastener Supply | 4        | 0.24   | 0.96    |
+| 11   | HEX NUT 3/16" STN STEEL 2-56       | HNSS256                  | B&F Fastener Supply | 4        | 0.28   | 1.12    |
+|      | Supplemental BOM Version: 1.0      |                          |                     |          | Total  | 1010.84 |
 
 
-<a id="orgcdf9034"></a>
+<a id="org6935961"></a>
 
 # Development
 
