@@ -19,25 +19,87 @@ wingbeat_detector
 wingbeat_detector
 #+END_SRC
 
-#+NAME: version
+#+NAME: documentation-version
+#+BEGIN_SRC text :exports none :noweb yes
+4.0.0
+#+END_SRC
+
+#+NAME: pcb-version
 #+BEGIN_SRC text :exports none :noweb yes
 4.0
 #+END_SRC
 
-#+NAME: description
+#+NAME: enclosure-version
+#+BEGIN_SRC text :exports none :noweb yes
+1.1
+#+END_SRC
+
+#+NAME: supplemental-bom-version
+#+BEGIN_SRC text :exports none :noweb yes
+1.0
+#+END_SRC
+
+#+NAME: synopsis
 #+BEGIN_SRC text :exports none :noweb yes
 Measures fly wingbeats using IR light reflected from flapping fly wings.
 #+END_SRC
 
 #+NAME: references
 #+BEGIN_SRC text :exports none :noweb yes
-https://www.kicad.org/
-https://github.com/janelia-kicad/light_sensor_boards
+[[https://doi.org/10.1016/j.cub.2023.01.020][Active antennal movements in Drosophila can tune wind encoding]]
+[[https://doi.org/10.1016/j.jneumeth.2018.04.019][A novel assay to evaluate action selection in escape behavior]]
+[[https://doi.org/10.1038/nn.4083][Cellular evidence for efference copy in Drosophila visuomotor processing]]
+[[https://doi.org/10.1038/s41593-019-0413-4][State-dependent decoupling of sensory and motor circuits underlies behavioral flexibility in Drosophila]]
+[[https://doi.org/10.1038/nn.2492][Active flight increases the gain of visual motion processing in Drosophila]]
+[[https://doi.org/10.1242/jeb.82.1.377][An Optical Tachometer for Measurement of the Wing-Beat Frequency of Free-Flying Insects]]
+[[https://www.kicad.org/][kicad]]
+[[https://github.com/janelia-kicad/light_sensor_boards][light_sensor_boards]]
 #+END_SRC
 
 #+NAME: creation-date
 #+BEGIN_SRC text :exports none :noweb yes
 2023-02-17
+#+END_SRC
+
+#+NAME: description
+#+BEGIN_SRC text :exports none :noweb yes
+This wingbeat detector, or flight “tachometer”, is a small electro-optical
+device that uses reflected infrared light from the fly’s wingbeats to generate
+an oscillating voltage signal. The oscillation frequency of the voltage signal
+matches, and thus allows one to measure, the tethered fly's wingbeat frequency.
+
+This device is useful for plate (rather than pin) tethered flight experiments,
+because with plate-glued flies, one cannot extract the wingbeat frequency via a
+classical wingbeat analyzer. Microphones have also been used for extracting
+wingbeat frequency, but they require a quiet room. This wingbeat detector is
+immune to audible noise and only requires an infrared light source, often
+already present on flight rigs for video recording.
+
+One end of a small diameter light guide is mounted near the fly and aimed at the
+wings. The other end of the light guide is in a small enclosure containing an
+optical filter and printed circuit board and can be mounted off to the side of
+the rig wherever there is room.
+
+The light guide brings light reflected off of the wings down to a photodiode on
+a circuit board, after passing through an optical filter to remove the unwanted
+wavelengths of light. Amplifiers and filters on the circuit board convert the
+tiny amounts of current from the photodiode into an oscillating voltage signal,
+with a frequency range of several hundred Hertz and a magnitude range of several
+Volts.
+
+The oscillating voltage signal can be fed into a data acquisition card,
+oscilloscope, and/or a speaker for recording and instant feedback on fly
+wingbeat frequency. Using a threshold, the signal can be used as a simple
+boolean that indicates whether the tethered animal is flying or not for
+triggering experiments or synchronizing the data collection.
+
+This device was first created at Caltech in the Dickinson lab in collaboration
+with Gaby Maimon around 2010. It has transformed over several generations,
+getting smaller and more robust each iteration. It has been used on rigs in
+multiple universities and research institutes and has been referenced in several
+papers. A couple of iterations were designed in collaboration with Sung Soo Kim
+and the Card lab at Janelia Research Campus. The latest version was created in
+collaboration with the Suver lab at Vanderbilt.
 #+END_SRC
 
 * General and Derived Variables                                    :noexport:
@@ -131,10 +193,14 @@ Peter Polidoro
 #+BEGIN_SRC text :exports none :noweb yes
 KiCad
 #+END_SRC
-
 #+NAME: image-width
 #+BEGIN_SRC text :exports none :noweb yes
 1280
+#+END_SRC
+
+#+NAME: metadata-dir
+#+BEGIN_SRC text :exports none :noweb yes
+.metadata
 #+END_SRC
 
 #+NAME: documentation-dir
@@ -167,15 +233,27 @@ documentation
 <<documentation-dir>>/schematic
 #+END_SRC
 
-* About
+#+name: org-hello
+#+begin_src org :var addressee=""
+Hello $addressee
+#+end_src
 
-#+BEGIN_SRC markdown :noweb yes
+#+name: print-org
+#+begin_src elisp :var x=org-hello[](addressee="World!")
+  (print x)
+#+end_src
+
+#+name: about
+#+BEGIN_SRC org :noweb yes
 - Project Name: <<project-name>>
-- Description: <<description>>
-- Version: <<version>>
-- Kicad Version: <<kicad-version>>
+- Synopsis: <<synopsis>>
+- Documentation Version: <<documentation-version>>
+- Pcb Version: <<pcb-version>>
+- Enclosure Version: <<enclosure-version>>
+- Supplemental BOM Version: <<supplemental-bom-version>>
 - Release Date: <<release-date>>
 - Creation Date: <<creation-date>>
+- Kicad Version: <<kicad-version>>
 - License: <<license>>
 - URL: <<repository-url>>
 - Author: <<author>>
@@ -183,14 +261,41 @@ documentation
 - Copyright: <<copyright>>
 - References:
   - <<references>>
+
+#+html: <img src="./<<pcb-dir>>/raytrace.png" width="<<image-width>>">\n
+
+<<description>>
 #+END_SRC
+
+#+NAME: supplemental-bom
+#+BEGIN_SRC org :noweb yes
+| Item | Description                                            | Manufacturer Part Number | Manufacturer        | Quantity |   Cost |   Total |
+|------+--------------------------------------------------------+--------------------------+---------------------+----------+--------+---------|
+|    1 | BNC STRAIGHT BULKHEAD JACK TO AM                       | 095-850-210-150          | Amphenol RF         |        1 |  24.41 |   24.41 |
+|    2 | AC/DC WALL MNT ADAPTER 5.1V 15W                        | SC0445                   | Raspberry Pi        |        1 |   8.00 |    8.00 |
+|    3 | CBL ASSY BNC PLUG-PLUG RG58 5'                         | 5697-60                  | Pomona Electronics  |        1 |  21.29 |   21.29 |
+|    4 | LLG 3 mm Core 420 - 2000 nm 1.2 m                      | LLG3-4Z                  | thorlabs            |        1 | 392.69 |  392.69 |
+|    5 | 3 mm LLG to SM1 Adapter                                | AD3LLG                   | thorlabs            |        1 |  38.32 |   38.32 |
+|    6 | Adapter External SM05 Internal SM1                     | SM1A1                    | thorlabs            |        1 |  23.41 |   23.41 |
+|    7 | SM05 Adjustable Lens Tube                              | SM05V05                  | thorlabs            |        1 |  31.64 |   31.64 |
+|    8 | 825nm 12.5mm Dia Longpass Filter                       | 86-062                   | edmundoptics        |        1 | 194.00 |  194.00 |
+|    9 | Universal probe holder                                 | MXB                      | siskiyou            |        1 | 275.00 |  275.00 |
+|   10 | MACHINE SCREW PAN PHILLIPS 2-56                        | PMSSS 256 0050 PH        | B&F Fastener Supply |        4 |   0.24 |    0.96 |
+|   11 | HEX NUT 3/16" STN STEEL 2-56                           | HNSS256                  | B&F Fastener Supply |        4 |   0.28 |    1.12 |
+|------+--------------------------------------------------------+--------------------------+---------------------+----------+--------+---------|
+|      | Supplemental BOM Version: <<supplemental-bom-version>> |                          |                     |          |  Total | 1010.84 |
+,#+TBLFM: $7=$5*$6;%0.2f::@>$7=vsum(@2..@-1);%0.2f
+#+END_SRC
+
+* About
+
+#+call: print-org(x=about[:results raw]()):results raw
 
 * Images
 
 #+BEGIN_SRC python :noweb yes :exports results :results output raw
 from pathlib import Path
-file_path_strings = ['raytrace.png',
-                     'top.png',
+file_path_strings = ['top.png',
                      'bottom.png',
                      'front.png',
                      'back.png',
@@ -268,23 +373,7 @@ return bom
 
 ** Supplemental
 
-#+NAME: supplemental-bom-table
-|  Item | Description                        | Manufacturer Part Number | Manufacturer        | Quantity |   Cost |   Total |
-|-------+------------------------------------+--------------------------+---------------------+----------+--------+---------|
-|     1 | BNC STRAIGHT BULKHEAD JACK TO AM   | 095-850-210-150          | Amphenol RF         |        1 |  24.41 |   24.41 |
-|     2 | AC/DC WALL MNT ADAPTER 5.1V 15W    | SC0445                   | Raspberry Pi        |        1 |   8.00 |    8.00 |
-|     3 | CBL ASSY BNC PLUG-PLUG RG58 5'     | 5697-60                  | Pomona Electronics  |        1 |  21.29 |   21.29 |
-|     4 | LLG 3 mm Core 420 - 2000 nm 1.2 m  | LLG3-4Z                  | thorlabs            |        1 | 392.69 |  392.69 |
-|     5 | 3 mm LLG to SM1 Adapter            | AD3LLG                   | thorlabs            |        1 |  38.32 |   38.32 |
-|     6 | Adapter External SM05 Internal SM1 | SM1A1                    | thorlabs            |        1 |  23.41 |   23.41 |
-|     7 | SM05 Adjustable Lens Tube          | SM05V05                  | thorlabs            |        1 |  31.64 |   31.64 |
-|     8 | 825nm 12.5mm Dia Longpass Filter   | 86-062                   | edmundoptics        |        1 | 194.00 |  194.00 |
-|     9 | Universal probe holder             | MXB                      | siskiyou            |        1 | 275.00 |  275.00 |
-|    10 | MACHINE SCREW PAN PHILLIPS 2-56    | PMSSS 256 0050 PH        | B&F Fastener Supply |        4 |   0.24 |    0.96 |
-|    11 | HEX NUT 3/16" STN STEEL 2-56       | HNSS256                  | B&F Fastener Supply |        4 |   0.28 |    1.12 |
-|-------+------------------------------------+--------------------------+---------------------+----------+--------+---------|
-| Total |                                    |                          |                     |          |        | 1010.84 |
-#+TBLFM: $7=$5*$6;%0.2f::@>$7=vsum(@2..@-1);%0.2f
+#+call: print-org(x=supplemental-bom[:results raw]()):results raw
 
 * Development
 
@@ -327,7 +416,7 @@ exit
         (url "https://git.savannah.gnu.org/git/guix.git")
         (branch "master")
         (commit
-          "cce7a6d2d2b18f51d1fcab67b02a38c11d6f4f2d")
+          "8a0910e042ad1670435613e06458a6fb2c4131c4")
         (introduction
           (make-channel-introduction
             "9edb3f66fd807b096b48283debdcddccfea34bad"
@@ -367,6 +456,12 @@ exit
    "texlive-graphics"
    "texlive-geometry"
    "texlive-ulem"))
+#+END_SRC
+
+#+BEGIN_SRC text :tangle ../Makefile :exports none :noweb yes
+# This file is generated automatically from .metadata.org
+# File edits may be overwritten!
+include .metadata/Makefile
 #+END_SRC
 
 #+BEGIN_SRC text :tangle Makefile :exports none :noweb yes
@@ -444,7 +539,8 @@ trimmed-images:
 
 (org-babel-do-load-languages
  'org-babel-load-languages
- '((emacs-lisp . t)
+ '((org . t)
+   (emacs-lisp . t)
    (lisp . t)
    (shell . t)
    (python . t)
@@ -481,11 +577,16 @@ trimmed-images:
     (with-current-buffer org-file-buffer
       (org-open-file (org-latex-export-to-pdf)))))
 
+;; (defun process-org (org-file)
+;;   "Tangle and export org file"
+;;   (progn (tangle-org org-file)
+;;          (export-org-to-markdown org-file)
+;;          (export-org-to-pdf org-file)))
+
 (defun process-org (org-file)
   "Tangle and export org file"
   (progn (tangle-org org-file)
-         (export-org-to-markdown org-file)
-         (export-org-to-pdf org-file)))
+         (export-org-to-markdown org-file)))
 
 (make-variable-buffer-local 'org-export-filter-final-output-functions)
 (defun my-double-blank-line-filter (output backend info)
@@ -505,6 +606,8 @@ trimmed-images:
 (setq tangle-external-files t)
 #+END_SRC
 
+#+RESULTS:
+
 #+HEADER: :tangle (if tangle-external-files "../AUTHORS" "no")
 #+BEGIN_SRC text :exports none :noweb yes
 <<author>>
@@ -520,8 +623,8 @@ trimmed-images:
     "dateCreated": "<<creation-date>>",
     "dateModified": "<<release-date>>",
     "name": "<<project-name>>",
-    "version": "<<version>>",
-    "description": "<<description>>",
+    "version": "<<pcb-version>>",
+    "description": "<<synopsis>>",
     "programmingLanguage": [
         "<<programming-language>>"
     ],
