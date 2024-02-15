@@ -448,6 +448,7 @@ exit
    "dosbox"
    "freecad"
    "font-orbitron"
+   "zip"
    "pandoc"
    "texlive-scheme-basic"
    "texlive-adjustbox"
@@ -527,6 +528,10 @@ cropped:
 .PHONY: trimmed-images
 trimmed-images:
 	mogrify -trim documentation/pcb/*.png
+
+.PHONY: zipped-gerbers
+zipped-gerbers:
+	$(GUIX-SHELL) -- sh -c "rm -f documentation/gerbers/*.zip && zip -j -r documentation/gerbers/<<project-name>>-<<pcb-version>>.zip documentation/gerbers"
 #+END_SRC
 
 #+BEGIN_SRC scheme :tangle emacs/init.el :exports none :noweb yes

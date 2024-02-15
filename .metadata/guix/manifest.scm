@@ -21,6 +21,7 @@
    "dosbox"
    "freecad"
    "font-orbitron"
+   "zip"
    "pandoc"
    "texlive-scheme-basic"
    "texlive-adjustbox"

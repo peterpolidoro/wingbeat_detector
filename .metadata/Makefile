@@ -60,3 +60,7 @@ cropped:
 .PHONY: trimmed-images
 trimmed-images:
 	mogrify -trim documentation/pcb/*.png
+
+.PHONY: zipped-gerbers
+zipped-gerbers:
+	$(GUIX-SHELL) -- sh -c "rm -f documentation/gerbers/*.zip && zip -j -r documentation/gerbers/wingbeat_detector-4.0.zip documentation/gerbers"
