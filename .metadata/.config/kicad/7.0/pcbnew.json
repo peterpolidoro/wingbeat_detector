@@ -226,10 +226,10 @@
   "gen_drill": {
     "drill_file_type": 0,
     "map_file_type": 1,
-    "merge_pth_npth": true,
+    "merge_pth_npth": false,
     "minimal_header": false,
     "mirror": false,
-    "unit_drill_is_inch": true,
+    "unit_drill_is_inch": false,
     "use_route_for_oval_holes": true,
     "zeros_format": 0
   },
