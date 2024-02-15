@@ -36,6 +36,10 @@ kicad-edits:
 freecad-edits:
 	$(GUIX-SHELL) -- FreeCAD
 
+.PHONY: filter-edits
+filter-edits:
+	$(GUIX-SHELL) -- sh -c "dosbox documentation/filter/FILTER42.exe"
+
 .PHONY: skip-worktree-config
 skip-worktree-config:
 	git ls-files -z .metadata/.config/ | xargs -0 git update-index --skip-worktree
