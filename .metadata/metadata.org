@@ -195,7 +195,7 @@ KiCad
 #+END_SRC
 #+NAME: image-width
 #+BEGIN_SRC text :exports none :noweb yes
-1280
+1920
 #+END_SRC
 
 #+NAME: metadata-dir
