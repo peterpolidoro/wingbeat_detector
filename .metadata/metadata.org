@@ -243,7 +243,7 @@ Hello $addressee
   (print x)
 #+end_src
 
-#+name: about
+#+name: repository-info
 #+BEGIN_SRC org :noweb yes
 - Project Name: <<project-name>>
 - Synopsis: <<synopsis>>
@@ -262,10 +262,12 @@ Hello $addressee
 - References:
   - <<references>>
 
-#+html: <img src="./<<pcb-dir>>/raytrace.png" width="<<image-width>>">
+[[./<<pcb-dir>>/raytrace.png]]
 
 <<description>>
 #+END_SRC
+
+# #+html: <img src="./<<pcb-dir>>/raytrace.png" width="<<image-width>>">
 
 #+NAME: supplemental-bom
 #+BEGIN_SRC org :noweb yes
@@ -287,9 +289,9 @@ Hello $addressee
 ,#+TBLFM: $7=$5*$6;%0.2f::@>$7=vsum(@2..@-1);%0.2f
 #+END_SRC
 
-* About
+* Repository Info
 
-#+call: print-org(x=about[:results raw]()):results raw
+#+call: print-org(x=repository-info[:results raw]()):results raw
 
 * Images
 
@@ -401,6 +403,13 @@ exit
 #+END_EXAMPLE
 
 * Tangled Files                                                    :noexport:
+
+#+BEGIN_SRC scheme :tangle ../README.org :exports none :noweb yes
+#  This file is generated automatically from metadata
+# File edits may be overwritten!
+* Repository Info
+<<repository-info>>
+#+END_SRC
 
 #+BEGIN_SRC scheme :tangle guix/channels.scm :exports none :noweb yes
 ;; This file is generated automatically from metadata
