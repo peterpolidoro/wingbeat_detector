@@ -15,14 +15,15 @@
 - Email: peter@polidoro.io
 - Copyright: 2024 Peter Polidoro
 - References:
+  - [[https://www.kicad.org/][kicad]]
+  - [[https://github.com/janelia-kicad/light_sensor_boards][light_sensor_boards]]
+- Papers:
   - [[https://doi.org/10.1016/j.cub.2023.01.020][Active antennal movements in Drosophila can tune wind encoding]]
   - [[https://doi.org/10.1016/j.jneumeth.2018.04.019][A novel assay to evaluate action selection in escape behavior]]
   - [[https://doi.org/10.1038/nn.4083][Cellular evidence for efference copy in Drosophila visuomotor processing]]
   - [[https://doi.org/10.1038/s41593-019-0413-4][State-dependent decoupling of sensory and motor circuits underlies behavioral flexibility in Drosophila]]
   - [[https://doi.org/10.1038/nn.2492][Active flight increases the gain of visual motion processing in Drosophila]]
   - [[https://doi.org/10.1242/jeb.82.1.377][An Optical Tachometer for Measurement of the Wing-Beat Frequency of Free-Flying Insects]]
-  - [[https://www.kicad.org/][kicad]]
-  - [[https://github.com/janelia-kicad/light_sensor_boards][light_sensor_boards]]
 
 [[./documentation/pcb/raytrace.png]]
 
